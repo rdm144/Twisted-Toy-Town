@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Levels/Hospital_1F.unity
+- path: Assets/Levels/Hospital_Battle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -6,6 +6,6 @@ public class DestroySelf : MonoBehaviour
 {
     public void DestroyThis()
     {
-        Destroy(gameObject);
+        Destroy(gameObject.transform.root.gameObject);
     }
 }

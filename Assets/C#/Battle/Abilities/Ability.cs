@@ -109,6 +109,6 @@ public class Ability
         hitSpark.transform.LookAt(CamLoc);
 
         // Rotate the hitspark by 90 degrees on the z axis
-        hitSpark.transform.localRotation = Quaternion.Euler(hitSpark.transform.localRotation.x, hitSpark.transform.localRotation.y, hitSpark.transform.localRotation.z + 90);
+        //hitSpark.transform.localRotation = Quaternion.Euler(hitSpark.transform.localRotation.x, hitSpark.transform.localRotation.y, hitSpark.transform.localRotation.z + 90);
     }
 }

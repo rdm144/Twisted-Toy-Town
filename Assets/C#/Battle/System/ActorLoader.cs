@@ -106,8 +106,8 @@ public class ActorLoader : MonoBehaviour
         {
             model.name = member.name;
             Player_Battle_Actor modelActor = model.GetComponent<Player_Battle_Actor>();
-            modelActor.maxHealth = 1;// member.maxHealth;
-            modelActor.health = 1;// member.health;
+            modelActor.maxHealth = member.maxHealth;
+            modelActor.health = member.health;
             modelActor.isTakingTurn = false;
             modelActor.partyIndex = member.partyIndex;
             model.transform.position = new Vector3(-6, 1.5f, GetZ(partySize, member.partyIndex, playerZoffset, false));
