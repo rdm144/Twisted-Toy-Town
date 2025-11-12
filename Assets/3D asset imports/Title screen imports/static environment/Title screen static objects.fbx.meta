@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 162ded096253a0a4fba8f468593cc898
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 2229969705115796353
+    second: Main Camera|armada animation emptyAction
+  - first:
+      74: -6640316026070416902
+    second: Main Camera|cuboid.001Action
+  - first:
+      74: -1231858057316017543
+    second: Main Camera|Plane.002Action
+  - first:
+      74: 8539816297851963847
+    second: Main Camera|Plane.003Action
+  - first:
+      74: 2108588013939451420
+    second: Main Camera|SphereAction
+  - first:
+      74: -7905436205605912984
+    second: cube|armada animation emptyAction
+  - first:
+      74: -8032747108460009923
+    second: cube|cubeAction.001
+  - first:
+      74: 4993503062514057753
+    second: cube|cuboid.001Action
+  - first:
+      74: 7477621580449137857
+    second: cube|Plane.002Action
+  - first:
+      74: 2385302382479860784
+    second: cube|Plane.003Action
+  - first:
+      74: -8102103617481391153
+    second: cube|SphereAction
+  - first:
+      74: 2571655461690208138
+    second: cuboid.001|armada animation emptyAction
+  - first:
+      74: -9037049652972085376
+    second: cuboid.001|cuboid.001Action
+  - first:
+      74: 2853712239313316102
+    second: cuboid.001|Plane.002Action
+  - first:
+      74: 5114908426338508555
+    second: cuboid.001|Plane.003Action
+  - first:
+      74: -5650403325819806872
+    second: cuboid.001|SphereAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chains
+    second: {fileID: 2100000, guid: 6288415b72d3de042b1bb8a233b8979d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Computer
+    second: {fileID: 2100000, guid: 80586c91c67cb27449117225fc6c2f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engineer's windupkey.001
+    second: {fileID: 2100000, guid: b3dce8b50bebde44383a3ffedfd82122, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Engineers Eyes alpha.001
+    second: {fileID: 2100000, guid: af86af05adf1b8c4b90950f957a3654c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillars
+    second: {fileID: 2100000, guid: 3a7b8035e79720541b5140befe1adbcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue shelf
+    second: {fileID: 2100000, guid: 38789d4438031cf468e2a604761bf567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cardboard
+    second: {fileID: 2100000, guid: db5ecba225ee5d943be95c6cb7e5361f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: circuit board
+    second: {fileID: 2100000, guid: 0a5ee9ff100a0e34698d17753b3f2223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clocktower
+    second: {fileID: 2100000, guid: 17ac0395fe56d8644b53773338b89820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clouds 1
+    second: {fileID: 2100000, guid: 9a349978b17ed1943bbdf0337a7d19fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clouds 2
+    second: {fileID: 2100000, guid: 0da0d53d4a3fab84294575c315b5a897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clouds 3
+    second: {fileID: 2100000, guid: ecc279e71630044488b6ed726487710d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: computer tower
+    second: {fileID: 2100000, guid: d55892c75925e7e44bb7054d4a829462, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engineer.png.001
+    second: {fileID: 2100000, guid: 3c9cf466c5ad3c042b384d7a37316253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: fe07d9eed5370054e8de516692c7cf64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front desk
+    second: {fileID: 2100000, guid: 3603f8abba915614c89a3e68ad183c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front wall
+    second: {fileID: 2100000, guid: 05e9def7dc217d2449f424d707956088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass on magnifying glass
+    second: {fileID: 2100000, guid: f41322bd26f1ac84498fccebcbf75a87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green bolt box
+    second: {fileID: 2100000, guid: 66dae515166c3824cae3429e97287ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: magnifying glass
+    second: {fileID: 2100000, guid: 07b3b49297161964789c3a3b79969215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: misc machine
+    second: {fileID: 2100000, guid: 3fb8ffeda4ea0de41afdf6b9d5b4a6fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pink bolt box
+    second: {fileID: 2100000, guid: f311c85eed6cdee4ba8f6704dc5a8f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: cb5f4d5da93c0e9479203737ef35baf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staple launcher
+    second: {fileID: 2100000, guid: 59fca2dbb77025f4eac8d1b65c799723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stool
+    second: {fileID: 2100000, guid: b3ffb7ec4c68a364ab467134057019d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toolbox
+    second: {fileID: 2100000, guid: 5ab2192d4f05e7c43b2ea6eaeb986395, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toy house
+    second: {fileID: 2100000, guid: 09cba4fa3d5376d4bb39fa868d72665b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toy house.001
+    second: {fileID: 2100000, guid: a2e87edc0d1ad1d4d96dbbf17d96183f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toy house.003
+    second: {fileID: 2100000, guid: 2b2a895d1fa4b3d4ea36f5421edfd138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toy stool
+    second: {fileID: 2100000, guid: cb54037cdcdee044e9700afa6c0b97fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window, left and right wall
+    second: {fileID: 2100000, guid: 7b64b33a22e9f3845b6a9268a4ca30ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: workbench
+    second: {fileID: 2100000, guid: b235108b75ae0f14da085435cf94ffd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow turret
+    second: {fileID: 2100000, guid: 33b438edbb0f5ad45882ccbc380bb2af, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

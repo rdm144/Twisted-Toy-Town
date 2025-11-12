@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4055437035476723932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3678348890970387046}
+  - component: {fileID: 334327704347409859}
+  - component: {fileID: 2542055556594665737}
+  m_Layer: 0
+  m_Name: Hospital battle field
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3678348890970387046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055437035476723932}
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.69, y: 0.8052229, z: -27.45}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &334327704347409859
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055437035476723932}
+  m_Mesh: {fileID: 7791535511626626126, guid: 83e1f329c96beed4e825242d8dee5b11, type: 3}
+--- !u!23 &2542055556594665737
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055437035476723932}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: adb7ca33bf20470468d59cec405566b3, type: 2}
+  - {fileID: 2100000, guid: c1ad3064f123eb149ae7ad015dcd45a3, type: 2}
+  - {fileID: 2100000, guid: 5d8efa1ca1669a54fb0792aa2aa71f2c, type: 2}
+  - {fileID: 2100000, guid: d43e1f5832f78e7418d9a86a09ddc436, type: 2}
+  - {fileID: 2100000, guid: 0cb9947893cbbe948bda6eed1fdfa102, type: 2}
+  - {fileID: 2100000, guid: dec2767359a798d489fa7603d8125e77, type: 2}
+  - {fileID: 2100000, guid: 3b2985a916b9ece419e1065668963bd8, type: 2}
+  - {fileID: 2100000, guid: 7923ad7d41449c34988e33e76e0edd05, type: 2}
+  - {fileID: 2100000, guid: 4019fb15dd4b58e4282f908008b6737b, type: 2}
+  - {fileID: 2100000, guid: d3eeae7f3ae2dc048adfed8db5296ee0, type: 2}
+  - {fileID: 2100000, guid: f45d02173891e14429b24c6eee046dee, type: 2}
+  - {fileID: 2100000, guid: f10133e7a98fbb44c8c0774b27e041b3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

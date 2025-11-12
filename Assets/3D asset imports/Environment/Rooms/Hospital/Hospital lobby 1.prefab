@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2774383970521514736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3299809393461778506}
+  - component: {fileID: 1901817275095603183}
+  - component: {fileID: 4431660736293806885}
+  m_Layer: 0
+  m_Name: Hospital lobby 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3299809393461778506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774383970521514736}
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -42.25, y: 2.69, z: -24.66}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1901817275095603183
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774383970521514736}
+  m_Mesh: {fileID: 7547640364785646499, guid: e2d97b8df5e59a843976d8353fd63457, type: 3}
+--- !u!23 &4431660736293806885
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774383970521514736}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 569da0cdc9e4e794cbd13a11db47dffb, type: 2}
+  - {fileID: 2100000, guid: 4cc6d46884e496240a92d453d8347f83, type: 2}
+  - {fileID: 2100000, guid: 69fd62ddcc23cc34ba7deba31dd5e797, type: 2}
+  - {fileID: 2100000, guid: 3a757d5ca8904c847866d955b5cd95d7, type: 2}
+  - {fileID: 2100000, guid: b073f504fa0a4f042868957ef338d8a1, type: 2}
+  - {fileID: 2100000, guid: 2d0a0d0081cb6524aad3c86843d9a2c7, type: 2}
+  - {fileID: 2100000, guid: 0fc3c7fb51b06024fb97107bfaa30b50, type: 2}
+  - {fileID: 2100000, guid: f197c33d213d8a343909848e031ba0e9, type: 2}
+  - {fileID: 2100000, guid: 8e42efa43aae7934da87d90c3252c222, type: 2}
+  - {fileID: 2100000, guid: 00ca5f34713f10646a19c0433b800db3, type: 2}
+  - {fileID: 2100000, guid: 8b0d4b254c7f7d24cb8599317d3a6fd5, type: 2}
+  - {fileID: 2100000, guid: a3ad25e71bd577e438f8e3cada1e5ccf, type: 2}
+  - {fileID: 2100000, guid: d5a004ee138a19646a633570209d8120, type: 2}
+  - {fileID: 2100000, guid: dfd7d43504c1c704ca6c4ff79ccfa0b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
