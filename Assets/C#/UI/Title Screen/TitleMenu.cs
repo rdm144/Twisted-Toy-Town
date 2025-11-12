@@ -9,12 +9,28 @@ public class TitleMenu : MonoBehaviour
 {
     public PlayableDirector titleDirector;
     PlayableDirector fakeDirector;
+    GameObject loopedRays;
+    GameObject timelineRays;
 
     // Start is called before the first frame update
     void Start()
     {
         // Open first scene when timeline stops
         titleDirector.stopped += LoadFirstScene;
+
+        titleDirector.playableGraph.GetRootPlayable(0).SetSpeed(0);
+
+        // Get loopedRays object
+        loopedRays = titleDirector.transform.parent.Find("Window_Glare_Looped").gameObject;
+
+        // Get real rays object
+        timelineRays = titleDirector.transform.parent.Find("Window_Glare").gameObject;
+
+        // show looping godrays
+        loopedRays.SetActive(true);
+
+        // hide timeline's godrays
+        timelineRays.SetActive(false);
     }
 
     public void LoadGame()
@@ -31,14 +47,6 @@ public class TitleMenu : MonoBehaviour
     public void NewGame()
     {
         Debug.Log("Playing timeline animation");
-        GameObject loopedRays;
-        GameObject timelineRays;
-
-        // Get loopedRays object
-        loopedRays = titleDirector.transform.parent.Find("Window_Glare_Looped").gameObject;
-
-        // Get real rays object
-        timelineRays = titleDirector.transform.parent.Find("Window_Glare").gameObject;
 
         // Hide looping godrays
         loopedRays.SetActive(false);
@@ -47,7 +55,8 @@ public class TitleMenu : MonoBehaviour
         timelineRays.SetActive(true);
         
         // Start timeline animation
-        titleDirector.Play(titleDirector.playableAsset);
+        //titleDirector.Play(titleDirector.playableAsset);
+        titleDirector.playableGraph.GetRootPlayable(0).SetSpeed(1);
     }
 
     void LoadFirstScene(PlayableDirector pd)
