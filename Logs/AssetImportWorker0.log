@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.11f1 (7134d7685e5d) revision 7419095'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65417 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Christoff Miller" at "2026-01-28T04:31:15.4705825Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Christoff Miller" at "2026-01-30T02:22:05.1402193Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-01-28T04:31:15Z
+Date: 2026-01-30T02:22:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ D:/Unity sprites, models textures and what not/github repository/Project twisted
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61039
+61000
 -licensingIpc
 LicenseClient-Christoff Miller
 -job-worker-count
@@ -65,26 +65,26 @@ D:/Unity sprites, models textures and what not/github repository/Project twisted
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5956]  Target information:
+Player connection [13756]  Target information:
 
-Player connection [5956]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1037116783 [EditorId] 1037116783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FK4GLIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13756]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1155893285 [EditorId] 1155893285 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FK4GLIK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5956] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5956] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13756] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13756] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19404, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43524, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              c7401e1252be46729a9731b273ef07c4
-  Correlation Id:          d291468ddaafd5c07085ebce6be5e10c
-  External correlation Id: 7762884436754628726
+  Session Id:              a2548965ad554e488c4aa7beb16dde73
+  Correlation Id:          91bd1b659270f927c766e48f0b535830
+  External correlation Id: 435657381183386558
   Machine Id:              P+7YyILdVZcokx5wSuCik5xZbHg=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Christoff Miller" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Christoff Miller-notifications" at "2026-01-28T04:31:15.5204317Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Christoff Miller-notifications" at "2026-01-30T02:22:05.1873765Z"
 [Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.11f1 (7134d7685e5d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.11f1/Editor/Data/Resources/UnitySubsystems
@@ -109,43 +109,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002278 seconds.
-- Loaded All Assemblies, in  0.351 seconds
+Registered in 0.002181 seconds.
+- Loaded All Assemblies, in  0.370 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.298 seconds
-Domain Reload Profiling: 646ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.333 seconds
+Domain Reload Profiling: 700ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (299ms)
+	FinalizeReload (334ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (269ms)
+		SetupLoadedEditorAssemblies (301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
+			InitializePlatformSupportModulesInManaged (51ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (114ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -175,8 +175,8 @@ DirectoryNotFoundException: Could not find a part of the path "D:\Unity sprites,
   at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <8e0e80d80d7342ada0c7e88470b91ed5>:0 
   at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <8e0e80d80d7342ada0c7e88470b91ed5>:0 
 
-- Loaded All Assemblies, in  0.671 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.709 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -197,53 +197,61 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@35ca8d108413/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.691 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (415ms)
-		LoadAssemblies (233ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (244ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (181ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (189ms)
 			BuildScriptInfoCaches (66ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (691ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
+		SetupLoadedEditorAssemblies (480ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6633 unused Assets / (4.6 MB). Loaded Objects now: 7348.
-Memory consumption went from 141.9 MB to 137.3 MB.
-Total: 8.478400 ms (FindLiveObjects: 0.813600 ms CreateObjectMapping: 0.537800 ms MarkObjects: 4.731300 ms  DeleteObjects: 2.394900 ms)
+Unloading 6633 unused Assets / (4.3 MB). Loaded Objects now: 7348.
+Memory consumption went from 142.0 MB to 137.7 MB.
+Total: 7.746400 ms (FindLiveObjects: 0.721800 ms CreateObjectMapping: 0.320300 ms MarkObjects: 4.633200 ms  DeleteObjects: 2.070400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1083680.743995 seconds.
-  path: Assets/3D asset imports/materials/effects/shield_enemy/red_shield_enemy_blast_idle.mat
-  artifactKey: Guid(63564531b83e840438a9cbcd4dddb42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/materials/effects/shield_enemy/red_shield_enemy_blast_idle.mat using Guid(63564531b83e840438a9cbcd4dddb42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
+  Time since last request: 1248743.151344 seconds.
+  path: Assets/3D asset imports
+  artifactKey: Guid(1d278d324bd8e0940bf649ad5f0615a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports using Guid(1d278d324bd8e0940bf649ad5f0615a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f5b9fb2c2ae8a268a0417ea6cd4a45f') in 0.0039569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.708523 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.Rendering.ScriptableRenderContext:Submit ()
@@ -255,8 +263,8 @@ UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.Scrip
 UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 UnityEngine.Camera:Render ()
 UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
@@ -274,117 +282,213 @@ UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.Scrip
 UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 UnityEngine.Camera:Render ()
 UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
 [./Library/PackageCache/com.unity.render-pipelines.universal@35ca8d108413/Runtime/UniversalRenderPipeline.cs line 891]
 
- -> (artifact id: 'fb8e849633c012f09fba04ccf185d0fb') in 0.3238111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+ -> (artifact id: 'eb9e1aa5443dbc7093c6aef6b494d580') in 0.4657785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/3D asset imports/materials/effects/shield_enemy/red_shield_blast_idle.png
-  artifactKey: Guid(d1c7fa120921d6545970269a53c4b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/materials/effects/shield_enemy/red_shield_blast_idle.png using Guid(d1c7fa120921d6545970269a53c4b235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b5554534fb6d8c6c86181d4814e78d7') in 0.0233224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0aa4808ada91b2aaa44ff4f203cbd3c') in 0.0475078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Prefabs/Battle/UI/Button Red.prefab
-  artifactKey: Guid(c47b0c775d4d34d4db78f348d32af9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Battle/UI/Button Red.prefab using Guid(c47b0c775d4d34d4db78f348d32af9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d8c9f9049647b09d0599eab4b54b4ca') in 0.0332486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+  Time since last request: 93.723403 seconds.
+  path: Assets/3D asset imports/Environment/env materials/Shader Graphs_New Shader Graph.mat
+  artifactKey: Guid(da407690cd360c64982d7d7e1adee1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/env materials/Shader Graphs_New Shader Graph.mat using Guid(da407690cd360c64982d7d7e1adee1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c39b9aefb633ee41e6cfe987868a1b5') in 0.0237339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.365549 seconds.
-  path: Assets/3D asset imports/Environment/env materials/hospital lego wall.mat
-  artifactKey: Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/3D asset imports/Environment/env materials/hospital lego wall.mat using Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b23c54b8b0d2f85d464e614b2e6678cc') in 0.1807485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 9.883742 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a676570b84d5d374eb3b368407434f8') in 0.0477016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/3D asset imports/materials/environment/hospital materials and textures/hospital wall.mat
-  artifactKey: Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/3D asset imports/materials/environment/hospital materials and textures/hospital wall.mat using Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97f981dc65c85cfb469cac5164f65622') in 0.0156438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 156.319805 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b1c00bd14d755d60c6b4d4888545dbc') in 0.065322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Levels/Hospital_Battle.unity
-  artifactKey: Guid(41f35dac5c704c94ba119f68eab38e25) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Levels/Hospital_Battle.unity using Guid(41f35dac5c704c94ba119f68eab38e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16c345a2ee5bdaf8a29594128a5d7de2') in 0.0251699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 12.736377 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41cbb6cabf2e1ebb17e92047c221b85e') in 0.0348716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D asset imports/materials/environment/hospital materials and textures/hospital door connecters.mat
-  artifactKey: Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/3D asset imports/materials/environment/hospital materials and textures/hospital door connecters.mat using Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19c95c77f9d3d13a0d214f9e58928981') in 0.0145395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 22.331552 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b83ea0bf4ef633bed920b3e6e75ae59b') in 0.0391841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
 
 ========================================================================
 Received Import Request.
-  Time since last request: 257.003088 seconds.
-  path: Assets/3D asset imports/UI/User Interface empty.prefab
-  artifactKey: Guid(df98e8c797d5c83498d96ec20750ccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/UI/User Interface empty.prefab using Guid(df98e8c797d5c83498d96ec20750ccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7d09c98e87214b72ffd08f1a210438') in 0.1633998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 336
+  Time since last request: 15.527908 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49cf96f2f9888bd5b76de5a393aeb0f') in 0.0279603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.287990 seconds.
-  path: Assets/3D asset imports/UI/redicule arrow.png
-  artifactKey: Guid(941b58f6c529d414c9b0e84e69be7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/UI/redicule arrow.png using Guid(941b58f6c529d414c9b0e84e69be7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e71963b0a650af07fe4457ba060603a3') in 0.038571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 31.120745 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f8a0ba146de29de7692d8c468540d94') in 0.0406573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.736181 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '312b042c0616165f9257ab249d7e23bf') in 0.0231017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.300401 seconds.
+  path: Assets/3D asset imports/Characters/Meddy/medic.prefab
+  artifactKey: Guid(84009e31f8524dd4eb51b21436c637fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Characters/Meddy/medic.prefab using Guid(84009e31f8524dd4eb51b21436c637fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ca7501e0c84bb4580166b08abf52908') in 0.1948742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62aeb57c410d965090dbe6f300fcabf7') in 0.0468863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Prefabs/Battle/Player/Jimmy.prefab
+  artifactKey: Guid(be60fa99a83f70c4b8515ed0fd42a89d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/Prefabs/Battle/Player/Jimmy.prefab using Guid(be60fa99a83f70c4b8515ed0fd42a89d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dca6f042993a73c4ed71230de12983d') in 0.0719843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 248
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/3D asset imports/UI/redicule circle.png
-  artifactKey: Guid(a4aad64ee731e2440be43c08544c939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/UI/redicule circle.png using Guid(a4aad64ee731e2440be43c08544c939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e95c2ee5d983755bbda54e759b1817b') in 0.0144083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e122a80dabdb281687283effea43857') in 0.0372115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.864507 seconds.
-  path: Assets/3D asset imports/UI/redicule circle.png
-  artifactKey: Guid(a4aad64ee731e2440be43c08544c939e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/3D asset imports/UI/redicule circle.png using Guid(a4aad64ee731e2440be43c08544c939e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca0159dd4874e8e98fb4eedbfa6405b4') in 0.0543044 seconds
+  Time since last request: 20.856663 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcde7cb3fce300284d174ba9c20e0182') in 0.0809654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845751 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69cad1f52c621d7ef5ac081e878a4e09') in 0.0371011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.608644 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b84c627ef86d8ab8aa5b48431a90895') in 0.0660671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.861700 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx
+  artifactKey: Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement With replicator norig v2.fbx using Guid(f4992d5d72a4dcc488445b3347bf300b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3220fc353ccbe28976c3a756da5e6f1b') in 0.0308362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 247.969742 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field.fbx
+  artifactKey: Guid(1bf52c3cb9cf5124f90bea9a443df0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field.fbx using Guid(1bf52c3cb9cf5124f90bea9a443df0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5770b558011017900c25f32714dd1b25') in 0.0239662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx
+  artifactKey: Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field v2.fbx using Guid(ce4b3775cccc5a04295f8ea99b26e9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c19e60516dd9d4c24e8c50f62fa9f680') in 0.0216972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field.prefab
+  artifactKey: Guid(09068b7c00162b34490cd478561ec2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D asset imports/Environment/Rooms/Basement/Basement battle field.prefab using Guid(09068b7c00162b34490cd478561ec2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '518da0ecc0fcbbc1933bffff79d6b54f') in 0.0191289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.801604 seconds.
+  path: Assets/3D asset imports/materials/environment/basement materials and textures/wooden crates.mat
+  artifactKey: Guid(d5375ce64f86a7940a668c460ceb36dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/materials/environment/basement materials and textures/wooden crates.mat using Guid(d5375ce64f86a7940a668c460ceb36dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '268a6dc31ebc7224c2a83852f2d6cb56') in 0.0146362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D asset imports/materials/environment/hospital materials and textures/shelve misc material.mat
+  artifactKey: Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/materials/environment/hospital materials and textures/shelve misc material.mat using Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d57477197ec79360a23385a138a6029') in 0.01372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Levels/Hospital_Battle.unity
+  artifactKey: Guid(41f35dac5c704c94ba119f68eab38e25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Levels/Hospital_Battle.unity using Guid(41f35dac5c704c94ba119f68eab38e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2281c539f6c6b2b262834f0d679c1b8') in 0.0181392 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D asset imports/UI/redicule arrow.png
-  artifactKey: Guid(941b58f6c529d414c9b0e84e69be7729) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/3D asset imports/UI/redicule arrow.png using Guid(941b58f6c529d414c9b0e84e69be7729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da8c60a3ce72a9aae4eac2e6c3aa1afd') in 0.021791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D asset imports/Environment/Rooms/Hospital/cement walls.mat
+  artifactKey: Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/Environment/Rooms/Hospital/cement walls.mat using Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '106d92a2f0912ec44fb9c9bf3a9e4a1a') in 0.0136657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.737775 seconds.
-  path: Assets/3D asset imports/UI/redicule arrow.png
-  artifactKey: Guid(941b58f6c529d414c9b0e84e69be7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/UI/redicule arrow.png using Guid(941b58f6c529d414c9b0e84e69be7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2fb54c27ffd46a0e377dada870e1796') in 0.0147353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632636 seconds.
-  path: Assets/3D asset imports/UI/redicule circle.png
-  artifactKey: Guid(a4aad64ee731e2440be43c08544c939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D asset imports/UI/redicule circle.png using Guid(a4aad64ee731e2440be43c08544c939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daad2a12437a258fbd73da62b8689b81') in 0.0153249 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D asset imports/materials/environment/basement materials and textures/cement floor.mat
+  artifactKey: Guid(e61af8df7ce9ec74188ef8ab4f8f1fa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/3D asset imports/materials/environment/basement materials and textures/cement floor.mat using Guid(e61af8df7ce9ec74188ef8ab4f8f1fa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89ea0bdc1b127730191967c19f2c4854') in 0.0151247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 

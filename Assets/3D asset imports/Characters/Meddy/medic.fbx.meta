@@ -1,68 +1,21 @@
 fileFormatVersion: 2
 guid: 9dac27426761a16459c54a5ba012f1dd
 ModelImporter:
-  serializedVersion: 21300
-  internalIDToNameTable:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
   - first:
-      74: 7485483871200054141
-    second: medic walk
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Meddy
+    second: {fileID: 2100000, guid: d6cb2e253ca59d640958566cd64fced8, type: 2}
   - first:
-      74: 6404312057555401863
-    second: medic idle
-  - first:
-      74: 2105098569755667940
-    second: medic panic run
-  - first:
-      74: 6104368728714856068
-    second: medic shoot
-  - first:
-      74: 4291876076114980513
-    second: medic heal in combat
-  - first:
-      74: -8857262015863333687
-    second: medic damaged
-  - first:
-      74: -5766101312100769113
-    second: medic dead
-  - first:
-      74: 3766629946196957395
-    second: medic_combat_idle
-  - first:
-      74: 8278640077404094949
-    second: medic victory
-  - first:
-      74: 2857265201783647138
-    second: Armature|damaged
-  - first:
-      74: 1012106120632709708
-    second: Armature|medic dead
-  - first:
-      74: 3524081085350795930
-    second: Armature|medic heal in combat
-  - first:
-      74: -4473759888953549475
-    second: Armature|medic idle
-  - first:
-      74: -6937548188689282754
-    second: Armature|medic panic run
-  - first:
-      74: -1342192481416902372
-    second: Armature|medic shoot
-  - first:
-      74: 7392599461086237137
-    second: Armature|medic walk
-  - first:
-      74: 7017296080973246951
-    second: Armature|medic_combat_idle
-  - first:
-      74: 155323657473332376
-    second: Armature|victory
-  - first:
-      74: -5718446625293412124
-    second: cuboid.001|medic panic run
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: meddy's gun
+    second: {fileID: 2100000, guid: 310a39e043c4d4c44b92cb1a2c636897, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -73,8 +26,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -92,7 +43,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic walk
       takeName: medic walk
-      internalID: 0
+      internalID: 7485483871200054141
       firstFrame: 0
       lastFrame: 8
       wrapMode: 0
@@ -121,7 +72,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic idle
       takeName: medic idle
-      internalID: 0
+      internalID: 6404312057555401863
       firstFrame: 0
       lastFrame: 29
       wrapMode: 0
@@ -150,7 +101,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic panic run
       takeName: medic panic run
-      internalID: 0
+      internalID: 2105098569755667940
       firstFrame: 0
       lastFrame: 8
       wrapMode: 0
@@ -179,7 +130,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic shoot
       takeName: medic shoot
-      internalID: 0
+      internalID: 6104368728714856068
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -208,9 +159,9 @@ ModelImporter:
     - serializedVersion: 16
       name: medic heal in combat
       takeName: medic heal in combat
-      internalID: 0
+      internalID: 4291876076114980513
       firstFrame: 0
-      lastFrame: 29
+      lastFrame: 17
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -237,7 +188,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic damaged
       takeName: medic damaged
-      internalID: 0
+      internalID: -8857262015863333687
       firstFrame: 0
       lastFrame: 17
       wrapMode: 0
@@ -266,7 +217,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic dead
       takeName: medic dead
-      internalID: 0
+      internalID: -5766101312100769113
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -295,7 +246,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic_combat_idle
       takeName: medic_combat_idle
-      internalID: 0
+      internalID: 3766629946196957395
       firstFrame: 0
       lastFrame: 10
       wrapMode: 0
@@ -324,7 +275,7 @@ ModelImporter:
     - serializedVersion: 16
       name: medic victory
       takeName: medic victory
-      internalID: 0
+      internalID: 8278640077404094949
       firstFrame: 0
       lastFrame: 11
       wrapMode: 0
@@ -353,7 +304,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|damaged
       takeName: Armature|damaged
-      internalID: 0
+      internalID: 2857265201783647138
       firstFrame: 0
       lastFrame: 17
       wrapMode: 0
@@ -362,7 +313,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -382,7 +333,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic dead
       takeName: Armature|medic dead
-      internalID: 0
+      internalID: 1012106120632709708
       firstFrame: 0
       lastFrame: 18
       wrapMode: 0
@@ -411,9 +362,9 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic heal in combat
       takeName: Armature|medic heal in combat
-      internalID: 0
+      internalID: 3524081085350795930
       firstFrame: 0
-      lastFrame: 29
+      lastFrame: 17
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -440,7 +391,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic idle
       takeName: Armature|medic idle
-      internalID: 0
+      internalID: -4473759888953549475
       firstFrame: 0
       lastFrame: 29
       wrapMode: 0
@@ -449,7 +400,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -469,16 +420,16 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic panic run
       takeName: Armature|medic panic run
-      internalID: 0
+      internalID: -6937548188689282754
       firstFrame: 0
-      lastFrame: 8
+      lastFrame: 22
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -498,7 +449,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic shoot
       takeName: Armature|medic shoot
-      internalID: 0
+      internalID: -1342192481416902372
       firstFrame: 0
       lastFrame: 6
       wrapMode: 0
@@ -527,16 +478,16 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic walk
       takeName: Armature|medic walk
-      internalID: 0
+      internalID: 7392599461086237137
       firstFrame: 0
-      lastFrame: 8
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -556,7 +507,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|medic_combat_idle
       takeName: Armature|medic_combat_idle
-      internalID: 0
+      internalID: 7017296080973246951
       firstFrame: 0
       lastFrame: 10
       wrapMode: 0
@@ -565,7 +516,36 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|PlaneAction
+      takeName: Armature|PlaneAction
+      internalID: 2920023865792766560
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -585,7 +565,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|victory
       takeName: Armature|victory
-      internalID: 0
+      internalID: 155323657473332376
       firstFrame: 0
       lastFrame: 11
       wrapMode: 0
@@ -614,9 +594,38 @@ ModelImporter:
     - serializedVersion: 16
       name: cuboid.001|medic panic run
       takeName: cuboid.001|medic panic run
-      internalID: 0
+      internalID: -5718446625293412124
       firstFrame: 0
       lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: cuboid.001|PlaneAction
+      takeName: cuboid.001|PlaneAction
+      internalID: 8572981933753667313
+      firstFrame: 0
+      lastFrame: 0
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -648,11 +657,12 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 0
+    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -665,12 +675,15 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -707,8 +720,9 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
