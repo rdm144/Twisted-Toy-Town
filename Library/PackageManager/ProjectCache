@@ -1,37 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/Unity sprites, models textures and what not/github repository/Project
-      twisted toy town/Twisted-Toy-Town/Packages/manifest.json
+    m_FilePath: C:/Richard/Unity/GitHub/Twisted-Toy-Town/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638985192207255711
-    m_Hash: 4172271494
+      ticks: 639082614004823469
+    m_Hash: 1340160158
   m_LockFileStatus:
-    m_FilePath: D:/Unity sprites, models textures and what not/github repository/Project
-      twisted toy town/Twisted-Toy-Town/Packages/packages-lock.json
+    m_FilePath: C:/Richard/Unity/GitHub/Twisted-Toy-Town/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638985192207255711
-    m_Hash: 533311750
+      ticks: 639082614425905772
+    m_Hash: 3354043558
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/Unity sprites, models textures and what not/github repository/Project
-  twisted toy town/Twisted-Toy-Town/Packages
-m_EditorVersion: 6000.2.11f1 (7134d7685e5d)
+m_ProjectPath: C:/Richard/Unity/GitHub/Twisted-Toy-Town/Packages
+m_EditorVersion: 6000.3.9f1 (7a9955a4f2fa)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.9
+- packageId: com.unity.ai.navigation@2.0.10
   testable: 0
   isDirectDependency: 1
-  version: 2.0.9
+  version: 2.0.10
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -70,9 +66,12 @@ m_ResolvedPackages:
     - 2.0.7
     - 2.0.8
     - 2.0.9
+    - 2.0.10
+    - 2.0.11
     compatible:
-    - 2.0.9
-    recommended: 2.0.9
+    - 2.0.10
+    - 2.0.11
+    recommended: 2.0.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -114,16 +113,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638919725134710000
+  datePublishedTicks: 639051061342660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
+    revision: 9f4e312ce74b9f52fe0802ee70aefff75ce6edb8
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -134,38 +133,39 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
-    to demonstrate controlling an agent''s velocity in order to better navigate tight
-    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
-    Fixed\n* Fixed samples not correctly configuring navigation agent types when
-    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
-    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
-    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
-    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
-    A small white square was displayed in the scene on top of the gizmo icons for
-    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
-    **Navigation Updater** no longer attempts to process scenes and prefabs from
-    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
+  upmReserved: '{"changelog":"### Fixed\n* Warning _Object.GetInstanceID()'' is obsolete:
+    ''GetInstanceID is deprecated_ was logged to the console in Unity 6.2 and newer.\n\n###
+    Changed\n* The unit test scripts are no longer delivered with the package."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
+  fingerprint: c33a115e988396e6eb96aa3a58e9fa0a937d08d5
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.9
-    minimumUnityVersion: 6000.0.0a1
+    minimumPackageVersion: 2.0.10
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.10.0
+- packageId: com.unity.collab-proxy@2.11.3
   testable: 0
   isDirectDependency: 1
-  version: 2.10.0
+  version: 2.11.3
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -266,11 +266,13 @@ m_ResolvedPackages:
     - 2.10.0
     - 2.10.1
     - 2.10.2
+    - 2.11.2
+    - 2.11.3
+    - 2.11.4
     compatible:
-    - 2.10.0
-    - 2.10.1
-    - 2.10.2
-    recommended: 2.10.2
+    - 2.11.3
+    - 2.11.4
+    recommended: 2.11.4
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -305,16 +307,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638956334465660000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.10/manual/index.html
+  datePublishedTicks: 639047683637960000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1704702c409b3f64731bd9a086aff217f6242a58
+    revision: 23b6a337b59c8ad04d7b78f38448ad0addcb7954
     path: 
   unityLifecycle:
-    version: 2.10.0
+    version: 2.11.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -325,27 +327,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added a new Editor Toolbar Button for
-    Unity Version Control that lets you view project status, track changes, and perform
-    key actions with one click.\n- Added Unity Version Control status icons to prefab
-    assets in the hierarchy view in \"Edit Mode\".\n- Added Unity Version Control
-    actions to the prefab and prefab variant header context menus.\n\n### Changed\n\n-
-    Improved overlay icons to align with the Unity Editor design. Added icons for
-    \"Controlled\" and \"Changed\" items, removed the icon for \"Private\" items,
-    and added a \"Contains Changes\" overlay for directories containing changes.\n\n###
-    Fixed\n\n- Fixed applying shelves when some files cannot be checked out due to
-    exclusive checkout lock rules. These files are now applied as local changes instead
-    of failing the whole operation. A shelve report popup is displayed to the user.\n-
-    Fixed the missing \"Hide\" contextual menu on the Unity Version Control button
-    in the Unity 6.3 Toolbar.\n- Fixed incorrect tab name showing as \"Unity.PlasticSCM.Editor.x\"
-    with no icon when upgrading a project to Unity 6.x.\n- Fixed debug log \"Package
-    com.unity.collab-proxy version: 0.0.0\" to output the actual package version."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed accessing Editor internals directly
+    on versions below Unity 6.3.\n- Fixed a compilation error caused by an invalid
+    duplicated GUID in WaitForPendingOperations.cs.meta in 2.11.2."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1e5e48aff19daaf7562fad196714be852e56fff3
+  fingerprint: e566cd3e762373591f6828e86f2018eed8021356
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.10.0
+    minimumPackageVersion: 2.11.3
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -353,13 +354,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.feature.2d@2.0.1
+- packageId: com.unity.feature.2d@2.0.2
   testable: 0
   isDirectDependency: 1
-  version: 2.0.1
+  version: 2.0.2
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.feature.2d@0309d34ea7f2
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -377,10 +377,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.1
+    - 2.0.2
     compatible:
-    - 2.0.1
-    recommended: 2.0.1
+    - 2.0.2
+    recommended: 2.0.2
     deprecated: []
   dependencies:
   - name: com.unity.2d.animation
@@ -399,30 +399,20 @@ m_ResolvedPackages:
     version: default
   - name: com.unity.2d.aseprite
     version: default
+  - name: com.unity.2d.tooling
+    version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 12.0.2
+    version: 13.0.4
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.collections
     version: 2.6.2
@@ -430,14 +420,28 @@ m_ResolvedPackages:
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
   - name: com.unity.2d.pixel-perfect
-    version: 5.1.0
+    version: 5.1.1
   - name: com.unity.2d.psdimporter
-    version: 11.0.1
+    version: 12.0.1
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.modules.tilemap
@@ -445,11 +449,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.spriteshape
-    version: 12.0.1
+    version: 13.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 5.0.1
+    version: 6.0.1
   - name: com.unity.2d.aseprite
-    version: 2.0.2
+    version: 3.0.1
+  - name: com.unity.2d.tooling
+    version: 1.0.2
   keywords: []
   registry:
     id: main
@@ -475,7 +481,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 2.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -487,12 +493,23 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/2DFeature.html"}'
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: dd1ea8910f12f021c166e8d0d78de44f1390ff6b
+  fingerprint: 0309d34ea7f24c916d9ac46e556759d54f3b9f3e
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.1
+    minimumPackageVersion: 2.0.2
     minimumUnityVersion: 
   compliance:
     status: 0
@@ -505,8 +522,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -543,7 +559,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.25
+    version: 2.0.26
   - name: com.unity.test-framework
     version: 1.6.0
   - name: com.unity.ext.nunit
@@ -553,15 +569,15 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.38
+    version: 3.0.39
   - name: com.unity.editorcoroutines
-    version: 1.0.0
+    version: 1.0.1
   - name: com.unity.performance.profile-analyzer
-    version: 1.2.3
+    version: 1.3.1
   - name: com.unity.testtools.codecoverage
-    version: 1.2.6
+    version: 1.3.0
   - name: com.unity.settings-manager
-    version: 2.1.0
+    version: 2.1.1
   keywords: []
   registry:
     id: main
@@ -599,6 +615,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/DeveloperToolsFeature.html"}'
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 767aadbc6eb72681a4ca807c8fa248e0230a0cef
@@ -612,13 +639,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.38
+- packageId: com.unity.ide.rider@3.0.39
   testable: 0
   isDirectDependency: 1
-  version: 3.0.38
+  version: 3.0.39
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -682,9 +708,10 @@ m_ResolvedPackages:
     - 3.0.36
     - 3.0.37
     - 3.0.38
+    - 3.0.39
     compatible:
-    - 3.0.38
-    recommended: 3.0.38
+    - 3.0.39
+    recommended: 3.0.39
     deprecated:
     - 3.0.37
   dependencies:
@@ -709,16 +736,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638938045127600000
+  datePublishedTicks: 639045875071620000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
+    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.39
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -729,28 +756,38 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
-    are not added in the project."}'
+  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
+    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
+  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 3.0.39
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.visualstudio@2.0.25
+- packageId: com.unity.ide.visualstudio@2.0.26
   testable: 0
   isDirectDependency: 1
-  version: 2.0.25
+  version: 2.0.26
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -792,13 +829,16 @@ m_ResolvedPackages:
     - 2.0.22
     - 2.0.23
     - 2.0.25
+    - 2.0.26
+    - 2.0.27
     compatible:
-    - 2.0.25
-    recommended: 2.0.25
+    - 2.0.26
+    - 2.0.27
+    recommended: 2.0.27
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.1.31
+    version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
     version: 1.6.0
@@ -824,16 +864,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638954434425230000
+  datePublishedTicks: 639014773899080000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
+    revision: a52ff32ff9e8cf43be6597597939ef63126ab463
     path: 
   unityLifecycle:
-    version: 2.0.25
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -844,28 +884,39 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Internal:\n\n- Fixes for release validation and release
-    process"}'
+  upmReserved: '{"changelog":"Integration:\n\n- Fix handling of asset-pipeline refresh-mode
+    setting.\n\nProject generation:\n\n- Add `EnableOnDemandExcludedFolderLoading`
+    capability when generating SDK-Style project."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
+  fingerprint: a99d56dec63ffb3a911a5a9bce9b77ba862a601c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.25
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 2.0.26
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.multiplayer.center@1.0.0
+- packageId: com.unity.multiplayer.center@1.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 1.0.1
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -881,10 +932,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 1.0.1
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 1.0.1
+    recommended: 1.0.1
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -931,7 +982,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -943,26 +994,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: f3fb577b3546594b97b8cc34307cd621f60f1c73
+  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 6000.0.0a1
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.render-pipelines.universal@17.2.0
+- packageId: com.unity.render-pipelines.universal@17.3.0
   testable: 0
   isDirectDependency: 1
-  version: 17.2.0
+  version: 17.3.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.universal@35ca8d108413
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.universal@7327e77c1cc2
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -979,25 +1040,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.2.0
+    - 17.3.0
     compatible:
-    - 17.2.0
-    recommended: 17.2.0
+    - 17.3.0
+    recommended: 17.3.0
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.shadergraph
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.render-pipelines.universal-config
     version: 17.0.3
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ugui
@@ -1013,19 +1074,17 @@ m_ResolvedPackages:
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
   - name: com.unity.shadergraph
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.searcher
-    version: 4.9.3
+    version: 4.9.4
   - name: com.unity.render-pipelines.universal-config
     version: 17.0.3
   keywords:
@@ -1059,7 +1118,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.2.0
+    version: 17.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1071,13 +1130,24 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 35ca8d108413c01c34d5930ddafe7a0dc1bad1d6
+  fingerprint: 7327e77c1cc23828ef1680ac97e46312e1b6af89
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.2.0
-    minimumUnityVersion: 6000.2.0a1
+    minimumPackageVersion: 17.3.0
+    minimumUnityVersion: 6000.3
   compliance:
     status: 0
     violation:
@@ -1089,8 +1159,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1162,9 +1231,20 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc
+  fingerprint: 0b7a23ab2e1d74441a5afdffa63f417929756957
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.6.0
@@ -1175,13 +1255,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.9
+- packageId: com.unity.timeline@1.8.10
   testable: 0
   isDirectDependency: 1
-  version: 1.8.9
+  version: 1.8.10
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1285,9 +1364,12 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
+    - 1.8.11
     compatible:
-    - 1.8.9
-    recommended: 1.8.9
+    - 1.8.10
+    - 1.8.11
+    recommended: 1.8.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1328,16 +1410,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638900049118440000
+  datePublishedTicks: 639010941520280000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
+    revision: a83681b24217526a0f539d70ddca4abf270a5ada
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1348,26 +1430,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
-    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
-    of AnimationTrack not being able to record and not having access to AnimationTrack
-    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
-    and Clips Editors code is marked as unused in Rider even when they are associated
-    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
-    with an embedded playable asset inspector can leak when selection changes with
-    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
-    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
-    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
-    a warning when trying to add a custom track whose class name would not match
-    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
-    included tracks muted via hierarchy. (TB-326)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix compilation error for version 2023.2
+    of the editor (TB-352)\n- Fixed an issue where it was possible for 2 clips to
+    have a micro overlap that was not detected as a blend, resulting in both clips
+    playing at the same time with a weight of one. (TB-345)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
+  fingerprint: 7f8b2fb101b6053cc7472330401e94ff0c17b204
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.9
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.8.10
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
@@ -1379,21 +1463,20 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.ugui@23c310536180
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.ugui@bb329a87fcdc
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
-  displayName: Unity UI
+  displayName: uGUI
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: "Unity UI is a set of tools for developing user interfaces for games
-    and applications. It is a GameObject-based UI system that uses Components and
-    the Game View to arrange, position, and style user interfaces. \u200B You cannot
-    use Unity UI to create or change user interfaces in the Unity Editor."
+  description: "uGUI (Unity UI) is a set of tools for developing user interfaces
+    for games and applications. It is a GameObject-based UI system that uses Components
+    and the Game View to arrange, position, and style user interfaces. \u200B You
+    cannot use Unity UI to create or change user interfaces in the Unity Editor."
   errors: []
   versions:
     all:
@@ -1458,26 +1541,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 23c3105361808e308aca4abad2efcb8b5a00f1ef
+  fingerprint: bb329a87fcdc5d55e815f3d804764d676674047e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2019.2.0a1
+    minimumUnityVersion: 2019.2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.8
+- packageId: com.unity.visualscripting@1.9.9
   testable: 0
   isDirectDependency: 1
-  version: 1.9.8
+  version: 1.9.9
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1528,10 +1621,11 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     - 1.9.9
+    - 1.9.10
     compatible:
-    - 1.9.8
     - 1.9.9
-    recommended: 1.9.9
+    - 1.9.10
+    recommended: 1.9.10
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1564,7 +1658,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638852496803020000
+  datePublishedTicks: 638965671307960000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1573,7 +1667,7 @@ m_ResolvedPackages:
     revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
     path: 
   unityLifecycle:
-    version: 1.9.8
+    version: 1.9.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1587,13 +1681,24 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
     API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
     to increase accessibility for screen readers."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: b4d700247d4b84b3360e1afeb054b0bdb201fbc7
+  fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.8
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.9.9
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -1605,7 +1710,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1615,8 +1720,8 @@ m_ResolvedPackages:
     url: 
   category: 
   type: module
-  description: 'The Accessibility module includes utilities to facilitate the development
-    of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  description: 'The Accessibility module includes APIs and tools that facilitate
+    the development of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
   errors: []
   versions:
     all:
@@ -1664,6 +1769,111 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.adaptiveperformance@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.adaptiveperformance
+  assetPath: Packages/com.unity.modules.adaptiveperformance
+  name: com.unity.modules.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Adaptive Performance is a built-in module that allows users to adjust
+    settings based on performance metrics. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AdaptivePerformanceModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1682,7 +1892,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1741,6 +1951,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1759,7 +1980,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1817,6 +2038,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1835,7 +2067,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1894,6 +2126,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1912,7 +2155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1971,6 +2214,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -1989,7 +2243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2048,6 +2302,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2066,7 +2331,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2129,6 +2394,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2147,7 +2423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2214,6 +2490,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2232,7 +2519,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2291,6 +2578,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2309,7 +2607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2368,6 +2666,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2386,7 +2695,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2445,6 +2754,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2463,7 +2783,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2522,6 +2842,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2540,7 +2871,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2599,6 +2930,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2617,7 +2959,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2676,6 +3018,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2694,7 +3047,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2757,6 +3110,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2775,7 +3139,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2834,6 +3198,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2852,7 +3227,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2919,6 +3294,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -2937,7 +3323,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2999,6 +3385,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3017,7 +3414,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3076,6 +3473,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3094,7 +3502,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3173,6 +3581,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3191,7 +3610,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3250,6 +3669,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3268,7 +3698,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3334,6 +3764,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3352,7 +3793,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3411,6 +3852,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3429,7 +3881,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3496,6 +3948,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3514,7 +3977,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3581,6 +4044,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3599,7 +4073,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3666,6 +4140,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3684,7 +4169,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3767,6 +4252,124 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.vectorgraphics@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.vectorgraphics
+  assetPath: Packages/com.unity.modules.vectorgraphics
+  name: com.unity.modules.vectorgraphics
+  displayName: Vector Graphics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3785,7 +4388,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3848,6 +4451,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3866,7 +4480,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3937,6 +4551,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -3955,7 +4580,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3966,7 +4591,8 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
+    (This module is obsolete, please use UnityEngine.XRModule instead) Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
   errors: []
   versions:
     all:
@@ -4028,6 +4654,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4046,7 +4683,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4105,6 +4742,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4123,7 +4771,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4194,6 +4842,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4212,7 +4871,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4275,6 +4934,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4293,7 +4963,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.2.11f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4352,6 +5022,17 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 
@@ -4370,8 +5051,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4433,26 +5113,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 031a54704bffe39e6a0324909f8eaa4565bdebf2
+  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
-    minimumUnityVersion: 2019.4.0a1
+    minimumUnityVersion: 2019.4
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.render-pipelines.core@17.2.0
+- packageId: com.unity.render-pipelines.core@17.3.0
   testable: 0
   isDirectDependency: 0
-  version: 17.2.0
+  version: 17.3.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.core@1c4984b725cf
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.core@04ab0eefa0c3
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -4472,10 +5162,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.2.0
+    - 17.3.0
     compatible:
-    - 17.2.0
-    recommended: 17.2.0
+    - 17.3.0
+    recommended: 17.3.0
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -4492,13 +5182,11 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ugui
@@ -4514,15 +5202,13 @@ m_ResolvedPackages:
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
   keywords: []
   registry:
     id: main
@@ -4548,7 +5234,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.2.0
+    version: 17.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4560,26 +5246,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1c4984b725cf027727f2bddbc9244d2a8ed65e6e
+  fingerprint: 04ab0eefa0c333fd1eebb81cdd292c9409489de7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.2.0
-    minimumUnityVersion: 6000.2.0a1
+    minimumPackageVersion: 17.3.0
+    minimumUnityVersion: 6000.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.shadergraph@17.2.0
+- packageId: com.unity.shadergraph@17.3.0
   testable: 0
   isDirectDependency: 0
-  version: 17.2.0
+  version: 17.3.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.shadergraph@33016d94899e
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.shadergraph@f80b792d4861
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4597,23 +5293,23 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 17.2.0
+    - 17.3.0
     compatible:
-    - 17.2.0
-    recommended: 17.2.0
+    - 17.3.0
+    recommended: 17.3.0
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.searcher
     version: 4.9.3
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ugui
@@ -4629,17 +5325,15 @@ m_ResolvedPackages:
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
   - name: com.unity.searcher
-    version: 4.9.3
+    version: 4.9.4
   keywords: []
   registry:
     id: main
@@ -4665,7 +5359,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 17.2.0
+    version: 17.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4677,13 +5371,24 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 33016d94899e8f2643fa19f43b2f0b9a4cb24e76
+  fingerprint: f80b792d4861af596d3016be7311c2eeca07acd3
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.2.0
-    minimumUnityVersion: 6000.2.0a1
+    minimumPackageVersion: 17.3.0
+    minimumUnityVersion: 6000.3
   compliance:
     status: 0
     violation:
@@ -4695,8 +5400,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -4720,11 +5424,11 @@ m_ResolvedPackages:
     version: 17.0.3
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 17.2.0
+    version: 17.3.0
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ugui
@@ -4740,15 +5444,13 @@ m_ResolvedPackages:
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
   keywords: []
   registry:
     id: main
@@ -4786,26 +5488,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.editorcoroutines@1.0.0
+- packageId: com.unity.editorcoroutines@1.0.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
+  version: 1.0.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4814,7 +5526,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -4830,7 +5542,6 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.1
     compatible:
-    - 1.0.0
     - 1.0.1
     recommended: 1.0.1
     deprecated: []
@@ -4855,7 +5566,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637232611380000000
+  datePublishedTicks: 638929288706330000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4864,7 +5575,7 @@ m_ResolvedPackages:
     revision: f67fc9992bbc7a553b17375de53a8b2db136528e
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4876,26 +5587,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
+  fingerprint: 54394ed3283c1d492d6a80602b05b04bd0863f8b
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2018.1.0a1
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 2018.1
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.performance.profile-analyzer@1.2.3
+- packageId: com.unity.performance.profile-analyzer@1.3.1
   testable: 0
   isDirectDependency: 0
-  version: 1.2.3
+  version: 1.3.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4929,10 +5650,15 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
     compatible:
-    - 1.2.3
-    - 1.2.4
-    recommended: 1.2.4
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.3.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4952,16 +5678,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638699545898200000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
+  datePublishedTicks: 639044511012190000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 835e61d94bd201d0dea5763dff75e86b6b61de29
+    revision: 248e5ebe5686d9a3df7dd7cc9acbd49808730fe5
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4972,28 +5698,37 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n* Fixed minimum supported version in documentation.\n*
-    Fixed PROFB-199; Unchecking ''Hide Removed Markers'' doesn''t work."}'
+  upmReserved: '{"changelog":"### Fixed\n* Fixed documentation error"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: a68e7bc849973d943853204178d08a2bc7656ffe
+  fingerprint: 311968ce4be7b8c45e37a6c865e744fb1b7a7b3e
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.2.3
-    minimumUnityVersion: 2020.3.0a1
+    minimumPackageVersion: 1.3.1
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.testtools.codecoverage@1.2.6
+- packageId: com.unity.testtools.codecoverage@1.3.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 1.3.0
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5002,7 +5737,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -5043,16 +5778,16 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     - 1.2.7
+    - 1.3.0
     compatible:
-    - 1.2.6
-    - 1.2.7
-    recommended: 1.2.7
+    - 1.3.0
+    recommended: 1.3.0
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.0.16
+    version: 1.4.5
   - name: com.unity.settings-manager
-    version: 1.0.1
+    version: 2.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
     version: 1.6.0
@@ -5063,7 +5798,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 2.1.0
+    version: 2.1.1
   keywords:
   - test
   - coverage
@@ -5084,16 +5819,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575857900000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  datePublishedTicks: 639045470066020000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    revision: f588d79b844a1f4a1cead85842bdf64782dd741a
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 1.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5104,32 +5839,60 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixes\n- Documentation: Fixed formatting in [Using
-    Code Coverage in batchmode](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/CoverageBatchmode.html)
-    page (case [COV-40](https://issuetracker.unity3d.com/issues/docs-formatting-in-using-code-coverage-in-batchmode-docs-page-is-incorrect)).\n-
-    Removed the references to the deprecated FindObjectOfType method in the *Asteroids
-    sample project* (case [COV-42](https://issuetracker.unity3d.com/issues/sample-project-is-using-obsolete-findobjectoftype-method-which-causes-multiple-warnings-in-console-when-it-is-imported)).\n-
-    Added missing logs for the ReportGenerator (case [COV-46](https://issuetracker.unity3d.com/issues/code-coverage-package-does-not-report-some-of-the-internal-reportgenerator-errors))."}'
+  upmReserved: '{"changelog":"### Fixes\n\n- Fixed the filtering and reporting of
+    package''s paths that were reported relative to the current project instead of
+    absolute.\n- Fixed a NullReferenceException that could occur while computing
+    cyclomatic complexity.\n- Fixed references to the deprecated EditorAnalytics
+    methods for release streams from 6000.0 or newer (case [COV-44](https://issuetracker.unity3d.com/issues/sample-editoranalytics-warning-when-enabilg-code-coverage-in-the-sample-project))\n-
+    Fixed playmode tests failing in the _Asteroids sample project_ (case [COV-54](https://issuetracker.unity3d.com/issues/multiple-tests-are-failing-in-the-code-coverage-sample-asteroids-project))\n-
+    Fixed pink materials to be rendered for URP in _Asteroids sample project_\n-
+    Updated the Input System in _Asteroids sample project_ to use the new Input System
+    package instead of the legacy one (case [COV-52](https://issuetracker.unity3d.com/issues/asteroids-sample-project-is-not-updated-for-the-new-unity-streams))\n-
+    Fixed _assembliesInclude_/_assembliesExclude_ parsing in `filtersFromFile` when
+    running in the command line in `non-batchmode`\n\n### Changes\n\n- Raised the
+    minimum supported Unity version for the Code Coverage package to 2021.3 and updated
+    the codebase to align with this new dependency.\n- Updated dependency packages
+    versions: `com.unity.test-framework` to v1.4.5 and `com.unity.settings-manager`
+    to v2.0.0.\n- The entries in the `pathFilters` option in _-coverageOptions_ are
+    now processed in order so a subset path can be included even if the parent path
+    is excluded. Previously all exclusions were processed before any inclusions.\n-
+    Removed the `CoverageFormat` class, as there are currently no plans to support
+    any other raw coverage formats other than OpenCover.\n\n### Improvements\n\n-
+    Reduced the needed time to apply path filtering during the report generation.\n-
+    Migrated Mono APIs to CoreCLR-compatible APIs.\n- Documentation: Added a note
+    about the Input System package dependency in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page.\n- Documentation: Fixed broken links in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 205a02cbcb39584f20b51c49b853047aceb3a3a7
+  fingerprint: 19a8412216200955baa50132d98cb9fe4770e401
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.2.6
-    minimumUnityVersion: 2019.3.0a1
+    minimumPackageVersion: 1.3.0
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.animation@12.0.2
+- packageId: com.unity.2d.animation@13.0.4
   testable: 0
   isDirectDependency: 0
-  version: 12.0.2
+  version: 13.0.4
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.animation@34e0443c58ed
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.animation@7396d8477ca9
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -5289,47 +6052,41 @@ m_ResolvedPackages:
     - 13.0.0
     - 13.0.1
     - 13.0.2
+    - 13.0.3
+    - 13.0.4
     - 14.0.0
     - 14.0.1
     - 14.0.2
+    - 14.0.3
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
+    - 15.0.3
     compatible:
-    - 12.0.2
-    - 12.0.3
-    recommended: 12.0.3
+    - 13.0.4
+    recommended: 13.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 1.2.4
+    version: 2.4.3
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.collections
     version: 2.6.2
@@ -5337,10 +6094,24 @@ m_ResolvedPackages:
     version: 1.6.0
   - name: com.unity.ext.nunit
     version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
   keywords:
   - 2d
   - animation
@@ -5359,16 +6130,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638863413369980000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@12.0/manual/index.html
+  datePublishedTicks: 639046578429950000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b0c25ab984f22def61409df195e4e0b210863e0d
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 12.0.2
+    version: 13.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5379,29 +6150,38 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix the icon quality of Sprite Swap Overlay
-    Window. (DANB-988)\n- Fix NullReferenceException error thrown by the Sprite Library
-    Editor window when entering Play Mode with Game View maximised (DANB-1019)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fix unused separation line is used in
+    the Context Menu of the Sprite Library Editor Window (DANB-1226)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 34e0443c58ed65e66d21023245d2862e066ab2e7
+  fingerprint: 7396d8477ca93349104292dd0d2c0df8d8ad4c21
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.2
-    minimumUnityVersion: 6000.2.0b4
+    minimumPackageVersion: 13.0.4
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.pixel-perfect@5.1.0
+- packageId: com.unity.2d.pixel-perfect@5.1.1
   testable: 0
   isDirectDependency: 0
-  version: 5.1.0
+  version: 5.1.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.pixel-perfect@2f2037a56bf7
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.pixel-perfect@09d99455b901
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -5443,8 +6223,8 @@ m_ResolvedPackages:
     - 5.0.3
     - 5.1.0
     - 5.1.1
+    - 6.0.0
     compatible:
-    - 5.1.0
     - 5.1.1
     recommended: 5.1.1
     deprecated: []
@@ -5474,7 +6254,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638775664687690000
+  datePublishedTicks: 638932756194190000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@5.1/manual/index.html
   hasRepository: 1
   repository:
@@ -5483,7 +6263,7 @@ m_ResolvedPackages:
     revision: 9ead9de91ee9fdb290bfcc223d793a449e7f8370
     path: 
   unityLifecycle:
-    version: 5.1.0
+    version: 5.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5496,26 +6276,36 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version to 2021.3\n\n###
     Fixed\n- Update usage of URP namespace.\n- Fixed package dependencies."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 2f2037a56bf7822af81e9898037a0aac12686533
+  fingerprint: 09d99455b9018d7a152bb766d42b2569236a7b4a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 5.1.0
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 5.1.1
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.psdimporter@11.0.1
+- packageId: com.unity.2d.psdimporter@12.0.1
   testable: 0
   isDirectDependency: 0
-  version: 11.0.1
+  version: 12.0.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.psdimporter@0adcab25a8fd
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.psdimporter@9abe0f7cac7e
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -5626,40 +6416,55 @@ m_ResolvedPackages:
     - 12.0.1
     - 13.0.0
     - 13.0.1
+    - 13.0.2
+    - 14.0.0
+    - 14.0.1
+    - 14.0.2
     compatible:
-    - 11.0.1
-    - 11.0.2
-    recommended: 11.0.2
+    - 12.0.1
+    recommended: 12.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
@@ -5686,16 +6491,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638854007431340000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@11.0/manual/index.html
+  datePublishedTicks: 638990587854760000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: baf565843471dd3cdc28af4c2a2aa0357ab1f9b1
+    revision: 8bf1079cdd627cb76fad4a3267f28d8890fcd5db
     path: 
   unityLifecycle:
-    version: 11.0.1
+    version: 12.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5706,16 +6511,27 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Replaced deprecated non-generic IMGUI
-    TreeViewItem. (Case DANB-1004)\n- Fixed case Layer Separation toggle icon is
-    invisible when the icon state is \"separated\" with mousedown. (Case DANB-949)"}'
+  upmReserved: '{"changelog":"### Changed\n- Exclude empty layers from import.\n\n###
+    Fixed\n- Fix null reference exception occurs when importing psd without visible
+    layers. (DANB-1155)\n- Correct layer mask position relative to its layer. (DANB-1177)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0adcab25a8fd3537d5829f344f6e2aa236d0cf8e
+  fingerprint: 9abe0f7cac7effda42d93c33a6c35134cca1bee3
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 11.0.1
-    minimumUnityVersion: 6000.2.0a10
+    minimumPackageVersion: 12.0.1
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
@@ -5727,8 +6543,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.sprite@d14b9d497a24
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -5790,26 +6605,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 331abd9a1e2ff424a1ef2626e16936071ab7ce3d
+  fingerprint: d14b9d497a24d5fc6a731faaacfb216ac084478e
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2019.2.0a1
+    minimumUnityVersion: 2019.2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.spriteshape@12.0.1
+- packageId: com.unity.2d.spriteshape@13.0.0
   testable: 0
   isDirectDependency: 0
-  version: 12.0.1
+  version: 13.0.0
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.spriteshape@1d246726c231
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.spriteshape@0738bab11647
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -5925,40 +6750,55 @@ m_ResolvedPackages:
     - 12.0.2
     - 13.0.0
     - 14.0.0
+    - 14.0.1
+    - 15.0.0
+    - 15.0.1
+    - 15.0.2
     compatible:
-    - 12.0.1
-    - 12.0.2
-    recommended: 12.0.2
+    - 13.0.0
+    recommended: 13.0.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.0
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
     version: 1.0.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -5984,16 +6824,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638863413324610000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@12.0/manual/index.html
+  datePublishedTicks: 638895774099940000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@13.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b0c25ab984f22def61409df195e4e0b210863e0d
+    revision: 1ef60d478f22a420064f300ba7c3b3d6d3536dc3
     path: 
   unityLifecycle:
-    version: 12.0.1
+    version: 13.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6004,15 +6844,29 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n- UUM-104210 Added option to disable Auto-Update
-    which avoids runtime cost to check for Changes."}'
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n- Updated
+    Spriteshape extras to use new InputSystem.\n\n### Fixed\n- UUM-108688 Fix Sprite
+    Shape Profile Asset icon which was low quality and blurry in Project window\n-
+    Use EditorUtility.EntityIdToObject instead of EditorUtility.InstanceIDToObject
+    which is deprecated. (DANB-1042)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1d246726c2316e2e6dd7d2aefba54ec6640affa9
+  fingerprint: 0738bab116473980325be8cdb7c3c42ab6961778
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 12.0.1
-    minimumUnityVersion: 6000.2.0a10
+    minimumPackageVersion: 13.0.0
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
@@ -6024,8 +6878,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.tilemap@0b99f08c0204
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.tilemap@f011712243ad
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -6106,26 +6959,36 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0b99f08c02048105e3f87c2e1f97bcf4c860dae8
+  fingerprint: f011712243ad7f5bf96d635e094957cd487ac228
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 2019.2.0a1
+    minimumUnityVersion: 2019.2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.tilemap.extras@5.0.1
+- packageId: com.unity.2d.tilemap.extras@6.0.1
   testable: 0
   isDirectDependency: 0
-  version: 5.0.1
+  version: 6.0.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.tilemap.extras@2338d989ff2a
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.tilemap.extras@3dde84bf3867
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -6200,11 +7063,17 @@ m_ResolvedPackages:
     - 5.0.2
     - 6.0.0
     - 6.0.1
+    - 7.0.0-exp.1
     - 7.0.0
+    - 7.0.1
+    - 8.0.0-exp.1
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.88.0-exp.1
     compatible:
-    - 5.0.1
-    - 5.0.2
-    recommended: 5.0.2
+    - 6.0.1
+    recommended: 6.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.tilemap
@@ -6249,16 +7118,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638863413340320000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@5.0/manual/index.html
+  datePublishedTicks: 638956665244800000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b0c25ab984f22def61409df195e4e0b210863e0d
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 5.0.1
+    version: 6.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6269,28 +7138,43 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- [AutoTileEditor] Fix exception thrown
-    when texture count is reduced"}'
+  upmReserved: '{"changelog":"### Added\n- [AutoTile] Add Has Physics Shape property
+    if Collider Type is set to Sprite. AutoTile will set Collider Type to Sprite
+    if the Sprite has physics shape and set Collider Type to None if the Sprite has
+    no physics shape.\n\n### Fixed\n- [RuleTileEditor] Fix exception thrown when
+    a Rule is added to an empty RuleTile, removed and added again.\n- [AutoTileEditor]
+    Fix minimum texture scale size when texture is smaller than 256 pixels\n- [AutoTileEditor]
+    Fix texture display when texture is removed from AutoTile"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 2338d989ff2aec99e03da44e42ae2faf1ebc037d
+  fingerprint: 3dde84bf38677b4165ad5f568b353d4ba942d63c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 5.0.1
-    minimumUnityVersion: 6000.2.0a10
+    minimumPackageVersion: 6.0.1
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.aseprite@2.0.2
+- packageId: com.unity.2d.aseprite@3.0.1
   testable: 0
   isDirectDependency: 0
-  version: 2.0.2
+  version: 3.0.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.aseprite@dca42b450aa1
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.aseprite@809e3a168ff7
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -6334,13 +7218,17 @@ m_ResolvedPackages:
     - 3.0.0
     - 3.0.1
     - 4.0.0
+    - 4.0.1
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
     compatible:
-    - 2.0.2
-    recommended: 2.0.2
+    - 3.0.1
+    recommended: 3.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -6351,26 +7239,38 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 11.0.1
+    version: 12.0.2
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
@@ -6399,16 +7299,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638936780249010000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@2.0/manual/index.html
+  datePublishedTicks: 638956665229940000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 3dabc18fb6e868cc6feb1a360eaa034660fc1220
+    revision: 0f527ad8312724fd801fb3b317d1f4be2f019652
     path: 
   unityLifecycle:
-    version: 2.0.2
+    version: 3.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6419,28 +7319,169 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where changing the order
-    of TileMaps in Aseprite would not update the order in Unity."}'
+  upmReserved: '{"changelog":"### Changed\n- Switched the internals from using custom
+    common package, to make use of the 2D Common package."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: dca42b450aa1933467340cfd7bce324ddf7b06b2
+  fingerprint: 809e3a168ff77eff802b4b24c10cf6254618245a
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.2
-    minimumUnityVersion: 6000.2.0a10
+    minimumPackageVersion: 3.0.1
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.searcher@4.9.3
+- packageId: com.unity.2d.tooling@1.0.2
   testable: 0
   isDirectDependency: 0
-  version: 4.9.3
+  version: 1.0.2
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.tooling@249995156768
+  assetPath: Packages/com.unity.2d.tooling
+  name: com.unity.2d.tooling
+  displayName: 2D Tooling
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A Unity Editor tool to analyze Sprite Atlases usage.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 2.0.0
+    - 2.0.1
+    - 3.0.0
+    compatible:
+    - 1.0.2
+    recommended: 1.0.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.2d.common
+    version: 12.0.2
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.2d.common
+    version: 12.0.2
+  - name: com.unity.burst
+    version: 1.8.28
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639046578438370000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tooling@1.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 2499951567687634a16f41e9f26ee5dfeb8f8da6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 6000.3.0a2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.searcher@4.9.4
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.4
+  source: 1
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.searcher@d45a78918735
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6474,7 +7515,6 @@ m_ResolvedPackages:
     - 4.9.3
     - 4.9.4
     compatible:
-    - 4.9.3
     - 4.9.4
     recommended: 4.9.4
     deprecated: []
@@ -6498,7 +7538,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638731478077990000
+  datePublishedTicks: 638965670878140000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
   hasRepository: 1
   repository:
@@ -6507,7 +7547,7 @@ m_ResolvedPackages:
     revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
     path: 
   unityLifecycle:
-    version: 4.9.3
+    version: 4.9.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6520,26 +7560,36 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
     Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1e17ce91558d1d9127554adc03d275f39a7466a2
+  fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.9.3
-    minimumUnityVersion: 2019.1.0a1
+    minimumPackageVersion: 4.9.4
+    minimumUnityVersion: 2019.1
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.burst@1.8.25
+- packageId: com.unity.burst@1.8.28
   testable: 0
   isDirectDependency: 0
-  version: 1.8.25
+  version: 1.8.28
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.burst@1df634d836b8
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.burst@07790c2d06d9
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6695,10 +7745,11 @@ m_ResolvedPackages:
     - 1.8.24
     - 1.8.25
     - 1.8.26
+    - 1.8.27
+    - 1.8.28
     compatible:
-    - 1.8.25
-    - 1.8.26
-    recommended: 1.8.26
+    - 1.8.28
+    recommended: 1.8.28
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -6707,7 +7758,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
@@ -6726,16 +7777,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638936354350140000
+  datePublishedTicks: 639052730336850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 05afff266a602147349dc3706f2c09210e05ec2f
+    revision: c95bc6caa3b1fff43bc88047ff7da12fb4899bcc
     path: 
   unityLifecycle:
-    version: 1.8.25
+    version: 1.8.28
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6746,37 +7797,45 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed infinite loop and unbounded memory
-    consumption when having a (possibly indirectly) recursive method with the `[MethodImpl(MethodImplOptions.AggressiveInlining)]`
-    attribute\n- Fixes an issue where `math.min` and `math.max` would do signed comparisons
-    on unsigned integers when compiling with `FloatMode.Fast`.\n- Fixed a crash on
-    some Android devices what would be triggered when \"Enable ARMv9 Security Features\"
-    was enabled.\n- Fixed a rare crash that could happen when the Burst package was
-    unloaded.\n- Fixed relocation error when stack protection was enabled on 32-bit
-    Android.\n\n### Added\n- Added LLVM 20 support\n- Added guards to UWP ARM32 to
-    be available only for versions lower than 6.3 [PLAT-15016](https://jira.unity3d.com/browse/PLAT-15016)\n-
-    `FloatMode.Deterministic` is now supported by Burst. Please refer to the documentation
-    for details."}'
+  upmReserved: '{"changelog":"### Added\n\n### Removed\n\n### Changed\n\n### Fixed\n-
+    User-reported copy-paste error `v128` -> `v256` in `v256` constructor description.\n-
+    User-reported typo in user manual, `paraeters` -> `parameters`.\n- Fixed that
+    Burst would miscompile arithmetic under very specific circumstances\n- Fixed
+    that conditionally formatted strings passed to a `[BurstDiscard]`''ed method
+    could lead to stack-overflow\n- Fixed that assert methods supported by Burst
+    wouldn''t throw the correct type\n- Fixed a crash that could happen when calling
+    `[DllImport(\"__Internal\")]` methods that have pointers in their signature\n\n###
+    Known Issues\n\n### Purpose"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1df634d836b8106f13dc82401a91b336d615a874
+  fingerprint: 07790c2d06d99e35fe39459bd582a965d07700c4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.25
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.8.28
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.mathematics@1.3.2
+- packageId: com.unity.mathematics@1.3.3
   testable: 0
   isDirectDependency: 0
-  version: 1.3.2
+  version: 1.3.3
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6785,7 +7844,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
@@ -6812,7 +7871,6 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     compatible:
-    - 1.3.2
     - 1.3.3
     recommended: 1.3.3
     deprecated: []
@@ -6835,7 +7893,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
+  datePublishedTicks: 638950052122000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
   hasRepository: 1
   repository:
@@ -6844,7 +7902,7 @@ m_ResolvedPackages:
     revision: 1695a8503482a3131be78cc26308a93f82c05b04
     path: 
   unityLifecycle:
-    version: 1.3.2
+    version: 1.3.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -6859,13 +7917,24 @@ m_ResolvedPackages:
     builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
     and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
     Updated minimum editor version to 2021.3"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
+    minimumPackageVersion: 1.3.3
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
@@ -6877,8 +7946,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.2
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6972,10 +8040,14 @@ m_ResolvedPackages:
     - 2.6.0-pre.4
     - 2.6.2
     - 2.6.3
+    - 2.6.4
+    - 2.6.5
     compatible:
     - 2.6.2
     - 2.6.3
-    recommended: 2.6.3
+    - 2.6.4
+    - 2.6.5
+    recommended: 2.6.5
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -6990,9 +8062,9 @@ m_ResolvedPackages:
     version: 3.0.3
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
@@ -7002,7 +8074,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
+    version: 1.11.6
   - name: com.unity.test-framework.performance
     version: 3.2.0
   keywords:
@@ -7046,6 +8118,17 @@ m_ResolvedPackages:
     revision: 
   upmReserved: '{"changelog":"### Changed\n\n* Updated Burst dependency to version
     1.8.23."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: aea9d3bd5e19f2a90fc3a39919974a5f3613a159
@@ -7059,120 +8142,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.rendering.light-transport@1.0.1
+- packageId: com.unity.settings-manager@2.1.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
-  source: 2
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.rendering.light-transport@2c9279f90d7c
-  assetPath: Packages/com.unity.rendering.light-transport
-  name: com.unity.rendering.light-transport
-  displayName: Unity Light Transport Library
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity Light Transport Library exposes reusable code for writing light
-    transport algorithms such as raytracing or pathtracing
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    compatible:
-    - 1.0.1
-    recommended: 1.0.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.collections
-    version: 2.2.0
-  - name: com.unity.mathematics
-    version: 1.2.4
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.collections
-    version: 2.6.2
-  - name: com.unity.burst
-    version: 1.8.25
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.test-framework
-    version: 1.6.0
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.5
-  - name: com.unity.test-framework.performance
-    version: 3.2.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  keywords:
-  - raytracing
-  - pathtracing
-  - monte-carlo
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 0
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 2c9279f90d7c8dfb6e76e3f90b6b3be1cafabfbc
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.1
-    minimumUnityVersion: 2023.3.0b1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.settings-manager@2.1.0
-  testable: 0
-  isDirectDependency: 0
-  version: 2.1.0
+  version: 2.1.1
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -7198,7 +8173,6 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.1.1
     compatible:
-    - 2.1.0
     - 2.1.1
     recommended: 2.1.1
     deprecated: []
@@ -7220,7 +8194,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638792046006940000
+  datePublishedTicks: 638956174685890000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
   hasRepository: 1
   repository:
@@ -7229,7 +8203,7 @@ m_ResolvedPackages:
     revision: 6eb5ed85eaf3276cc09f0cc4fc3311c72f0fc196
     path: 
   unityLifecycle:
-    version: 2.1.0
+    version: 2.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7243,26 +8217,36 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Changes\n\n- Enable Auto Reference on main assembly.\n\n###
     Bug Fixes\n\n- [case: PBLD-56] Added tooltip to \"Options\" gear icon to specify
     that context menu items are relevant only to the selected category."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: 41738c27519039c335849eb78949382f4d7a3544
+  fingerprint: 0b8638c5ce86009d785da17b17aaf629047f64ce
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.1.0
-    minimumUnityVersion: 2022.3.0a1
+    minimumPackageVersion: 2.1.1
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.2d.common@11.0.1
+- packageId: com.unity.2d.common@12.0.2
   testable: 0
   isDirectDependency: 0
-  version: 11.0.1
+  version: 12.0.2
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.common@dd402daace1b
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.2d.common@800085e896ad
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -7347,43 +8331,61 @@ m_ResolvedPackages:
     - 11.0.1
     - 12.0.0
     - 12.0.1
+    - 12.0.2
     - 13.0.0
     - 13.0.1
+    - 14.0.0
     compatible:
-    - 11.0.1
-    recommended: 11.0.1
+    - 12.0.2
+    recommended: 12.0.2
     deprecated: []
   dependencies:
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.4.3
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.8.25
+    version: 1.8.28
   - name: com.unity.mathematics
-    version: 1.3.2
+    version: 1.3.3
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
     version: 1.0.0
   keywords:
   - 2d
@@ -7402,16 +8404,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638840901264720000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@11.0/manual/index.html
+  datePublishedTicks: 639046578402730000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@12.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 98a4faf22484a3679f8d6a3b60b5d07f5e652cd7
+    revision: 68e84cab9388239c8f92dfd84eca0bd3e85c8896
     path: 
   unityLifecycle:
-    version: 11.0.1
+    version: 12.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7422,27 +8424,37 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Added support code for PolySpatial."}'
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version."}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: dd402daace1b7dbeb70cb9e7ae044cc4b10f989a
+  fingerprint: 800085e896ad4b33b2dc3739891463543ac489d1
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 11.0.1
-    minimumUnityVersion: 6000.2.0a9
+    minimumPackageVersion: 12.0.2
+    minimumUnityVersion: 6000.3.0a2
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.nuget.mono-cecil@1.11.5
+- packageId: com.unity.nuget.mono-cecil@1.11.6
   testable: 0
   isDirectDependency: 0
-  version: 1.11.5
+  version: 1.11.6
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.nuget.mono-cecil@d78732e851eb
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7474,7 +8486,6 @@ m_ResolvedPackages:
     - 1.11.5
     - 1.11.6
     compatible:
-    - 1.11.5
     - 1.11.6
     recommended: 1.11.6
     deprecated: []
@@ -7496,7 +8507,7 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638729992509040000
+  datePublishedTicks: 638950052256350000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.nuget.mono-cecil@1.11/manual/index.html
   hasRepository: 1
   repository:
@@ -7505,7 +8516,7 @@ m_ResolvedPackages:
     revision: ab40507b5d82f57a4f34b6d0eacca1d6b170341d
     path: 
   unityLifecycle:
-    version: 1.11.5
+    version: 1.11.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -7519,13 +8530,24 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"* This is a verified release of the com.unity.nuget.mono-cecil
     with embedded dlls of mono-cecil\n* Updated Cecil to 0.11.5 with a grafted patch
     from this bug fix PR (https://github.com/jbevain/cecil/pull/914)"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
-  fingerprint: d78732e851eb42273c8e4d97993d3a94b207e570
+  fingerprint: ecb9724e46fff855c46a4f37f0a3377a3cfffc06
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.11.5
-    minimumUnityVersion: 2019.4.0a1
+    minimumPackageVersion: 1.11.6
+    minimumUnityVersion: 2019.4
   compliance:
     status: 0
     violation:
@@ -7537,8 +8559,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: D:\Unity sprites, models textures and what not\github repository\Project
-    twisted toy town\Twisted-Toy-Town\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: C:\Richard\Unity\GitHub\Twisted-Toy-Town\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -7663,17 +8684,28 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
   assetStore:
     productId: 
   fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.0
-    minimumUnityVersion: 2020.3.0a1
+    minimumUnityVersion: 2020.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 00b61b65c9e824a7a5a03790f16a7b80be3e7cb0
+m_BuiltInPackagesHash: 2acc0f06c413670824c62d0528812b2df0ec3f30
