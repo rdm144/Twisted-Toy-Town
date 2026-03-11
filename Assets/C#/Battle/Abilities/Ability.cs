@@ -95,7 +95,7 @@ public class Ability
     protected void SpawnHitSpark(Battle_Actor target)
     {
         // Get the hitspark prefab
-        Object obj = Resources.Load("Prefabs/Battle/Effects/hit_effect");
+        Object obj = Resources.Load("Prefabs/Effects/Hit Spark/hit_effect");
 
         // Instantiate hitspark
         GameObject hitSpark = GameObject.Instantiate((GameObject)obj);

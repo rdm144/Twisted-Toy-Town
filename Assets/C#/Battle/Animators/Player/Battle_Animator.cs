@@ -9,7 +9,7 @@ public class Battle_Animator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        //anim = GetComponentInChildren<Animator>();
     }
 
     public void PlayShootAnimation()

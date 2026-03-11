@@ -89,7 +89,7 @@ public class ActorLoader : MonoBehaviour
 
     void SpawnPlayerPrefab(PartyMember member, int partySize)
     {
-        Object obj = Resources.Load("Prefabs/Battle/Player/" + member.name);
+        Object obj = Resources.Load("Prefabs/Player/" + member.name + "/" + member.name + " Battle");
         GameObject model = null;
         if (obj != null)
         {
@@ -100,7 +100,7 @@ public class ActorLoader : MonoBehaviour
         if (model == null)
         {
             SpawnPlaceholderPlayerActor(member.partyIndex, partySize);
-            Debug.LogWarning("Could not load prefab resource at Prefabs/Battle/Player/" + member.name);
+            Debug.LogWarning("Could not load prefab resource at Prefabs/Player/" + member.name + "/" + member.name + " Battle");
         }
         else
         {
@@ -147,7 +147,7 @@ public class ActorLoader : MonoBehaviour
                 {
                     string enemyName = info.enemyParty[i];
 
-                    Object obj = Resources.Load("Prefabs/Battle/Enemy/" + enemyName);
+                    Object obj = Resources.Load("Prefabs/Enemy/" + enemyName + "/" + enemyName + " Battle");
                     GameObject model = null;
                     if (obj != null)
                         model = Instantiate((GameObject)obj);
@@ -156,7 +156,7 @@ public class ActorLoader : MonoBehaviour
                     if (model == null)
                     {
                         SpawnPlaceholderEnemyActor(i, info.enemyParty.Length);
-                        Debug.LogWarning("Could not load prefab resource at Prefabs/Battle/Enemy/" + enemyName);
+                        Debug.LogWarning("Could not load prefab resource at Prefabs/Enemy/" + enemyName + "/" + enemyName + " Battle");
                     }
                     else
                     {

@@ -25,14 +25,14 @@ public class PartyHealAbility : Ability
             caster.battleAnim.PlayHealAnimation();
 
         // Place a heal-casting effect over the caster
-        SpawnObjectFromResources("Prefabs/Battle/Effects/medic heal fx", caster.transform.position);
+        SpawnObjectFromResources("Prefabs/Effects/Heal FX/medic heal fx", caster.transform.position);
 
         yield return new WaitForSeconds(1f);
 
         foreach (Battle_Actor target in currentTargets)
         {
             // Place a heal effect over the target
-            SpawnObjectFromResources("Prefabs/Battle/Effects/medic heal receive", target.transform.position);
+            SpawnObjectFromResources("Prefabs/Effects/Heal FX/medic heal receive", target.transform.position);
         }
 
         yield return new WaitForSeconds(1f);

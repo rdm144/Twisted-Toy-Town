@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     public Transform targetToFollow;
     public float LERP_MAGNITUDE = 0.1f;
     public bool CanFollow_X, CanFollow_Y;
-    Vector3 offset = new Vector3(0, 5, -5);
+    public Vector3 offset = new Vector3(0, 5, -5);
     public Vector3 CameraTargetPosition { get; private set; }
     private Vector3 velocity = Vector3.zero;
 

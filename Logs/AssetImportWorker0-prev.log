@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RM" at "2026-03-10T08:18:20.6645373Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16257 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RM" at "2026-03-10T08:10:16.1942692Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-10T08:10:16Z
+Date: 2026-03-10T08:18:20Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Richard/Unity/GitHub/Twisted-Toy-Town
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53155
+57962
 -licensingIpc
 LicenseClient-RM
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Richard/Unity/GitHub/Twisted-Toy-Town
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [24604]  Target information:
+Player connection [28792]  Target information:
 
-Player connection [24604]  * "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 1813219272 [EditorId] 1813219272 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ESU4U9AE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28792]  * "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 1695305044 [EditorId] 1695305044 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ESU4U9AE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28792] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -100,21 +100,21 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              efb51b0df3964f35865d1aa093dded48
+  Session Id:              72fb5ce6e81d4b7da9d45cd478a57bf2
   Correlation Id:          32f6530d24acd18ad8573aba85fb933f
-  External correlation Id: 1761830539654180032
+  External correlation Id: 7361893677037488748
   Machine Id:              MKQYMZSGTAiJYPYNCm7n22OBp+w=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-RM" (connect: 0.00s, validation: 0.00s, handshake: 1.79s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RM-notifications" at "2026-03-10T08:10:17.9872965Z"
-[Licensing::Module] Licensing Background thread has ended after 1.79s
-[Licensing::Module] Licensing is initialized (took 0.67s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-RM" (connect: 0.00s, validation: 0.00s, handshake: 1.57s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-RM-notifications" at "2026-03-10T08:18:22.2361062Z"
+[Licensing::Module] Licensing Background thread has ended after 1.57s
+[Licensing::Module] Licensing is initialized (took 0.51s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2474115142056-UnityPersXXXX
@@ -122,42 +122,42 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.677548 seconds.
-- Loaded All Assemblies, in  1.329 seconds
+Registered in 0.515183 seconds.
+- Loaded All Assemblies, in  1.037 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2293 ms
+Android Extension - Scanning For ADB Devices 300 ms
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.000 seconds
-Domain Reload Profiling: 4326ms
-	BeginReloadAssembly (182ms)
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling: 1910ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (756ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (181ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (570ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (158ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (300ms)
-			TypeCache.Refresh (296ms)
-				TypeCache.ScanAssembly (269ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (207ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (3001ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2929ms)
+		SetupLoadedEditorAssemblies (828ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2468ms)
+			InitializePlatformSupportModulesInManaged (426ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -167,8 +167,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.233 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.152 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -177,44 +177,1860 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.023 seconds
-Domain Reload Profiling: 2250ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 2349ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (48ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (885ms)
-		LoadAssemblies (515ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (819ms)
+		LoadAssemblies (432ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (494ms)
-			TypeCache.Refresh (333ms)
-				TypeCache.ScanAssembly (310ms)
-			BuildScriptInfoCaches (141ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1024ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (304ms)
+				TypeCache.ScanAssembly (280ms)
+			BuildScriptInfoCaches (176ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1203ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (724ms)
+		SetupLoadedEditorAssemblies (903ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (201ms)
-			ProcessInitializeOnLoadAttributes (412ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (254ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6742 unused Assets / (4.5 MB). Loaded Objects now: 7563.
-Memory consumption went from 156.5 MB to 152.0 MB.
-Total: 11.401200 ms (FindLiveObjects: 0.825900 ms CreateObjectMapping: 1.131500 ms MarkObjects: 6.541300 ms  DeleteObjects: 2.901400 ms)
+Unloading 6742 unused Assets / (4.6 MB). Loaded Objects now: 7563.
+Memory consumption went from 156.7 MB to 152.1 MB.
+Total: 11.235800 ms (FindLiveObjects: 0.827800 ms CreateObjectMapping: 1.281800 ms MarkObjects: 6.162600 ms  DeleteObjects: 2.962400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1425571.824441 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player
+  artifactKey: Guid(bf0d86f677d043a4f80ff6608212c79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player using Guid(bf0d86f677d043a4f80ff6608212c79c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46b69459d2c017bdbf801ca5b1f9f779') in 0.0615718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/Battle/Actor/Enemy
+  artifactKey: Guid(273dd6a92a0c90146af5652876fdc1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Actor/Enemy using Guid(273dd6a92a0c90146af5652876fdc1c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a5974034890eb01ce74d74ae551bfa1') in 0.0036894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Anim+Model+Mat+Textures/UI/Buttons/down arrow
+  artifactKey: Guid(16ebaa54c1ff17c4fad21b7c3cc89dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/UI/Buttons/down arrow using Guid(16ebaa54c1ff17c4fad21b7c3cc89dda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c0b4dcdf87c15e7ad84d9eea78b628d') in 0.0046681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/C#/Battle/Animators/Player
+  artifactKey: Guid(b78c13f6d3487f646b12f091b0359814) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Animators/Player using Guid(b78c13f6d3487f646b12f091b0359814) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b70b632ccf9dd434f1ebd37e9ecc2e8c') in 0.0040343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Jimmy was defeated box/Animations
+  artifactKey: Guid(ed4a4819c68514640951bf04ca6d05b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Jimmy was defeated box/Animations using Guid(ed4a4819c68514640951bf04ca6d05b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25590b0788e7db594b9697b27e862877') in 0.0041739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Meddy/Muzzle Flash
+  artifactKey: Guid(0e068db0688985042ab95ad2c394acaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Meddy/Muzzle Flash using Guid(0e068db0688985042ab95ad2c394acaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12cf52b67e98f13ceca0c4c941d6fe95') in 0.0036626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8770d3991214cf4bf615f0de14ff79f4') in 0.003779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/Battle/Animators
+  artifactKey: Guid(0116be96b10087a4782160176cb9991d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Animators using Guid(0116be96b10087a4782160176cb9991d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55205eafe8e28f3c177ce4ab0581c96d') in 0.0248071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b9f07281454793fa085bfc7edf814cb') in 0.0041514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/C#/NPC/Enemy
+  artifactKey: Guid(ebf447a8342f8c845849df0231f59c47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/NPC/Enemy using Guid(ebf447a8342f8c845849df0231f59c47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a179a865a3f3ca30344bfdcac72b7da') in 0.0040102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69423fea7f09a1f982dc062344d35290') in 0.0037566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3dd082ffb0170f6849a0a37ca42db79') in 0.0039607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/C#/Battle
+  artifactKey: Guid(c2ba6a7e2d3fed24294ad7af5def22db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle using Guid(c2ba6a7e2d3fed24294ad7af5def22db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58feea288a564bd66a99759e52ee6c8e') in 0.0040387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Jimmy/Models
+  artifactKey: Guid(0dc1ea3b33c9e14459b0e3f6306ab808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Jimmy/Models using Guid(0dc1ea3b33c9e14459b0e3f6306ab808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a720bc33cd6ccdd72fea17aa390ea61d') in 0.0222288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Effects/Explosion
+  artifactKey: Guid(36122e7da63bbfe43b343320ada809d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Effects/Explosion using Guid(36122e7da63bbfe43b343320ada809d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd97916c32c4decac06bc7569f06624f') in 0.0037118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/UI/Damage Number/Materials
+  artifactKey: Guid(11152395277cb034aa22e1f9b6c551b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/UI/Damage Number/Materials using Guid(11152395277cb034aa22e1f9b6c551b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '973154a964ef7dde8149a65c2ec1db8d') in 0.0039576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Effects/Heal FX/Materials
+  artifactKey: Guid(482b2e4f3810a68408ca45207b578315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Effects/Heal FX/Materials using Guid(482b2e4f3810a68408ca45207b578315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20bbd76ff37c8112d7494b1cdcb39f65') in 0.0038449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/UI/Nameplate/nameplate_ui.png
+  artifactKey: Guid(8f6cf8d412ad170419a7e58215872502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/UI/Nameplate/nameplate_ui.png using Guid(8f6cf8d412ad170419a7e58215872502) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0fbe59a190dd30016134add2958bd36') in 0.1182591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/C#/Cutscene
+  artifactKey: Guid(5fbf989ff63b5e2408b477ff99e43ec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Cutscene using Guid(5fbf989ff63b5e2408b477ff99e43ec3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a871352a337fbda47c7d2ab7c150160f') in 0.0040218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Levels
+  artifactKey: Guid(43d2fcf61f9278e409ca97b68be82b03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Levels using Guid(43d2fcf61f9278e409ca97b68be82b03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94598528a77d1ad2484565dbc48507e3') in 0.0046215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Animations
+  artifactKey: Guid(6e4dca70935c8dc47975cc6c97d149b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Animations using Guid(6e4dca70935c8dc47975cc6c97d149b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aeab0c3fe1fc505705913b8c938f257f') in 0.0044468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Levels/Defeat
+  artifactKey: Guid(497c843ae4931614c865ecbb7010f128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Levels/Defeat using Guid(497c843ae4931614c865ecbb7010f128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40a8f8c519dc3c448002a3bcd9c44808') in 0.0036696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art Scripts
+  artifactKey: Guid(89422ddbf2a00d44caee7d9e01f06100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art Scripts using Guid(89422ddbf2a00d44caee7d9e01f06100) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ce42b070492df7a4c14efccd2214e27') in 0.0194181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Meddy/Animations
+  artifactKey: Guid(6ce058199eba77b4791b7f4d6b017048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Meddy/Animations using Guid(6ce058199eba77b4791b7f4d6b017048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2379646d1cc606bc00711fd4e7314eb0') in 0.0037623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Hospital/idk what this is
+  artifactKey: Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Hospital/idk what this is using Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef8d7d4a07dcce2f2570df93299304d0') in 0.0035243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(74584225be1f7894c9d18660ba389bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/Prefabs using Guid(74584225be1f7894c9d18660ba389bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce7ddc07189e3360b666301028a5a30b') in 0.0042959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/C#/UI/Title Screen
+  artifactKey: Guid(9e30831d94ab89a458256eaff9cdc63d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/UI/Title Screen using Guid(9e30831d94ab89a458256eaff9cdc63d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfc1d309113ddb7192f517b327ff61d3') in 0.0036003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Anim+Model+Mat+Textures/NPC/Generic NPC/Animations
+  artifactKey: Guid(36771a2b139d76146a37e4c11f01f6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/NPC/Generic NPC/Animations using Guid(36771a2b139d76146a37e4c11f01f6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '154b4c6358c3e5417cae83955a119296') in 0.0047342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Jimmy/Staple Launcher Flash/Models
+  artifactKey: Guid(39d9a400d05a85d4e87d54ec2d954b8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Jimmy/Staple Launcher Flash/Models using Guid(39d9a400d05a85d4e87d54ec2d954b8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca0d0ad498777be4afe8de0dae8243fd') in 0.0037403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/C#/Battle/Actor
+  artifactKey: Guid(395a7dda961632042b69f66450b8cbe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Actor using Guid(395a7dda961632042b69f66450b8cbe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c38a920ec132acc7e7556fadef7d5365') in 0.0040889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(1eda85bbb7dad02469ee8823a510de7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(1eda85bbb7dad02469ee8823a510de7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77085b7b02fc4f31746d9a33025351ad') in 0.0700139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/C#/Battle/UI
+  artifactKey: Guid(cf8d3f51d1b20334685a491ea31c23bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/UI using Guid(cf8d3f51d1b20334685a491ea31c23bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4e47e76c44414027ee0d8cfa8fcf3b2') in 0.0035993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Models
+  artifactKey: Guid(6ff23a78869f2c74782ee22d0b7b5ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Models using Guid(6ff23a78869f2c74782ee22d0b7b5ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '880c548b25058b5e8c4cffa434434d98') in 0.0196262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd87527701b59d214c048abbe4bb112ab') in 0.0036517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/NPC
+  artifactKey: Guid(bf9838e1ae3e14a45b650b733b0f9751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/NPC using Guid(bf9838e1ae3e14a45b650b733b0f9751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4a0dfcfee335c969d49302bfef51e86') in 0.0039691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/C#/Dev_Tools
+  artifactKey: Guid(8ce4fda96ad45b84b9f31f587b246e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Dev_Tools using Guid(8ce4fda96ad45b84b9f31f587b246e30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f41332ed3b1ee96b37439c72d23f9af') in 0.0037129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Levels/Title assets
+  artifactKey: Guid(5619547074133f14297ee8fd772b3ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Levels/Title assets using Guid(5619547074133f14297ee8fd772b3ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e01872ed50c3d0aa28fd3ed54beadbd') in 0.0039714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/C#/PathFinding
+  artifactKey: Guid(eb5b4aa0f5fb95c4491e70b9350ef920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/PathFinding using Guid(eb5b4aa0f5fb95c4491e70b9350ef920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5c51319490a3d66a2f8ce9093bd7739') in 0.0036704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/C#/Battle/Misc
+  artifactKey: Guid(6825bf2008347d34cbf1a74864e2ac4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Misc using Guid(6825bf2008347d34cbf1a74864e2ac4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '375d6385a051a432ff0ba42babcc1511') in 0.0037991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/C#/UI/Pause_Menu
+  artifactKey: Guid(8db7474767dc38c438f4fb2d590d5508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/UI/Pause_Menu using Guid(8db7474767dc38c438f4fb2d590d5508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '386734069b374b3622ba99657694580a') in 0.0037999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Hospital
+  artifactKey: Guid(598dfb3aca9c09a4884d4f5ec72b0bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Hospital using Guid(598dfb3aca9c09a4884d4f5ec72b0bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67fabebd352d6f7bea8f93f0b067eb31') in 0.0035747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfe77c8a817e1ba9a0e934c831243168') in 0.003896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/C#/Dev_Tools/Editor
+  artifactKey: Guid(318e5d99d1df7e44ea65cab93674af32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Dev_Tools/Editor using Guid(318e5d99d1df7e44ea65cab93674af32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd628354b514a8a1e0727a1b0c7f39903') in 0.0038898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12837f16864cc692f2aa1c4185ab31e7') in 0.0037344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/C#/UI
+  artifactKey: Guid(18192d6f4ab441442805273eb3b51cbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/UI using Guid(18192d6f4ab441442805273eb3b51cbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b81ddc373059b1a68487daae06704d6c') in 0.0039131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/C#/Battle/Actor/Player
+  artifactKey: Guid(132adf4196b95ce44968c5a86cae5500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Actor/Player using Guid(132adf4196b95ce44968c5a86cae5500) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1a374ebc85e88cb5c965024515d88b2') in 0.0042791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Jimmy/Animations
+  artifactKey: Guid(d240c9ed4a4e9ca41afa952762bf8b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Jimmy/Animations using Guid(d240c9ed4a4e9ca41afa952762bf8b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8dfaf6c0063e1fe4ed8d3a63c299b13') in 0.0035836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Levels/Hospital_1F
+  artifactKey: Guid(55266a1925ed5d247a3339ac123790f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Levels/Hospital_1F using Guid(55266a1925ed5d247a3339ac123790f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0051592005c08a893a90ea6ade3ca960') in 0.003783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '206f37a68496e97d3787f8f453af6867') in 0.0036536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/C#/UI/Effects
+  artifactKey: Guid(c5abf60ce75cdcc41810bd43c803753a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/UI/Effects using Guid(c5abf60ce75cdcc41810bd43c803753a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6924bde753c345a65e34db1a436055c') in 0.0036126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/C#/Battle/System
+  artifactKey: Guid(8ced72766b18cbe4ca87758838be5f33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/System using Guid(8ced72766b18cbe4ca87758838be5f33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ded919e298d657dcc079620f85dd6ebe') in 0.0040401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(2537431811c334844881b82b8a09c338) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources using Guid(2537431811c334844881b82b8a09c338) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc0afdccc72123a9b43e38310dd00c49') in 0.0039415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9544ca81e03f505267c288bba4043266') in 0.0039498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/C#/UI/Dialog
+  artifactKey: Guid(ba2815c11c3e4314083227b645e1dd44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/UI/Dialog using Guid(ba2815c11c3e4314083227b645e1dd44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '668756413279b8a06fb61e02720c2705') in 0.0047236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/C#/Battle/Abilities
+  artifactKey: Guid(5bfd84b5bec6e8c4da073c33f39201bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Abilities using Guid(5bfd84b5bec6e8c4da073c33f39201bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a4b33c3bc8dc2585a4f61ac797cf1c6') in 0.0059261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/Player
+  artifactKey: Guid(8abc354c9323a20469fdd5ccf3d058f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Player using Guid(8abc354c9323a20469fdd5ccf3d058f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cedf77038675b7d60b4ad1dcd3c8799a') in 0.0039698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/Terrain
+  artifactKey: Guid(1a6a7f1ea6c0a05478453f01ab2012e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Terrain using Guid(1a6a7f1ea6c0a05478453f01ab2012e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '055bc14739aa1eb350b524745331282b') in 0.003869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Basement/Textures
+  artifactKey: Guid(db7ab5b02a6467f4a99cb376cb97f372) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/Basement/Textures using Guid(db7ab5b02a6467f4a99cb376cb97f372) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2a07b1b6947f74eb9e4a1ec5c6b5af1') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Jimmy was defeated box/Materials
+  artifactKey: Guid(59e8494b181e26144b9b1be755aa69ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Jimmy was defeated box/Materials using Guid(59e8494b181e26144b9b1be755aa69ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '606f60900dd439d55046d118234790d6') in 0.0034194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb7eaa13df0258114c6b29a9a28da381') in 0.0033665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/UI
+  artifactKey: Guid(b270a15af28d78446b55476c31c5f64c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/UI using Guid(b270a15af28d78446b55476c31c5f64c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e66656b75e368a4a49d021e0ef89954') in 0.0033842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/C#/Battle/Animators/Player/Jimmy
+  artifactKey: Guid(bba4d4c7d42f1214e96eb1dc95e5c792) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Battle/Animators/Player/Jimmy using Guid(bba4d4c7d42f1214e96eb1dc95e5c792) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2430bf5c21a908ccaf8b5357967f1a4') in 0.0034056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Player/Jimmy
+  artifactKey: Guid(b7854447fe7227e47a642f4054ca92ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Player/Jimmy using Guid(b7854447fe7227e47a642f4054ca92ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5dcf4d3087bdaa77ccc98d5c88191026') in 0.0034992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Replicator/Models
+  artifactKey: Guid(cd5403cea47f65442a66c2ec5f9ab270) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Replicator/Models using Guid(cd5403cea47f65442a66c2ec5f9ab270) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf1f90e4f82950cbbe89f73d7d5a1cc7') in 0.0036074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/C#/Data_Management
+  artifactKey: Guid(b8f1f26a3f8d5244f83beadbdb4003d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C#/Data_Management using Guid(b8f1f26a3f8d5244f83beadbdb4003d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52f6a5fea33f5c219aea29a346e25f78') in 0.0033695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RenderTexture
+  artifactKey: Guid(42b8d49a0fc93c54384370dcad9b66db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RenderTexture using Guid(42b8d49a0fc93c54384370dcad9b66db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e63c955c3b2cad4513b49f6d2c2d52e1') in 0.003382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Enemy
+  artifactKey: Guid(50c964feb31391649a4a022016bfc024) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Enemy using Guid(50c964feb31391649a4a022016bfc024) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '989aa589faa67bc218b516b7dccb1ada') in 0.0167478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/C#
+  artifactKey: Guid(3bbfe6762af17a44990183f218abf0b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/C# using Guid(3bbfe6762af17a44990183f218abf0b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78d3d8ed05f4ee8e23c4a72cb544c7a9') in 0.0033513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Enemy/Basic Enemy/Textures
+  artifactKey: Guid(3bd5756f268d0c441b84e63dfce8bcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Enemy/Basic Enemy/Textures using Guid(3bd5756f268d0c441b84e63dfce8bcfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad0552edf500bf59793b50db4411a377') in 0.0035787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Textures
+  artifactKey: Guid(a48597107452faf4b909354534271094) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Effects/Hit Spark/Textures using Guid(a48597107452faf4b909354534271094) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '500de945ffdbf77a71f69149b8a28a09') in 0.0033647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Anim+Model+Mat+Textures/UI/Turn Indicator/Animations
+  artifactKey: Guid(150630181b142b344a5c22fbae522ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/UI/Turn Indicator/Animations using Guid(150630181b142b344a5c22fbae522ff6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f3079652824449a05c24f6c44fe86e8') in 0.0234373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 728.393897 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/hospitalfloor_checkered.fbx
+  artifactKey: Guid(1b80c082a6152654bbb5ec4ff8c2886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/hospitalfloor_checkered.fbx using Guid(1b80c082a6152654bbb5ec4ff8c2886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '640926a093cab7404934e6e15893ac44') in 0.5528654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/hospitalwall.fbx
+  artifactKey: Guid(b7549355456509b428e51c6934d11545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/hospitalwall.fbx using Guid(b7549355456509b428e51c6934d11545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b95f35a83bc6629d087e3d12c65c4144') in 0.0173174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.937293 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital battle field.fbx
+  artifactKey: Guid(83e1f329c96beed4e825242d8dee5b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital battle field.fbx using Guid(83e1f329c96beed4e825242d8dee5b11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fbe09f86435ae5c02cd1e3135f73ad4') in 0.0892345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement walls.mat
+  artifactKey: Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement walls.mat using Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6bf28536975044a09af1f3f24cd9950') in 0.0063674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital checkred floor.mat
+  artifactKey: Guid(bc6863ec06d287443ae0adf481169681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital checkred floor.mat using Guid(bc6863ec06d287443ae0adf481169681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0542eb2549981094dafede13183402e8') in 0.0051611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/wooden planks for shelves.mat
+  artifactKey: Guid(f197c33d213d8a343909848e031ba0e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/wooden planks for shelves.mat using Guid(f197c33d213d8a343909848e031ba0e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bc6adf39a9504b2000dd57a70864b24') in 0.0078903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital door.mat
+  artifactKey: Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital door.mat using Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e68823231430cf819dc4a0a1be3d863') in 0.0054218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/wooden planks for shelves.mat
+  artifactKey: Guid(4019fb15dd4b58e4282f908008b6737b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/wooden planks for shelves.mat using Guid(4019fb15dd4b58e4282f908008b6737b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86efa6ef05efc56ca8e5d2ae5c802fb6') in 0.0055545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital lobby.fbx
+  artifactKey: Guid(a540d24132b42a44091606f614dbb10a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital lobby.fbx using Guid(a540d24132b42a44091606f614dbb10a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '803bcd29654554be99c8e4e9626a7580') in 0.0299793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitaldoubledoor.png
+  artifactKey: Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitaldoubledoor.png using Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d92622d47270f1b78a1fde748c195bf') in 0.0081172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/desk.mat
+  artifactKey: Guid(2d0a0d0081cb6524aad3c86843d9a2c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/desk.mat using Guid(2d0a0d0081cb6524aad3c86843d9a2c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23aa57447fd60d85e6d01755e6c80774') in 0.0079195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD cube backface culling.mat
+  artifactKey: Guid(edd86df2c95dff74aba7893e11698f8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD cube backface culling.mat using Guid(edd86df2c95dff74aba7893e11698f8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '05e79c7c89a1a289b5f71bac0d1e55c1') in 0.0061219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/shelve misc material.mat
+  artifactKey: Guid(0fc3c7fb51b06024fb97107bfaa30b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/shelve misc material.mat using Guid(0fc3c7fb51b06024fb97107bfaa30b50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a83edd9f4cc4ed8957e3f99359663f16') in 0.0061926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital bed.mat
+  artifactKey: Guid(9187516d309df6346aa93d75e116b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital bed.mat using Guid(9187516d309df6346aa93d75e116b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a84a401d80f65615dc8756b0b2c2c7f4') in 0.0060447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Textures/hospitalcountertop.png
+  artifactKey: Guid(b9ec5aabff2b5604d923394016778b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Textures/hospitalcountertop.png using Guid(b9ec5aabff2b5604d923394016778b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59b413f86bfeeb06cc3bd62c7ecc4fab') in 0.0084324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital empty doorway.mat
+  artifactKey: Guid(b5d4830464accf34aae14dd0f17e6805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital empty doorway.mat using Guid(b5d4830464accf34aae14dd0f17e6805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd04442026042c30f5d9c99a11e26aeab') in 0.0059754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/wooden planks for shelves.mat
+  artifactKey: Guid(7f8010c890bee234d89284f551be19fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/wooden planks for shelves.mat using Guid(7f8010c890bee234d89284f551be19fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46fd27af76537a0d7cb2e7aa446a1eb9') in 0.0058124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital lego wall.mat
+  artifactKey: Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital lego wall.mat using Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c65374f377bcff833bf8e71f6280f63') in 0.0062123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white.png
+  artifactKey: Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white.png using Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8c1376e62709a09300c1283db1f68c2') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital open door.mat
+  artifactKey: Guid(a3ad25e71bd577e438f8e3cada1e5ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital open door.mat using Guid(a3ad25e71bd577e438f8e3cada1e5ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38741379d80567f309d991235111ad2f') in 0.0059896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalcurtians.png
+  artifactKey: Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalcurtians.png using Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae7d3168906efb5ff9aec13e9ec203bd') in 0.0083558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital Chair.mat
+  artifactKey: Guid(8e42efa43aae7934da87d90c3252c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital Chair.mat using Guid(8e42efa43aae7934da87d90c3252c222) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a73c64121e7272614e3d8c80af143bed') in 0.0077841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD floor shader.mat
+  artifactKey: Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD floor shader.mat using Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70ef46248259f566333edd4972dbdc0c') in 0.0054835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall.mat
+  artifactKey: Guid(4cc6d46884e496240a92d453d8347f83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall.mat using Guid(4cc6d46884e496240a92d453d8347f83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21016ac8b021d5289b0772a1a21c40bc') in 0.0060989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalfloor_checkered.png
+  artifactKey: Guid(744c34901e3ad4846842554e45b0e7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalfloor_checkered.png using Guid(744c34901e3ad4846842554e45b0e7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ead704071db3dc2f0b80fcb4dc51d96') in 0.0075263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is
+  artifactKey: Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is using Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e51a80320fd723b828ab4b30af58ed76') in 0.0034314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall glass.mat
+  artifactKey: Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall glass.mat using Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '509944afa1c16c8543d73cb9e95bdcc6') in 0.0055959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/tile.mat
+  artifactKey: Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/tile.mat using Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5374a8cceb4fc90f77cea6c611a1e9e0') in 0.0052597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital Chair.mat
+  artifactKey: Guid(dec2767359a798d489fa7603d8125e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital Chair.mat using Guid(dec2767359a798d489fa7603d8125e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '555a561c1f070132b38edcbfce21ff82') in 0.0046943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital door connecters.mat
+  artifactKey: Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital door connecters.mat using Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe352311bf9a1afce92f9138de7a72ac') in 0.006084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital double door.mat
+  artifactKey: Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital double door.mat using Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a10bda8dbdbac9f9083899335635726c') in 0.0051062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital door.mat
+  artifactKey: Guid(69fd62ddcc23cc34ba7deba31dd5e797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital door.mat using Guid(69fd62ddcc23cc34ba7deba31dd5e797) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7ab2c8a63d9467f79f85066428b2fe0') in 0.0055667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/potted plant.mat
+  artifactKey: Guid(00ca5f34713f10646a19c0433b800db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/potted plant.mat using Guid(00ca5f34713f10646a19c0433b800db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7730c12556c0d9831a7a13e638cd2e04') in 0.0057993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2
+  artifactKey: Guid(b2b019fc59c7be241a18b9af1970a7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2 using Guid(b2b019fc59c7be241a18b9af1970a7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f9ac822eaa48a2663363b92fb448e1a') in 0.0033089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/shelve misc material.mat
+  artifactKey: Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/shelve misc material.mat using Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85ce2fafe9521e70076e9934d7a5ecc4') in 0.0055146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/chair.png
+  artifactKey: Guid(b3f182829deff5640ab8b00a46d864ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/chair.png using Guid(b3f182829deff5640ab8b00a46d864ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '413195c0c07877034abe85cfd3f1b465') in 0.0076294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models
+  artifactKey: Guid(8f7c375d8f7a46d40b19ab49e229364a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models using Guid(8f7c375d8f7a46d40b19ab49e229364a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5618e37289c42178ed5d7c8a5108b01') in 0.003158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/pottedplant.png
+  artifactKey: Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/pottedplant.png using Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3253933a4fac5154974e126ca6f300cd') in 0.0116707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital curtian.mat
+  artifactKey: Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital curtian.mat using Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06151771b1b1e302ca0f8892c7cd78fa') in 0.0067703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/potted plant.mat
+  artifactKey: Guid(3b2985a916b9ece419e1065668963bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/potted plant.mat using Guid(3b2985a916b9ece419e1065668963bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '644b645293e3408df688d4369cf9f740') in 0.0055139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Textures
+  artifactKey: Guid(e8038ee55b0fac44c8bb0e1a4c5e7fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Textures using Guid(e8038ee55b0fac44c8bb0e1a4c5e7fc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf9b4b263091eddc578403a1c7ba2692') in 0.0037835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement floor.mat
+  artifactKey: Guid(d5a004ee138a19646a633570209d8120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement floor.mat using Guid(d5a004ee138a19646a633570209d8120) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa486a8cfd5fe19a9944530e10363c59') in 0.008367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/Shader Graphs_New Shader Graph.mat
+  artifactKey: Guid(da407690cd360c64982d7d7e1adee1fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/Shader Graphs_New Shader Graph.mat using Guid(da407690cd360c64982d7d7e1adee1fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbfd75a667787529d3a6ddccaea231c7') in 0.0103918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/tile.mat
+  artifactKey: Guid(569da0cdc9e4e794cbd13a11db47dffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/tile.mat using Guid(569da0cdc9e4e794cbd13a11db47dffb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89d647dfbeeed787a13c8d2e2769b837') in 0.0061677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall glass.mat
+  artifactKey: Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall glass.mat using Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd3cf4851fa55c1c95bdf25a916c558d') in 0.0055474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/shelve misc material.mat
+  artifactKey: Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/shelve misc material.mat using Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bab61d81eceb6d92f7bd053a82ad08b') in 0.0056626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwallwindow.png
+  artifactKey: Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwallwindow.png using Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a52fa2ca09a9c43df8857148b1962faf') in 0.0077405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor
+  artifactKey: Guid(598dfb3aca9c09a4884d4f5ec72b0bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor using Guid(598dfb3aca9c09a4884d4f5ec72b0bca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '565feb76b4d8eb8ed38b4b2d15d20f20') in 0.0037196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalbed.png
+  artifactKey: Guid(869c0940c5b942647815df81aa099bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalbed.png using Guid(869c0940c5b942647815df81aa099bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8410084588e8e280c690ddbaef37251f') in 0.0080829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital double door.mat
+  artifactKey: Guid(b073f504fa0a4f042868957ef338d8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital double door.mat using Guid(b073f504fa0a4f042868957ef338d8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '127d874a261d6035141954c9b2d3b7b7') in 0.0059333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall door connerctor.mat
+  artifactKey: Guid(9592b4665d9333542822f23ea7f9fab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall door connerctor.mat using Guid(9592b4665d9333542822f23ea7f9fab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8f2345e173e41d48a02d09ff464fb93') in 0.0060272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/tile.mat
+  artifactKey: Guid(adb7ca33bf20470468d59cec405566b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/tile.mat using Guid(adb7ca33bf20470468d59cec405566b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ada10564e3e6ba7162198c3c6097480') in 0.0056694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital bed.mat
+  artifactKey: Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital bed.mat using Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e4ed9e0b6828bbe31dd10f02e0960c9') in 0.028176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/potted plant.mat
+  artifactKey: Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/potted plant.mat using Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdd08d72c2ffa477d48cd53dae9a6736') in 0.0078309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall.mat
+  artifactKey: Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall.mat using Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b5bffca25bb7802a1b6a42a5be353f9') in 0.0052981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall.mat
+  artifactKey: Guid(2c39b7f91de033c4395051a983b5b506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall.mat using Guid(2c39b7f91de033c4395051a983b5b506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e8b6410546e477236644024e624c79e') in 0.0059597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/New Shader Graph.shadergraph
+  artifactKey: Guid(4cf300e8f1c9bfa40ad1eeff6276eeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/New Shader Graph.shadergraph using Guid(4cf300e8f1c9bfa40ad1eeff6276eeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a80e15ec8b31b2a6c8ed8ff4675f550d') in 0.0191631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital lobby 1.fbx
+  artifactKey: Guid(e2d97b8df5e59a843976d8353fd63457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital lobby 1.fbx using Guid(e2d97b8df5e59a843976d8353fd63457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '862fdc3d732b2e84fcb7fcc401eaa500') in 0.0212652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital safe room.fbx
+  artifactKey: Guid(942ea8f7a60f6e148801e36e871cc12b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Models/Hospital safe room.fbx using Guid(942ea8f7a60f6e148801e36e871cc12b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b62e753e4f826be8b60317f9d10be90c') in 0.0142988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall glass.mat
+  artifactKey: Guid(3a757d5ca8904c847866d955b5cd95d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall glass.mat using Guid(3a757d5ca8904c847866d955b5cd95d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7459295c54f50d67d95c6c55fc0b5d5') in 0.0056713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital open door.mat
+  artifactKey: Guid(f45d02173891e14429b24c6eee046dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital open door.mat using Guid(f45d02173891e14429b24c6eee046dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb1a9f805a7bd979180abc8898ed6251') in 0.0050649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials
+  artifactKey: Guid(55a4686ffaed12e4284eb48eaa853f5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials using Guid(55a4686ffaed12e4284eb48eaa853f5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbce45ff24b30e15b3b848140180a368') in 0.0033191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital door connecters.mat
+  artifactKey: Guid(8b0d4b254c7f7d24cb8599317d3a6fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital door connecters.mat using Guid(8b0d4b254c7f7d24cb8599317d3a6fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a28674b3ba15e9e9585583f2253d29b') in 0.0075896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white 1.png
+  artifactKey: Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white 1.png using Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62905050e0530984ed1806bc07b915cd') in 0.0079973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwoodendoor.png
+  artifactKey: Guid(6cbd33fb46907ac428d6e840f334c783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwoodendoor.png using Guid(6cbd33fb46907ac428d6e840f334c783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50eb03df4d4d61998dd58d1858f6fe0e') in 0.0078392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591220 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital bed.mat
+  artifactKey: Guid(9187516d309df6346aa93d75e116b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital bed.mat using Guid(9187516d309df6346aa93d75e116b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a951442a3ddfe3ac8cedd0ba5f24324c') in 0.0083963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/potted plant.mat
+  artifactKey: Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/potted plant.mat using Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9678ddc3a2c8d4b91a3a7a8e6fec9a99') in 0.0083981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalcurtians.png
+  artifactKey: Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalcurtians.png using Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84a6c9da2cf2311ef116175f4dd667e3') in 0.0120425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/tile.mat
+  artifactKey: Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/tile.mat using Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25efd3f3509c4f061cad4622a5bb3b66') in 0.0077544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital curtian.mat
+  artifactKey: Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital curtian.mat using Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c33402db131fab6e9037c9285bb66495') in 0.0072348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/shelve misc material.mat
+  artifactKey: Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/shelve misc material.mat using Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f0375ab08ec16fae27174ad4cb9e4e4') in 0.008003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/wooden planks for shelves.mat
+  artifactKey: Guid(7f8010c890bee234d89284f551be19fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/wooden planks for shelves.mat using Guid(7f8010c890bee234d89284f551be19fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2741f2a962440452b4300daaf6b8f872') in 0.0075448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall door connerctor.mat
+  artifactKey: Guid(9592b4665d9333542822f23ea7f9fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall door connerctor.mat using Guid(9592b4665d9333542822f23ea7f9fab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edbd1059a6683ce3e8616136db0ffa81') in 0.0072924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white 1.png
+  artifactKey: Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white 1.png using Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fea068f24a85a0e0daad929a6e6397dc') in 0.0066993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalfloor_checkered.png
+  artifactKey: Guid(744c34901e3ad4846842554e45b0e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalfloor_checkered.png using Guid(744c34901e3ad4846842554e45b0e7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b44686eaa610046cb382a3420e5a9158') in 0.005982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD floor shader.mat
+  artifactKey: Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD floor shader.mat using Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aceb9bd11237cf3d5473b0b5669b677') in 0.0075136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/Shader Graphs_New Shader Graph.mat
+  artifactKey: Guid(da407690cd360c64982d7d7e1adee1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/Shader Graphs_New Shader Graph.mat using Guid(da407690cd360c64982d7d7e1adee1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec531eda881fd3a147cd891f914394c6') in 0.0149895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall glass.mat
+  artifactKey: Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall glass.mat using Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9392631b3057b85539798534a3aa40c') in 0.0078031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall.mat
+  artifactKey: Guid(2c39b7f91de033c4395051a983b5b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital wall.mat using Guid(2c39b7f91de033c4395051a983b5b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aac26036191e444469ba337e015b58c') in 0.0068149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital lego wall.mat
+  artifactKey: Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital lego wall.mat using Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f886f2b10ee8b13b2b3747e6f0c794') in 0.0073149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital checkred floor.mat
+  artifactKey: Guid(bc6863ec06d287443ae0adf481169681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital checkred floor.mat using Guid(bc6863ec06d287443ae0adf481169681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e397c3ed19a5a06e7465b9a44538479a') in 0.0074098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white.png
+  artifactKey: Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospitalwall_red and white.png using Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4462311f3da08488fac04cc39cb5d90') in 0.0058633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD cube backface culling.mat
+  artifactKey: Guid(edd86df2c95dff74aba7893e11698f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/JWD cube backface culling.mat using Guid(edd86df2c95dff74aba7893e11698f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d5bceadc8e9c967ae63fe3caddf767') in 0.0085883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital empty doorway.mat
+  artifactKey: Guid(b5d4830464accf34aae14dd0f17e6805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is/hospital empty doorway.mat using Guid(b5d4830464accf34aae14dd0f17e6805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e5c0ed4944ff3d851b4d761eb6c95b3') in 0.0076244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.169024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/chair.png
+  artifactKey: Guid(b3f182829deff5640ab8b00a46d864ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/chair.png using Guid(b3f182829deff5640ab8b00a46d864ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be020fbc6144d04123a1bf75935d2808') in 0.0057937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital Chair.mat
+  artifactKey: Guid(dec2767359a798d489fa7603d8125e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital Chair.mat using Guid(dec2767359a798d489fa7603d8125e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5d58a47ce87119bf88e51705348862e') in 0.006793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/pottedplant.png
+  artifactKey: Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/pottedplant.png using Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74d37c723e0a2fbac62cd32e95605a59') in 0.0052539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital door connecters.mat
+  artifactKey: Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital door connecters.mat using Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22bfc4e8d100da9b8bbc5889a608f9bd') in 0.0068298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/potted plant.mat
+  artifactKey: Guid(3b2985a916b9ece419e1065668963bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/potted plant.mat using Guid(3b2985a916b9ece419e1065668963bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5ae2346ce24b2f5f3d2b3870263fd6') in 0.0067842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/shelve misc material.mat
+  artifactKey: Guid(7923ad7d41449c34988e33e76e0edd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/shelve misc material.mat using Guid(7923ad7d41449c34988e33e76e0edd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fccc85b0f02e40f83cdaa1d26d7cf2b3') in 0.0074508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/wooden planks for shelves.mat
+  artifactKey: Guid(4019fb15dd4b58e4282f908008b6737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/wooden planks for shelves.mat using Guid(4019fb15dd4b58e4282f908008b6737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e524347a239f73d35c63f173f5341c') in 0.0071918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwallwindow.png
+  artifactKey: Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwallwindow.png using Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8d78ac5dee84806d9775872c7b1819') in 0.006023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital open door.mat
+  artifactKey: Guid(f45d02173891e14429b24c6eee046dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital open door.mat using Guid(f45d02173891e14429b24c6eee046dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c3ab66201e1c7e237feb43dae8074f5') in 0.0067151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital bed.mat
+  artifactKey: Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital bed.mat using Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17ee0b58672320b78e3c1894c23ac7ee') in 0.0066118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital double door.mat
+  artifactKey: Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital double door.mat using Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fb393cdcfa7a5d4ad5d9e29cb4d6814') in 0.0062328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall.mat
+  artifactKey: Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall.mat using Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bbe8c333c73503488c2eb1cb59da593') in 0.0067534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwoodendoor.png
+  artifactKey: Guid(6cbd33fb46907ac428d6e840f334c783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalwoodendoor.png using Guid(6cbd33fb46907ac428d6e840f334c783) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f11758becc5bf020ae67e75936add8f0') in 0.0060651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalbed.png
+  artifactKey: Guid(869c0940c5b942647815df81aa099bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitalbed.png using Guid(869c0940c5b942647815df81aa099bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f886c8f1d3efbfe8a28635c99b169c1') in 0.0057115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitaldoubledoor.png
+  artifactKey: Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospitaldoubledoor.png using Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9d6e0e4e28aae08da5a418c47fc328e') in 0.0059065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital door.mat
+  artifactKey: Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/Hospital door.mat using Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5365a8c8cd75d1e5b26a1320da733f3d') in 0.0067505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall glass.mat
+  artifactKey: Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/hospital wall glass.mat using Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3c6335d0c488ae5ae54933e32ae7e51') in 0.0074265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/tile.mat
+  artifactKey: Guid(adb7ca33bf20470468d59cec405566b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/idk what this is 2/tile.mat using Guid(adb7ca33bf20470468d59cec405566b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7573ff03f3a1c8e3d4b2b9d5f0d53e9a') in 0.0062274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.787334 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement floor.mat
+  artifactKey: Guid(d5a004ee138a19646a633570209d8120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement floor.mat using Guid(d5a004ee138a19646a633570209d8120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f1d35594849d82636ee45983828252c') in 0.0377523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/wooden planks for shelves.mat
+  artifactKey: Guid(f197c33d213d8a343909848e031ba0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/wooden planks for shelves.mat using Guid(f197c33d213d8a343909848e031ba0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31ad849badc90f04a0bf1d8b50b163f6') in 0.0083034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/desk.mat
+  artifactKey: Guid(2d0a0d0081cb6524aad3c86843d9a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/desk.mat using Guid(2d0a0d0081cb6524aad3c86843d9a2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ed7d8bff6622e042ba810e5b848776') in 0.0074982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital Chair.mat
+  artifactKey: Guid(8e42efa43aae7934da87d90c3252c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital Chair.mat using Guid(8e42efa43aae7934da87d90c3252c222) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ffa06af3969e4f8cb8cf05a0e0f4b05') in 0.0071318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/shelve misc material.mat
+  artifactKey: Guid(0fc3c7fb51b06024fb97107bfaa30b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/shelve misc material.mat using Guid(0fc3c7fb51b06024fb97107bfaa30b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dbe7c0b2d5997cdc4e3c1fb146527bf') in 0.0079773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/potted plant.mat
+  artifactKey: Guid(00ca5f34713f10646a19c0433b800db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/potted plant.mat using Guid(00ca5f34713f10646a19c0433b800db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '228f0112e783857212e1499dae5e405b') in 0.0068184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital door connecters.mat
+  artifactKey: Guid(8b0d4b254c7f7d24cb8599317d3a6fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital door connecters.mat using Guid(8b0d4b254c7f7d24cb8599317d3a6fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '529a7595af21099bd53f62bce89ac371') in 0.0075949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital open door.mat
+  artifactKey: Guid(a3ad25e71bd577e438f8e3cada1e5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital open door.mat using Guid(a3ad25e71bd577e438f8e3cada1e5ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00f330ceea856580075500a37a9b0f1b') in 0.007284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital door.mat
+  artifactKey: Guid(69fd62ddcc23cc34ba7deba31dd5e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital door.mat using Guid(69fd62ddcc23cc34ba7deba31dd5e797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b7e4b9a7606e9907fc0b9fe22ca772') in 0.0072571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital double door.mat
+  artifactKey: Guid(b073f504fa0a4f042868957ef338d8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/Hospital double door.mat using Guid(b073f504fa0a4f042868957ef338d8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c32e4fa1908a69cb6bbb072c4ef1eba') in 0.0075369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/tile.mat
+  artifactKey: Guid(569da0cdc9e4e794cbd13a11db47dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/tile.mat using Guid(569da0cdc9e4e794cbd13a11db47dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac38f6e8bc07227b03fe16ac288c24f8') in 0.0067579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement walls.mat
+  artifactKey: Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/cement walls.mat using Guid(dfd7d43504c1c704ca6c4ff79ccfa0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce7644f8f5028a7a79cbcbb09dab023') in 0.0075601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall.mat
+  artifactKey: Guid(4cc6d46884e496240a92d453d8347f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall.mat using Guid(4cc6d46884e496240a92d453d8347f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87678c9eb05dc4ef476da7f166be0342') in 0.0070756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall glass.mat
+  artifactKey: Guid(3a757d5ca8904c847866d955b5cd95d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials/hospital wall glass.mat using Guid(3a757d5ca8904c847866d955b5cd95d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1535f0041d29ed6342cbeb7a26add1db') in 0.0070969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.439358 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2
+  artifactKey: Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2 using Guid(4248c6f1cf6bdc94bbab167a8d33334f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abff4a097ab7fdc2c3fa815cbfd93424') in 0.0041449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital checkred floor.mat
+  artifactKey: Guid(bc6863ec06d287443ae0adf481169681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital checkred floor.mat using Guid(bc6863ec06d287443ae0adf481169681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c80d9be270f167e90f8bfa16c0f995d') in 0.0052551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital bed.mat
+  artifactKey: Guid(9187516d309df6346aa93d75e116b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital bed.mat using Guid(9187516d309df6346aa93d75e116b9c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5154a8e8496dfd2715552d79075ff867') in 0.0058816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/JWD cube backface culling.mat
+  artifactKey: Guid(edd86df2c95dff74aba7893e11698f8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/JWD cube backface culling.mat using Guid(edd86df2c95dff74aba7893e11698f8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '305e4cc6d1f225bdd5e282d14c2d760e') in 0.0059142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital empty doorway.mat
+  artifactKey: Guid(b5d4830464accf34aae14dd0f17e6805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital empty doorway.mat using Guid(b5d4830464accf34aae14dd0f17e6805) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '866953f87462bd153160cf6a71fa2985') in 0.0059418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/wooden planks for shelves.mat
+  artifactKey: Guid(7f8010c890bee234d89284f551be19fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/wooden planks for shelves.mat using Guid(7f8010c890bee234d89284f551be19fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e467271e6ecc9dab9acf83c6a7dc9cb') in 0.0089521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital lego wall.mat
+  artifactKey: Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital lego wall.mat using Guid(93d9fe50bcccd2243a3c876e24e35b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b05645ebc670102365d9e6cf1cdaf701') in 0.0054487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalwall_red and white.png
+  artifactKey: Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalwall_red and white.png using Guid(b622745ed7ead6541bb530bbc345f1a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '072e2cc69b4a576f204100becc342f19') in 0.006936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalcurtians.png
+  artifactKey: Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalcurtians.png using Guid(072e7871401be8d4c9e1d2bb82b2debf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c78cde2dbb66e18b9085ba6016fb35e1') in 0.0070516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/JWD floor shader.mat
+  artifactKey: Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/JWD floor shader.mat using Guid(213d9f406f6615e40bfdb188918b4e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb7b602e7a6ff4298202aa015358e5a3') in 0.0051261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalfloor_checkered.png
+  artifactKey: Guid(744c34901e3ad4846842554e45b0e7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalfloor_checkered.png using Guid(744c34901e3ad4846842554e45b0e7b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0219bc33d8a448a108a30935b106c59') in 0.0065885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall glass.mat
+  artifactKey: Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall glass.mat using Guid(9507d8d3b438c6d43a3c54bd0aabe5a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '559e5a0fd02dcae9516a05e25e6e3c46') in 0.0063886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/tile.mat
+  artifactKey: Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/tile.mat using Guid(d3172226a7c6de1428b9eb8e97e4c118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86a7e4be0412ce126c84538ab2639844') in 0.0056027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital curtian.mat
+  artifactKey: Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital curtian.mat using Guid(4fa3d88f4fd73914f8431bd15719256f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d597963ad75d96ed674718edb6bb331') in 0.0091361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/Shader Graphs_New Shader Graph.mat
+  artifactKey: Guid(da407690cd360c64982d7d7e1adee1fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/Shader Graphs_New Shader Graph.mat using Guid(da407690cd360c64982d7d7e1adee1fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0e72ee291e6edd865746f6b8690284e') in 0.0077464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/shelve misc material.mat
+  artifactKey: Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/shelve misc material.mat using Guid(7f40e28c90e1311418a6bf9b4a1a1a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a382c1da97d221610b1ad3474a5f399') in 0.0077726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall door connerctor.mat
+  artifactKey: Guid(9592b4665d9333542822f23ea7f9fab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall door connerctor.mat using Guid(9592b4665d9333542822f23ea7f9fab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61cda863951f101e16326f16a62b8a6f') in 0.0059712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/potted plant.mat
+  artifactKey: Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/potted plant.mat using Guid(1f7b17aebee254b46b79b3ed73a3d959) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e5fc49a5851aac47a4d65fecfc07390') in 0.0053368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall.mat
+  artifactKey: Guid(2c39b7f91de033c4395051a983b5b506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospital wall.mat using Guid(2c39b7f91de033c4395051a983b5b506) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02ce623a66a6c84e2b30f7f0e28363c5') in 0.0056741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/New Shader Graph.shadergraph
+  artifactKey: Guid(4cf300e8f1c9bfa40ad1eeff6276eeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/New Shader Graph.shadergraph using Guid(4cf300e8f1c9bfa40ad1eeff6276eeea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f450fe5d2092ea38519f491b4e261293') in 0.0102656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalwall_red and white 1.png
+  artifactKey: Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 2/hospitalwall_red and white 1.png using Guid(92dffeec0e115f14b8d5f86ee6563e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1606261a82f3e14ef57329e18bf2db27') in 0.0068443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.321927 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3
+  artifactKey: Guid(b2b019fc59c7be241a18b9af1970a7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3 using Guid(b2b019fc59c7be241a18b9af1970a7e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e235855a6b744dd5bd1b1d30230473bd') in 0.0039933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital door.mat
+  artifactKey: Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital door.mat using Guid(d43e1f5832f78e7418d9a86a09ddc436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0117412c35cffde4aec8cf4a7b03cba3') in 0.0054149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/wooden planks for shelves.mat
+  artifactKey: Guid(4019fb15dd4b58e4282f908008b6737b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/wooden planks for shelves.mat using Guid(4019fb15dd4b58e4282f908008b6737b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c3ffcea8af0108044055ae61c730d0a') in 0.0052837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitaldoubledoor.png
+  artifactKey: Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitaldoubledoor.png using Guid(1fde8f0ab5a6e1248a9a52f72987b92f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8deff671cd6a4627496015ca707d7e21') in 0.0072987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital door connecters.mat
+  artifactKey: Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital door connecters.mat using Guid(d3eeae7f3ae2dc048adfed8db5296ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0019e3695c8b90235418278bb395157') in 0.0054196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital Chair.mat
+  artifactKey: Guid(dec2767359a798d489fa7603d8125e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital Chair.mat using Guid(dec2767359a798d489fa7603d8125e77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a757d95b2e81fdf3ece1a1abb76c6600') in 0.0052219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital double door.mat
+  artifactKey: Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/Hospital double door.mat using Guid(0cb9947893cbbe948bda6eed1fdfa102) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bde61c95b25061a622bf36e0bfb19f81') in 0.0056595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/shelve misc material.mat
+  artifactKey: Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/shelve misc material.mat using Guid(7923ad7d41449c34988e33e76e0edd05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdd99cf1b68499079db78c77fa8aba8a') in 0.0064245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/chair.png
+  artifactKey: Guid(b3f182829deff5640ab8b00a46d864ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/chair.png using Guid(b3f182829deff5640ab8b00a46d864ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4dbecedaecbbac9d30337c9642a66fc') in 0.0066706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/pottedplant.png
+  artifactKey: Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/pottedplant.png using Guid(5c3475d48df48c0499deba3bb87fd8a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d645a9734d3e90b19441f333df7b195') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/potted plant.mat
+  artifactKey: Guid(3b2985a916b9ece419e1065668963bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/potted plant.mat using Guid(3b2985a916b9ece419e1065668963bd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c76f57b22c54ed9d5021de3a85b8d71d') in 0.0046578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital wall glass.mat
+  artifactKey: Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital wall glass.mat using Guid(5d8efa1ca1669a54fb0792aa2aa71f2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92f76a88eaef86880ad76f258ba6e71a') in 0.0050925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalwallwindow.png
+  artifactKey: Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalwallwindow.png using Guid(ea9777a1fae00e049acc9d32ac105fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91cb5464487795a1dc883cac4ca185e9') in 0.0074197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalbed.png
+  artifactKey: Guid(869c0940c5b942647815df81aa099bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalbed.png using Guid(869c0940c5b942647815df81aa099bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a25f590d7102c67508a2821935ba322') in 0.0084519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/tile.mat
+  artifactKey: Guid(adb7ca33bf20470468d59cec405566b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/tile.mat using Guid(adb7ca33bf20470468d59cec405566b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03560d44b5f9ab256f34ee003646e07d') in 0.0052811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital bed.mat
+  artifactKey: Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital bed.mat using Guid(f10133e7a98fbb44c8c0774b27e041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd46da10c5d6830a46b3718d4e85af824') in 0.005097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital wall.mat
+  artifactKey: Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital wall.mat using Guid(c1ad3064f123eb149ae7ad015dcd45a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f3ea33f3e4a9c53c434dfc3604ef0e0') in 0.0051711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital open door.mat
+  artifactKey: Guid(f45d02173891e14429b24c6eee046dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospital open door.mat using Guid(f45d02173891e14429b24c6eee046dee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a5dd685dc5e62a864caff3f11c75d72') in 0.0053229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalwoodendoor.png
+  artifactKey: Guid(6cbd33fb46907ac428d6e840f334c783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Anim+Model+Mat+Textures/Environment/Hospital/Rooms/First Floor/Materials 3/hospitalwoodendoor.png using Guid(6cbd33fb46907ac428d6e840f334c783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7b1e43f0bd22dc29e4f96ff26033915') in 0.0079829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

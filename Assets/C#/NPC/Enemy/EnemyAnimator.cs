@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class EnemyAnimator : MonoBehaviour
 {
-    public Animator anim;
+    Animator anim;
     Actor myActor;
 
     // Start is called before the first frame update
     void Start()
     {
         myActor = GetComponent<Actor>();
+        anim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -18,18 +19,7 @@ public class EnemyAnimator : MonoBehaviour
     {
         if (anim != null)
         {
-            anim.SetInteger("xDir", (int)myActor.Direction.x);
-            anim.SetInteger("yDir", (int)myActor.Direction.y);
-            if (myActor.isMoving == true)
-            {
-                anim.SetLayerWeight(0, 0);
-                anim.SetLayerWeight(1, 1);
-            }
-            else
-            {
-                anim.SetLayerWeight(0, 1);
-                anim.SetLayerWeight(1, 0);
-            }
+            anim.SetBool("Walk", myActor.isMoving);
         }
     }
 }
