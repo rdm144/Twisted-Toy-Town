@@ -242,7 +242,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature|medic walk
+  m_Name: medic walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -256,7 +256,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7392599461086237137, guid: 9dac27426761a16459c54a5ba012f1dd, type: 3}
+  m_Motion: {fileID: 7485483871200054141, guid: 9dac27426761a16459c54a5ba012f1dd, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -269,7 +269,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature|medic idle
+  m_Name: medic idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -283,7 +283,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -4473759888953549475, guid: 9dac27426761a16459c54a5ba012f1dd, type: 3}
+  m_Motion: {fileID: 6404312057555401863, guid: 9dac27426761a16459c54a5ba012f1dd, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public LayerMask groundMask;
     public float speed = 7f;
-    public float gridSize = 1;
+    public float gridCellSize = 1;
     public bool canRun;
     public bool canInput = true;
     public bool canRotate;
@@ -24,9 +24,9 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(transform.position.x % gridSize != 0 || transform.position.y % gridSize != 0)
+        if(transform.position.x % gridCellSize != 0 || transform.position.y % gridCellSize != 0)
         {
-            transform.position = new Vector3(RoundToNearest(transform.position.x, gridSize), RoundToNearest(transform.position.y, gridSize), 0);
+            transform.position = new Vector3(RoundToNearest(transform.position.x, gridCellSize), RoundToNearest(transform.position.y, gridCellSize), 0);
         }
         LeftKey = KeyCode.A; // Hard-coded keybinds. Remove later.
         RightKey = KeyCode.D;
@@ -133,10 +133,10 @@ public class PlayerMovement : MonoBehaviour
         float X = transform.position.x;
 
         // Calculate X-Axis
-        X += gridSize * moveHorizontal;
+        X += gridCellSize * moveHorizontal;
 
         // Calculate Y-Axis
-        Z += gridSize * moveVertical;
+        Z += gridCellSize * moveVertical;
 
         Vector3 desiredDestination = new Vector3(X, transform.position.y, Z);
         //Debug.Log(desiredDestination);

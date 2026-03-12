@@ -47,7 +47,6 @@ public class Player_Battle_Actor : Battle_Actor
         {
             isDead = true;
             Debug.Log(name + " has died!");
-            GetComponent<BoxCollider>().enabled = false;
 
             // Play death animation
             battleAnim.PlayDeathAnimation();

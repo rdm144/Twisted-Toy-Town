@@ -70,13 +70,17 @@ public class RunAbility : Ability
                     Debug.Log(actor.name + " is running!");
                     // Rotate entire targetable player party 180
                     actor.transform.rotation = Quaternion.Euler(actor.transform.rotation.x, actor.transform.rotation.y + 180, actor.transform.rotation.z);
+                    //actor.transform.RotateAround(actor.transform.position, Vector3.up, 180);
+                    yield return new WaitForFixedUpdate();
 
                     // Play their runaway animation
                     actor.battleAnim.PlayRunAwayAnimation();
 
                     // Move players forward off-camera
                     float runSpeed = 300;
-                    Rigidbody rb = actor.AddComponent<Rigidbody>();
+                    Rigidbody rb;
+                    if (actor.TryGetComponent<Rigidbody>(out rb) == false)
+                        rb = actor.AddComponent<Rigidbody>();
                     rb.useGravity = false;
                     rb.interpolation = RigidbodyInterpolation.Interpolate;
                     rb.AddRelativeForce(Vector3.right * runSpeed);

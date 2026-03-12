@@ -24,8 +24,7 @@ public class PartyLeaderActor : Actor
     void Start()
     {
         MoveToSavedLocation();
-
-        ActorStart();   
+        ActorStart();
     }
     
     void MoveToSavedLocation()
@@ -33,14 +32,18 @@ public class PartyLeaderActor : Actor
         GameObject stageInfoGameObject = GameObject.FindGameObjectWithTag("Stage Info");
         if (stageInfoGameObject != null)
             stageInfoGameObject.TryGetComponent(out stageInfo);
-
+        
         // Get a list of party members
         GameObject[] partyMembers = GameObject.FindGameObjectsWithTag("Player");
 
         // Place each party member on top of the player
         foreach (GameObject partyMember in partyMembers)
+        {
             partyMember.transform.position = stageInfo.playerLocation;
 
+            // Bug fix. For some reason, displacing the transform does not displace the rigidbody.
+            partyMember.transform.GetComponentInChildren<Rigidbody>().position = stageInfo.playerLocation;
+        }
         transform.position = stageInfo.playerLocation;
     }
 }

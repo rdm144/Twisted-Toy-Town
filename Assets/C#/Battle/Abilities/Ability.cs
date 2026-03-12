@@ -111,4 +111,43 @@ public class Ability
         // Rotate the hitspark by 90 degrees on the z axis
         //hitSpark.transform.localRotation = Quaternion.Euler(hitSpark.transform.localRotation.x, hitSpark.transform.localRotation.y, hitSpark.transform.localRotation.z + 90);
     }
+
+    /// <summary>
+    /// Attempts to find the bottom-center world coordinate of an actor's BoxCollider
+    /// </summary>
+    /// <param name="target">Target's battle actor</param>
+    /// <returns>BoxCollider's bottom-center face coordinate in world-space, or the target's position if not found.</returns>
+    protected Vector3 FindBottomOfTargetsCollider(Battle_Actor target)
+    {
+        Vector3 colliderBottomWorldCoordinate = target.transform.position;
+        BoxCollider targetCollider;
+        target.gameObject.TryGetComponent<BoxCollider>(out targetCollider);
+        if (targetCollider != null)
+        {
+            // target collider's center - half the collider's vertical size
+            Vector3 colliderBottomLocalCoordinate = targetCollider.center - Vector3.up * (targetCollider.size.y / 2);
+
+            // Since we do not have monobehavior functions, we use the target's Transform to convert from local space to global space
+            colliderBottomWorldCoordinate = target.transform.TransformPoint(colliderBottomLocalCoordinate);
+        }
+
+        return colliderBottomWorldCoordinate;
+    }
+
+    /// <summary>
+    /// Spawns a prefab at the bottom-center of a Battle Actor's BoxCollider.
+    /// </summary>
+    /// <param name="path">Path of the desired prefab to spawn from the Resources folder.</param>
+    /// <param name="target">The Battle Actor to find the bottom of.</param>
+    protected void SpawnObjectFromResourcesAtTargetBottom(string path, Battle_Actor target)
+    {
+        // Get prefab
+        Object obj = Resources.Load(path);
+
+        // Instantiate the object
+        GameObject newObject = GameObject.Instantiate((GameObject)obj);
+
+        // Place the object at the bottom of the target's BoxCollider in world-space.
+        newObject.transform.position = FindBottomOfTargetsCollider(target);
+    }
 }

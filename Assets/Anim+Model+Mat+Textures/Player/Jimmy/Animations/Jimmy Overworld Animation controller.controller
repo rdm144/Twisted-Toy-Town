@@ -245,7 +245,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature|Jimmy idle
+  m_Name: Jimmy idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -259,7 +259,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1434163539492260712, guid: 2293c7dbac422cb4ab20a0e6e8c8286a, type: 3}
+  m_Motion: {fileID: 4046071874714848995, guid: 2293c7dbac422cb4ab20a0e6e8c8286a, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -272,7 +272,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature|Jimmy walk
+  m_Name: Jimmy walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -286,7 +286,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -8995511208737103511, guid: 2293c7dbac422cb4ab20a0e6e8c8286a, type: 3}
+  m_Motion: {fileID: 926275622537069122, guid: 2293c7dbac422cb4ab20a0e6e8c8286a, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

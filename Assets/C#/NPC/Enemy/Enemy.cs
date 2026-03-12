@@ -35,7 +35,8 @@ public class Enemy : NPC
 
     private void Start()
     {
-        partySize = UnityEngine.Random.Range(1, 5);
+        if(partySize <= 0)
+            partySize = UnityEngine.Random.Range(1, 5);
         
         if (wanderDistance <= 0)
             wanderDistance = 5;
@@ -172,7 +173,7 @@ public class Enemy : NPC
             }
 
             // Idle for a random number of frames
-            for (int i = 0; i < UnityEngine.Random.Range(1, 600); i++)
+            for (int i = 0; i < UnityEngine.Random.Range(60, 600); i++)
             {
                 CheckLineOfSight();
                 if (isChasing)
@@ -250,7 +251,7 @@ public class Enemy : NPC
         }
     }
 
-    IEnumerator EnterBattle()
+    protected virtual IEnumerator EnterBattle()
     {
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(battleLevelName, LoadSceneMode.Single);
         loadOperation.allowSceneActivation = false;
