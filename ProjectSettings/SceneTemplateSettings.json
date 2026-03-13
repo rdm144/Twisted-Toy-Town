@@ -1,5 +1,26 @@
 {
-    "templatePinStates": [],
+    "templatePinStates": [
+        {
+            "templateId": "Basic (Built-in)",
+            "isEnabled": false
+        },
+        {
+            "templateId": "Empty",
+            "isEnabled": false
+        },
+        {
+            "templateId": "Outdoors (URP)",
+            "isEnabled": false
+        },
+        {
+            "templateId": "Indoors (URP)",
+            "isEnabled": false
+        },
+        {
+            "templateId": "Basic (URP)",
+            "isEnabled": false
+        }
+    ],
     "dependencyTypeInfos": [
         {
             "userAdded": false,
