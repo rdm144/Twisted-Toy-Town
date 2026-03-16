@@ -12,7 +12,7 @@ public class PartyMemberActor : Actor
         if (partyMember1 == null)
         {
             partyMember1 = gameObject;
-            //DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject);
         }
         else
         {

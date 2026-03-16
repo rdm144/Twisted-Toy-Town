@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -8,16 +8,17 @@ public class PlayerMovement : MonoBehaviour
 {
     public LayerMask groundMask;
     public float speed = 7f;
-    public float gridCellSize = 1;
+    public int gridCellSize = 1;
     public bool canRun;
     public bool canInput = true;
     public bool canRotate;
+    bool isDestinationValid;
     public int moveHorizontal { get; private set; }
     public int moveVertical { get; private set; }
     Actor myActor;
 
     KeyCode LeftKey, RightKey, UpKey, DownKey;
-    public Vector3 targetDestination;
+    public Vector3Int targetDestination;
 
     public static event Action moveToNextPosition;
 
@@ -35,73 +36,77 @@ public class PlayerMovement : MonoBehaviour
         canRun = canRotate = true;
         myActor = GetComponent<Actor>();
         myActor.isMoving = false;
-        targetDestination = transform.position;
+        isDestinationValid = false;
+        targetDestination = Vector3Int.RoundToInt(transform.position);
 
         if (canRotate)
             Rotate();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (canInput)
             GetInput();
 
         if (canRun && myActor.canOperate)
         {
-            // Check if the player is at the target destination
-            if (transform.position != targetDestination)
+            if ((transform.position - targetDestination).sqrMagnitude > 0.0001f || ((moveHorizontal != 0 || moveVertical != 0) && isDestinationValid))
             {
                 myActor.isMoving = true;
-
-                // Move to our new destination
-                MoveToDestination(targetDestination);
-
-                if (canRotate)
-                    Rotate();
             }
-            else if(moveHorizontal == 0 && moveVertical == 0) // reached destination and not pressing a button
-            {
+            else
                 myActor.isMoving = false;
-            }
-            else if (moveHorizontal != 0 || moveVertical != 0) // reached destination and pressing a direction
-            {
-                Vector3 directionVector = new Vector3(moveHorizontal, 0, moveVertical).normalized;
-                if (directionVector != Vector3.zero)
-                    myActor.Direction = Vector3Int.RoundToInt(directionVector);
+        }
+        else
+        {
+            myActor.isMoving = false;
+        }
+    }
 
+    private void FixedUpdate()
+    {
+        if (canRun && myActor.canOperate)
+        {
+            if ((moveHorizontal != 0 || moveVertical != 0) && (transform.position - targetDestination).sqrMagnitude <= 0.0001f) // Press a direction while not moving
+            {
                 // Calculate our desired destination
-                Vector3 desiredDestination = GetDestination();
+                Vector3Int desiredDestination = GetDestination();
+
+                // Get new direction vector
+                Vector3Int directionVector = new Vector3Int(moveHorizontal, 0, moveVertical);
+
+                // Set as new direction and rotate
+                if (myActor.Direction != directionVector && directionVector != Vector3.zero)
+                {
+                    myActor.Direction = directionVector;
+                    if (canRotate)
+                        Rotate();
+                }
+
+                isDestinationValid = IsDestinationValid(desiredDestination);
 
                 // Check if the desired destination is reachable
-                if (IsDestinationValid(desiredDestination) == true)
+                if (isDestinationValid == true)
                 {
                     // Set new destination
                     targetDestination = desiredDestination;
-
-                    // Fixes zeros manifesting as extremely small floating values (ex: 1.54264e-08)
-                    targetDestination = FixFloatingZeroCoordinates(targetDestination);
 
                     // Invoke an action event to tell party members to move to their next destination
                     if (moveToNextPosition != null)
                         moveToNextPosition.Invoke();
                 }
-                else
-                {
-                    myActor.isMoving = false;
-                }
             }
-            //else// if(moveHorizontal == 0 && moveVertical == 0)
-                //myActor.isMoving = false;
+
+            if ((transform.position - targetDestination).sqrMagnitude > 0.0001f)
+            {
+                // Move to our new destination
+                MoveToDestination(targetDestination);
+            }
         }
         else
         {
-            targetDestination = transform.position;
-            myActor.isMoving = false;
+            targetDestination = Vector3Int.RoundToInt(transform.position);
         }
-
-        // Prevent clipping through floor
-        if (transform.position.z < -1)
-            transform.position = new Vector3(transform.position.x, 0, transform.position.z);
     }
 
     void GetInput()
@@ -127,18 +132,18 @@ public class PlayerMovement : MonoBehaviour
             moveVertical = 0;
     }
 
-    Vector3 GetDestination()
+    Vector3Int GetDestination()
     {
-        float Z = transform.position.z;
-        float X = transform.position.x;
+        int Z = (int)transform.position.z;
+        int X = (int)transform.position.x;
 
         // Calculate X-Axis
-        X += gridCellSize * moveHorizontal;
+        X += gridCellSize * (int)moveHorizontal;
 
         // Calculate Y-Axis
-        Z += gridCellSize * moveVertical;
+        Z += gridCellSize * (int)moveVertical;
 
-        Vector3 desiredDestination = new Vector3(X, transform.position.y, Z);
+        Vector3Int desiredDestination = new Vector3Int(X, (int)transform.position.y, Z);
         //Debug.Log(desiredDestination);
 
         return desiredDestination;
@@ -151,7 +156,8 @@ public class PlayerMovement : MonoBehaviour
             return false;
 
         // Ensure destination is not out of bounds. Ground composite colliders must be set to "Polygon"
-        if(Physics.OverlapSphere(destination, 0.1f, groundMask).Length > 0)
+        //if(Physics.OverlapSphere(destination, 0.1f, groundMask).Length > 0)
+        if(Physics.CheckSphere(destination, 0.1f, groundMask) == true)
             return false;
 
         return true;
@@ -170,10 +176,10 @@ public class PlayerMovement : MonoBehaviour
     void MoveToDestination(Vector3 destination)
     {
         transform.position = Vector3.MoveTowards(transform.position, destination, speed * Time.deltaTime);
-        /*if (Vector3.Distance(transform.position, targetDestination) <= 0.05f)
+        if (Vector3.Distance(transform.position, targetDestination) <= 0.05f)
         {
             transform.position = targetDestination;
-        }*/
+        }
     }
 
     void Rotate()

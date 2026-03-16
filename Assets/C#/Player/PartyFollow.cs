@@ -1,23 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class PartyFollow : MonoBehaviour
 {
     public Transform targetToFollow;
     Actor myActor;
-    public Vector3 nextPosition;
+    public Vector3Int nextPosition;
     public Quaternion nextRotation;
     public float speed = 7;
-    
+    Actor targetActor;
     bool hasWaitedOneFrame;
     // Start is called before the first frame update
     void Start()
     {
         myActor = GetComponent<Actor>();
+        targetActor = targetToFollow.GetComponent<Actor>();
         if (targetToFollow != null)
         {
-            nextPosition = transform.position;
+            nextPosition = Vector3Int.RoundToInt(transform.position);
             nextRotation = transform.rotation;
             PlayerMovement.moveToNextPosition += StartMoving;
             transform.position = nextPosition;
@@ -26,49 +28,40 @@ public class PartyFollow : MonoBehaviour
         Rotate();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if(myActor.isMoving == true && myActor.canOperate == true)
+        if (myActor.canOperate == true)
         {
-            if (transform.position != nextPosition) // have not reached destination
-            {
-                MoveToDestination(nextPosition);
-                Rotate();
-            }
-            else if (hasWaitedOneFrame == false) // has reached destination, but has not waited a frame
-            {
-                hasWaitedOneFrame = true;
-            }
-            else // has reached destination, and has waited a frame
-            {
+            if((transform.position - nextPosition).sqrMagnitude > 0.0001f || targetActor.isMoving)
+                myActor.isMoving = true;
+            else 
                 myActor.isMoving = false;
-            }
         }
-        if(myActor.canOperate == false)
+        else 
         {
-            nextPosition = transform.position; 
+            nextPosition = Vector3Int.RoundToInt(transform.position);
             nextRotation = transform.rotation;
             myActor.isMoving = false;
         }
-        // Prevent clipping through floor
-        if (transform.position.y < -1)
-            transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+    }
+
+    private void FixedUpdate()
+    {
+        if(myActor.canOperate == true && (transform.position - nextPosition).sqrMagnitude > 0.0001f)
+        {
+            MoveToDestination(nextPosition);
+        }
     }
 
     void StartMoving()
     {
         if (targetToFollow != null)
         {
-            nextPosition = targetToFollow.position;
+            nextPosition = Vector3Int.RoundToInt(targetToFollow.position);
             nextRotation = targetToFollow.rotation;
         }
 
-        Vector3 directionVector = (nextPosition - transform.position).normalized;
-        if (directionVector != Vector3.zero)
-            myActor.Direction = Vector3Int.RoundToInt(directionVector);
-
-        myActor.isMoving = true;
-        hasWaitedOneFrame = false;
+        Rotate();
     }
 
     void MoveToDestination(Vector3 destination)
@@ -78,6 +71,10 @@ public class PartyFollow : MonoBehaviour
 
     void Rotate()
     {
+        Vector3Int directionVector = Vector3Int.RoundToInt(nextPosition - transform.position);
+        if (directionVector != Vector3.zero)
+            myActor.Direction = directionVector;
+
         if (myActor.Direction != Vector3Int.zero)
         {
             transform.LookAt(transform.position + myActor.Direction);

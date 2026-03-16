@@ -85,6 +85,6 @@ public class CameraFollow : MonoBehaviour
 
     Vector3 TransformFollow()
     {
-        return Vector3.MoveTowards(transform.position, targetToFollow.position + offset, Time.deltaTime * 5);
+        return Vector3.MoveTowards(transform.position, targetToFollow.position + offset, Time.deltaTime * LERP_MAGNITUDE);
     }
 }

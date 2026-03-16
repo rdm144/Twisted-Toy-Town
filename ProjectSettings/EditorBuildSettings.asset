@@ -12,6 +12,13 @@ EditorBuildSettings:
     path: Assets/Levels/Hospital_1F.unity
     guid: 54a9dd2ee7a075c40856760f7a5cb3d0
   - enabled: 1
+    path: Assets/Levels/Hospital_B1.unity
+    guid: 83ccf11b4d63e3546b7137f33f187bbc
+  - enabled: 1
+    path: Assets/Levels/Hospital_BedRoom.unity
+    guid: 58cbf5dff3dcf2245a594eadd2a07e56
+  - enabled: 1
     path: Assets/Levels/Hospital_Battle.unity
     guid: 41f35dac5c704c94ba119f68eab38e25
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

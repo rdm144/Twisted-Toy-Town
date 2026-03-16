@@ -9,44 +9,44 @@ using Unity.VisualScripting;
 public class Teleporter : MonoBehaviour
 {
     public string LevelName;
-    public Vector2 SpawnPoint;
+    public Vector3Int SpawnPoint;
     public static event Action DimScreen;
     public static event Action UndimScreen;
     bool isLoading;
     public Vector3Int SpawnDirection;
-    // 0:up, 90:left, 180:down, 270:right
+    // 0:up, 90:right, 180:down, 270:left
 
     // Start is called before the first frame update
     void Start()
     {
         isLoading = false;
-        SpawnDirection = CalculateSpawnDirection();
+        //SpawnDirection = CalculateSpawnDirection();
     }
 
     Vector3Int CalculateSpawnDirection()
     {
-        // Get current Z rotation
-        float zRot = transform.parent.rotation.eulerAngles.z;
+        // Get current Y rotation
+        float yRot = transform.parent.rotation.eulerAngles.y;
 
         // Normalize value between 0 and 360
-        zRot = zRot % 360;
-        if (zRot < 0)
-            zRot += 360;
+        yRot = yRot % 360;
+        if (yRot < 0)
+            yRot += 360;
 
         // Round to nearest multiple of 90
-        zRot = RoundToNearest(zRot, 90);
+        yRot = RoundToNearest(yRot, 90);
 
         // Determine direction vector
-        switch (zRot)
+        switch (yRot)
         {
             case 0:
                 return Vector3Int.forward;
             case 90:
-                return Vector3Int.left;
+                return Vector3Int.right;
             case 180:
                 return Vector3Int.back;
             case 270:
-                return Vector3Int.right;
+                return Vector3Int.left;
             default:
                 return Vector3Int.forward;
         }
@@ -138,7 +138,7 @@ public class Teleporter : MonoBehaviour
         yield return new WaitForFixedUpdate();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.transform.parent.tag.Equals("Player"))
         {
