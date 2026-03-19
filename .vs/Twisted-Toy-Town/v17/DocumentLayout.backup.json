@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\player\\partyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\player\\partyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\ui\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\ui\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\terrain\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\terrain\\teleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\battle\\ui\\victoryscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\ui\\victoryscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\battle\\ui\\battlecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\ui\\battlecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\battle\\system\\actorloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\system\\actorloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\data_management\\stageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\data_management\\stageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\npc\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\npc\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\battle\\abilities\\runability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\abilities\\runability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\battle\\actor\\battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\actor\\battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\art scripts\\retryscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\art scripts\\retryscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\battle\\actor\\enemy\\enemytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\actor\\enemy\\enemytable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\battle\\abilities\\abilitiestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\abilities\\abilitiestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\data_management\\savedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\data_management\\savedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\battle\\actor\\enemy\\shield_enemy_battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\actor\\enemy\\shield_enemy_battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\battle\\actor\\player\\player_battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\battle\\actor\\player\\player_battle_actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +70,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\UI\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\UI\\CameraFollow.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\UI\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\C#\\UI\\CameraFollow.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BattleCamera.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\UI\\BattleCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\UI\\BattleCamera.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\UI\\BattleCamera.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\UI\\BattleCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:33:42.749Z",
+              "WhenOpened": "2026-03-19T07:38:01.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PartyFollow.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\Player\\PartyFollow.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
-              "RelativeToolTip": "Assets\\C#\\Player\\PartyFollow.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwDQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "VictoryScreen.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\UI\\VictoryScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\UI\\VictoryScreen.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\UI\\VictoryScreen.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\UI\\VictoryScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T05:49:16.919Z",
+              "WhenOpened": "2026-03-19T07:25:27.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StageInfo.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Data_Management\\StageInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Data_Management\\StageInfo.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Data_Management\\StageInfo.cs",
+              "RelativeToolTip": "Assets\\C#\\Data_Management\\StageInfo.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwIQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:13:37.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\Player\\PlayerMovement.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\C#\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwFcAAAAgAAAAAAAAAA==",
+              "Title": "PartyFollow.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Player\\PartyFollow.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
+              "RelativeToolTip": "Assets\\C#\\Player\\PartyFollow.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:02:17.9Z",
+              "WhenOpened": "2026-03-19T07:14:51.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teleporter.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Terrain\\Teleporter.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Terrain\\Teleporter.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Terrain\\Teleporter.cs",
+              "RelativeToolTip": "Assets\\C#\\Terrain\\Teleporter.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAA9wFgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:59:43.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RunAbility.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Abilities\\RunAbility.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Abilities\\RunAbility.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Abilities\\RunAbility.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Abilities\\RunAbility.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAhwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:57:32.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RetrySceneManager.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\Art Scripts\\RetrySceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Art Scripts\\RetrySceneManager.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\Art Scripts\\RetrySceneManager.cs",
+              "RelativeToolTip": "Assets\\Art Scripts\\RetrySceneManager.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIAwwEsAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:51:57.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyTable.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Enemy\\EnemyTable.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Actor\\Enemy\\EnemyTable.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Enemy\\EnemyTable.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Actor\\Enemy\\EnemyTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:29:29.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaveDataManager.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Data_Management\\SaveDataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Data_Management\\SaveDataManager.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Data_Management\\SaveDataManager.cs",
+              "RelativeToolTip": "Assets\\C#\\Data_Management\\SaveDataManager.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAIAwwDQBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:28:01.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AbilitiesTable.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Abilities\\AbilitiesTable.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Abilities\\AbilitiesTable.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Abilities\\AbilitiesTable.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Abilities\\AbilitiesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:19:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorLoader.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\System\\ActorLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\System\\ActorLoader.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\System\\ActorLoader.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\System\\ActorLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:15:35.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Shield_Enemy_Battle_Actor.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Enemy\\Shield_Enemy_Battle_Actor.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Actor\\Enemy\\Shield_Enemy_Battle_Actor.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Enemy\\Shield_Enemy_Battle_Actor.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Actor\\Enemy\\Shield_Enemy_Battle_Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:02:49.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player_Battle_Actor.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Player\\Player_Battle_Actor.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Actor\\Player\\Player_Battle_Actor.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Player\\Player_Battle_Actor.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Actor\\Player\\Player_Battle_Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:05:01.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Battle_Actor.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Battle_Actor.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\Battle\\Actor\\Battle_Actor.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Battle\\Actor\\Battle_Actor.cs",
+              "RelativeToolTip": "Assets\\C#\\Battle\\Actor\\Battle_Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:04:36.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\NPC\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\NPC\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\NPC\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\C#\\NPC\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAADABAAAAAAAAAADwv1QBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T03:54:42.042Z",
               "EditorCaption": ""
             }
           ]

@@ -96,6 +96,7 @@
     <Compile Include="Assets\C#\UI\Pause_Menu\Pause_UI.cs" />
     <Compile Include="Assets\C#\PathFinding\Grid.cs" />
     <Compile Include="Assets\C#\Battle\Abilities\AttackAbility.cs" />
+    <Compile Include="Assets\C#\Battle\Actor\Enemy\Shield_Enemy_Battle_Actor.cs" />
     <Compile Include="Assets\C#\Battle\Abilities\Ability.cs" />
     <Compile Include="Assets\C#\UI\Dialog\Decision_Panel.cs" />
     <Compile Include="Assets\C#\Battle\UI\Target_Reticle.cs" />
@@ -122,6 +123,7 @@
     <Compile Include="Assets\C#\Battle\UI\PlayerStatus.cs" />
     <Compile Include="Assets\C#\Player\AnimatePartyMember.cs" />
     <Compile Include="Assets\C#\NPC\Enemy\EnemyCollider.cs" />
+    <Compile Include="Assets\C#\Battle\Actor\Enemy\EnemyTable.cs" />
     <Compile Include="Assets\C#\Dev_Tools\SaveTester.cs" />
     <Compile Include="Assets\C#\Battle\System\SortBattleActors.cs" />
   </ItemGroup>

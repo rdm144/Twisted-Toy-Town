@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\player\\partyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\player\\partyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\assets\\c#\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|c:\\richard\\unity\\github\\twisted-toy-town\\assets\\c#\\ui\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710A7A6E-2C63-176F-7C5A-30ADCC8D2D8A}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\ui\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraFollow.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\UI\\CameraFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\UI\\CameraFollow.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\UI\\CameraFollow.cs",
-              "RelativeToolTip": "Assets\\C#\\UI\\CameraFollow.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwDYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:33:42.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PartyFollow.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\Player\\PartyFollow.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PartyFollow.cs",
-              "RelativeToolTip": "Assets\\C#\\Player\\PartyFollow.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T05:49:16.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\C#\\Player\\PlayerMovement.cs",
-              "ToolTip": "C:\\Richard\\Unity\\GitHub\\Twisted-Toy-Town\\Assets\\C#\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\C#\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAuwFcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T06:02:17.9Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

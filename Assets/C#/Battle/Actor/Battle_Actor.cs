@@ -10,7 +10,7 @@ public class Battle_Actor : MonoBehaviour
     public int partyIndex;
     public bool isDead;
     public bool isTakingTurn;
-    public List<string> abilities;
+    protected List<string> abilities;
     public static Turn_Manager tm;
     public static GameObject battleUI;
     public Battle_Animator battleAnim;

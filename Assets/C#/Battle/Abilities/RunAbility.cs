@@ -91,11 +91,6 @@ public class RunAbility : Ability
 
             yield return new WaitForSeconds(1);
 
-            // Update description
-
-            // Wait for a click or button
-
-
             // Activate screen transition, if available
             if (st == null)
                 st = Object.FindAnyObjectByType<ScreenTransition>();
@@ -110,6 +105,9 @@ public class RunAbility : Ability
                 // Wait for scene to load, if it is loading
                 if (loadOperation != null) yield return WaitToLoad(loadOperation);
             }
+
+            // Unfreeze all overworld party members
+            yield return UnfreezeOverworldPartyMembers();
 
             // Allow next scene to fully load, if it is loaded
             if (loadOperation != null) loadOperation.allowSceneActivation = true;
@@ -126,4 +124,20 @@ public class RunAbility : Ability
             yield return new WaitForFixedUpdate();
         } while (loadOperation.progress < 0.9f);
     }
+    
+    IEnumerator UnfreezeOverworldPartyMembers()
+    {
+        // Find all objects with the "Player" tag
+        GameObject[] playerObjects = GameObject.FindGameObjectsWithTag("Player");
+
+        // Of these tagged objects, if it has an actor component, set it as actionable
+        foreach (GameObject playerObject in playerObjects)
+        {
+            playerObject.TryGetComponent(out Actor playerOverworldActor);
+            if (playerOverworldActor != null)
+                playerOverworldActor.canOperate = true;
+            yield return null;
+        }
+    }
+
 }

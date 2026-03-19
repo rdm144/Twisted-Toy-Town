@@ -11,7 +11,7 @@ public class PartyFollow : MonoBehaviour
     public Quaternion nextRotation;
     public float speed = 7;
     Actor targetActor;
-    bool hasWaitedOneFrame;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +19,18 @@ public class PartyFollow : MonoBehaviour
         targetActor = targetToFollow.GetComponent<Actor>();
         if (targetToFollow != null)
         {
-            nextPosition = Vector3Int.RoundToInt(transform.position);
-            nextRotation = transform.rotation;
             PlayerMovement.moveToNextPosition += StartMoving;
-            transform.position = nextPosition;
+            ResetPositionToPartyLeader();
         }
-        hasWaitedOneFrame = false;
+
         Rotate();
+    }
+
+    public void ResetPositionToPartyLeader()
+    {
+        nextPosition = Vector3Int.RoundToInt(targetToFollow.position);
+        nextRotation = targetToFollow.rotation;
+        transform.position = nextPosition;
     }
 
     private void Update()
@@ -39,8 +44,6 @@ public class PartyFollow : MonoBehaviour
         }
         else 
         {
-            nextPosition = Vector3Int.RoundToInt(transform.position);
-            nextRotation = transform.rotation;
             myActor.isMoving = false;
         }
     }

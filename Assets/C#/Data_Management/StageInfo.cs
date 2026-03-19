@@ -131,13 +131,11 @@ public class StageInfo : MonoBehaviour
     #region Setters
     public void SetPlayerRespawnLocation(Vector3 newPosition)
     {
-        //hasBeenAltered = true;
         playerLocation = Vector3Int.RoundToInt(newPosition);
     }
 
     public void SetPlayerRotation(Vector3 newRotation)
     {
-        //hasBeenAltered = true;
         playerRotation = newRotation;
     }
     #endregion

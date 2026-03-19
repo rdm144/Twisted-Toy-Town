@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using System;
 using NesScripts.Controls.PathFind;
 using UnityEngine.UIElements;
+using System.Linq;
 
 public class Enemy : NPC
 {
@@ -27,6 +28,8 @@ public class Enemy : NPC
     public int partySize;
     public string battleLevelName;
     public Animator alertBubble;
+
+    public EnemyType[] enemyTypes;
 
     private void Awake()
     {
@@ -251,6 +254,30 @@ public class Enemy : NPC
         }
     }
 
+    /// <summary>
+    /// Returns a list of names for use in resource loading. Loading is done from ActorLoader.cs
+    /// </summary>
+    /// <returns></returns>
+    protected virtual string[] GetEnemyParty()
+    {
+        if (enemyTypes.Length < 1)
+        {
+            // Creates a new party of GrabbyHands enemies with a random party size
+            string enemyName = "GrabbyHands";
+            string[] party = new string[partySize];
+            for (int i = 0; i < party.Length; i++)
+                party[i] = enemyName;
+            return party;
+        }
+        else // Use the enemy's list of EnemyTypes to return a list of names for resource loading
+        {
+            string[] party = new string[enemyTypes.Length];
+            for(int i = 0; i < enemyTypes.Length; i++)
+                party[i] = EnemyTable.table[enemyTypes[i]];
+            return party;
+        }
+    }
+
     protected virtual IEnumerator EnterBattle()
     {
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(battleLevelName, LoadSceneMode.Single);
@@ -290,12 +317,7 @@ public class Enemy : NPC
         }
 
         // tell stage info the desired party structure
-        
-        string enemyName = "GrabbyHands";
-        string[] party = new string[partySize];
-        for(int i = 0; i < party.Length; i++)
-            party[i] = enemyName;
-        si.enemyParty = party;
+        si.enemyParty = GetEnemyParty();
 
         // Stop all party members from operating
         yield return FreezePartyMembers(partyMembers);
@@ -316,6 +338,7 @@ public class Enemy : NPC
         {
             partyMember.GetComponent<Actor>().canOperate = false;
             partyMember.GetComponent<Actor>().isMoving = false;
+            //partyMember.transform.position = new Vector3(partyMember.transform.position.x, partyMember.transform.position.y+10000, partyMember.transform.position.z);
             yield return new WaitForFixedUpdate();
         }
     }

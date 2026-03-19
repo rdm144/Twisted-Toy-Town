@@ -4,6 +4,9 @@ using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// Loads all actors from the Resources/Prefabs folder. All actor transforms are placed at y >= 100.
+/// </summary>
 public class ActorLoader : MonoBehaviour
 {
     public float playerZoffset = 3.5f;
@@ -20,7 +23,6 @@ public class ActorLoader : MonoBehaviour
 
     /// <summary>
     /// Spawns players according to the StageInfo object, or the saved data, or creates dummy players if all else fails.
-    /// This code fucking sucks, like holy shit these nested if's are cringe, but I'm even more cringe.
     /// </summary>
     void SpawnThePlayersParty()
     {
@@ -39,50 +41,28 @@ public class ActorLoader : MonoBehaviour
                 {
                     SpawnPlayerPrefab(member, info.partyMembers.Count);
                 }
+                return;
             }
-            else // if the stage info object does not have a party, use the save file
-            {
-                // load save file
-                SaveDataManager.Load(SaveType.Player);
+        }
 
-                if (SaveDataManager.playerdata.party.Count > 0)
-                {
-                    // spawn party prefabs from save file
-                    foreach (PartyMember member in SaveDataManager.playerdata.party)
-                    {
-                        SpawnPlayerPrefab(member, SaveDataManager.playerdata.party.Count);
-                    }
-                }
-                else
-                {
-                    // spawn in dummy players
-                    for (int i = 0; i < 4; i++)
-                    {
-                        SpawnPlaceholderPlayerActor(i, 4);
-                    }
-                }
+        // if the stage info object does not have a party, use the save file
+        // load save file
+        SaveDataManager.Load(SaveType.Player);
+
+        if (SaveDataManager.playerdata.party.Count > 0)
+        {
+            // spawn party prefabs from save file
+            foreach (PartyMember member in SaveDataManager.playerdata.party)
+            {
+                SpawnPlayerPrefab(member, SaveDataManager.playerdata.party.Count);
             }
         }
         else
         {
-            // load save file
-            SaveDataManager.Load(SaveType.Player);
-
-            if (SaveDataManager.playerdata.party.Count > 0)
+            // spawn in dummy players
+            for (int i = 0; i < 4; i++)
             {
-                // spawn party prefabs from save file
-                foreach (PartyMember member in SaveDataManager.playerdata.party)
-                {
-                    SpawnPlayerPrefab(member, SaveDataManager.playerdata.party.Count);
-                }
-            }
-            else
-            {
-                // spawn in dummy players
-                for (int i = 0; i < 4; i++)
-                {
-                    SpawnPlaceholderPlayerActor(i, 4);
-                }
+                SpawnPlaceholderPlayerActor(i, 4);
             }
         }
     }
@@ -110,7 +90,7 @@ public class ActorLoader : MonoBehaviour
             modelActor.health = member.health;
             modelActor.isTakingTurn = false;
             modelActor.partyIndex = member.partyIndex;
-            model.transform.position = new Vector3(-6, 1.5f, GetZ(partySize, member.partyIndex, playerZoffset, false));
+            model.transform.position = new Vector3(-6, 101.5f, GetZ(partySize, member.partyIndex, playerZoffset, false));
         }
     }
 
@@ -125,7 +105,7 @@ public class ActorLoader : MonoBehaviour
         newActor.isDead = false;
         newActor.isTakingTurn = false;
         newActor.partyIndex = partyIndex;
-        placeHolder.transform.position = new Vector3(-6, 1.5f, GetZ(partySize, partyIndex, playerZoffset, false));
+        placeHolder.transform.position = new Vector3(-6, 101.5f, GetZ(partySize, partyIndex, playerZoffset, false));
     }
 
     void SpawnEnemyParty()
@@ -138,6 +118,7 @@ public class ActorLoader : MonoBehaviour
             if (stageInfo != null)
                 stageInfo.TryGetComponent(out info);
         }
+
         if(info != null)
         {
             if(info.enemyParty != null)
@@ -164,7 +145,7 @@ public class ActorLoader : MonoBehaviour
                         Battle_Actor modelActor = model.GetComponent<Battle_Actor>();
                         modelActor.isTakingTurn = false;
                         modelActor.partyIndex = i;
-                        model.transform.position = new Vector3(3, 2.53f, GetZ(info.enemyParty.Length, i, enemyZoffset, true));
+                        model.transform.position = new Vector3(3, 102.53f, GetZ(info.enemyParty.Length, i, enemyZoffset, true));
                     }
                 }
 
@@ -190,7 +171,7 @@ public class ActorLoader : MonoBehaviour
         newActor.isDead = false;
         newActor.isTakingTurn = false;
         newActor.partyIndex = partyIndex;
-        placeHolder.transform.position = new Vector3(3, 2.53f, GetZ(partySize, partyIndex, enemyZoffset, true));
+        placeHolder.transform.position = new Vector3(3, 102.53f, GetZ(partySize, partyIndex, enemyZoffset, true));
     }
 
     float GetZ(int partySize, int partyIndex, float Zoffset, bool isEnemyParty)

@@ -133,8 +133,13 @@ public class Teleporter : MonoBehaviour
     IEnumerator UnfreezePartyMembers(GameObject[] partyMembers)
     {
         foreach (GameObject partyMember in partyMembers)
+        {
+            partyMember.TryGetComponent(out PartyFollow p_follow);
+            if(p_follow != null)
+                p_follow.ResetPositionToPartyLeader();
             partyMember.GetComponent<Actor>().canOperate = true;
-        
+        }
+            
         yield return new WaitForFixedUpdate();
     }
 

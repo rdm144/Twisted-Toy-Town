@@ -10,7 +10,7 @@ public class VictoryScreen : MonoBehaviour
     public GameObject content;
     public string OverworldName;
     ScreenTransition st;
-    Vector3 victoryCamPos = new Vector3(-1.82f, 1.87f, 2.14f);
+    Vector3 victoryCamPos = new Vector3(-1.82f, 101.87f, 2.14f);
     Vector3 victoryCamRot = new Vector3(7.35f, -113.47f, 0);
 
     private void Start()

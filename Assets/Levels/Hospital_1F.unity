@@ -9139,7 +9139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec161365bd50fc4288269b6bf9085a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnOffEnemies: 1
+  turnOffEnemies: 0
   stunFrameCount: 300
 --- !u!4 &981758797
 Transform:
@@ -18699,6 +18699,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8009510823405566933, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
       propertyPath: m_Name
+      value: GrabbyHands
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: enemyTypes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyTypes.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyTypes.Array.data[1]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyTypes.Array.data[2]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyTypes.Array.data[3]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: enemyPartyNames.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyPartyNames.Array.data[0]'
+      value: Shield Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 9199775523883761866, guid: 4142ddc11546c0d428bac9dd1faad7c1, type: 3}
+      propertyPath: 'enemyPartyNames.Array.data[1]'
       value: GrabbyHands
       objectReference: {fileID: 0}
     m_RemovedComponents: []
