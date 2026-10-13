@@ -11,6 +11,21 @@ public class CameraFollow : MonoBehaviour
     public Vector3 CameraTargetPosition { get; private set; }
     private Vector3 velocity = Vector3.zero;
 
+    public static CameraFollow MyCamera;
+
+    private void Awake()
+    {
+        if (MyCamera == null)
+        {
+            MyCamera = gameObject.GetComponent<CameraFollow>();
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

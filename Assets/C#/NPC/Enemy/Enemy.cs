@@ -9,7 +9,7 @@ using System.Linq;
 
 public class Enemy : NPC
 {
-    public static event Action StartBattle;
+    public static event Action<string> StartBattle;
 
     Actor myActor;
     GridManager gridManager;
@@ -280,22 +280,17 @@ public class Enemy : NPC
 
     protected virtual IEnumerator EnterBattle()
     {
-        AsyncOperation loadOperation = SceneManager.LoadSceneAsync(battleLevelName, LoadSceneMode.Single);
-        loadOperation.allowSceneActivation = false;
-
-        GameObject[] partyMembers = GameObject.FindGameObjectsWithTag("Player");
-
         // Ensure time is not stopped
         Time.timeScale = 1;
 
         // Start screen transition
-        StartBattle?.Invoke();
+        StartBattle?.Invoke(battleLevelName);
 
         StageInfo si = GameObject.FindGameObjectWithTag("Stage Info").GetComponent<StageInfo>();
 
         // Tell stage info our child id
         EnemyManager em = transform.parent.GetComponent<EnemyManager>();
-        
+
         for (int i = 0; i < em.enemyActors.Length; i++)
         {
             if (em.enemyActors[i] == myActor)
@@ -304,32 +299,25 @@ public class Enemy : NPC
                 break;
             }
         }
-        
+
         em.StoreAllEnemyPositions();
 
+        GameObject[] partyMembers = GameObject.FindGameObjectsWithTag("Player");
+
         // tell stage info the player's location
-        foreach(GameObject partyMember in partyMembers)
+        foreach (GameObject partyMember in partyMembers)
         {
-            if(partyMember.GetComponent<PartyLeaderActor>() != null)
+            if (partyMember.GetComponent<PartyLeaderActor>() != null)
             {
                 si.SetPlayerRespawnLocation(partyMember.transform.position);
             }
         }
 
-        // tell stage info the desired party structure
+        // tell stage info the desired enemy party structure
         si.enemyParty = GetEnemyParty();
 
         // Stop all party members from operating
         yield return FreezePartyMembers(partyMembers);
-
-        // wait for screen transition
-        yield return new WaitForSeconds(0.5F);
-
-        // Wait for scene to load, if it is loading
-        if (loadOperation != null) yield return WaitToLoad(loadOperation);
-
-        // Allow next scene to fully load, if it is loaded
-        if (loadOperation != null) loadOperation.allowSceneActivation = true;
     }
 
     IEnumerator FreezePartyMembers(GameObject[] partyMembers)

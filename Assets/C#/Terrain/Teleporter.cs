@@ -12,7 +12,7 @@ public class Teleporter : MonoBehaviour
     public Vector3Int SpawnPoint;
     public static event Action DimScreen;
     public static event Action UndimScreen;
-    bool isLoading;
+    bool isLoading, isOpaque;
     public Vector3Int SpawnDirection;
     // 0:up, 90:right, 180:down, 270:left
 
@@ -20,7 +20,9 @@ public class Teleporter : MonoBehaviour
     void Start()
     {
         isLoading = false;
+        isOpaque = false;
         //SpawnDirection = CalculateSpawnDirection();
+        ScreenTransition.BecameOpaque += TransitionIsOpaque;
     }
 
     Vector3Int CalculateSpawnDirection()
@@ -77,7 +79,8 @@ public class Teleporter : MonoBehaviour
             yield return FreezePartyMembers(partyMembers);
 
             // wait for screen transition
-            yield return new WaitForSeconds(0.25F);
+            //yield return new WaitForSeconds(0.25F);
+            yield return WaitUntilOpaque();
 
             // Wait for scene to load, if it is loading
             if (loadOperation != null) yield return WaitToLoad(loadOperation);
@@ -115,6 +118,20 @@ public class Teleporter : MonoBehaviour
         {
             yield return new WaitForFixedUpdate();
         } while (loadOperation.progress < 0.9f);
+    }
+
+    // Used to recieve an action event from ScreenTransition.cs
+    void TransitionIsOpaque()
+    {
+        isOpaque = true;
+    }
+
+    IEnumerator WaitUntilOpaque()
+    {
+        do
+        {
+            yield return new WaitForFixedUpdate();
+        } while (isOpaque == false);
     }
 
     IEnumerator RepositionPartyMembers(GameObject[] partyMembers)
@@ -161,5 +178,10 @@ public class Teleporter : MonoBehaviour
     float RoundToNearest(float value, float multiple)
     {
         return Mathf.Round(value / multiple) * multiple;
+    }
+
+    private void OnDestroy()
+    {
+        ScreenTransition.BecameOpaque -= TransitionIsOpaque;
     }
 }

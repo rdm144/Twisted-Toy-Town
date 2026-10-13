@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\C#\Dev_Tools\Editor\SaveTesterInspector.cs" />
+    <Compile Include="Assets\Editor\AnimationHierarchyEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

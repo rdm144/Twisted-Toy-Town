@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -9,6 +10,7 @@ public class RunAbility : Ability
     public string OverworldName;
     static ScreenTransition st;
     static StageInfo si;
+    public static event Action<string> EndBattle;
 
     public RunAbility()
     {
@@ -20,16 +22,9 @@ public class RunAbility : Ability
 
     public override IEnumerator AbilityAnimation()
     {
-        AsyncOperation loadOperation = null;
+
         if (SceneManager.GetSceneByName(OverworldName) != null)
         {
-            // Only load the next scene if it is not the same as the current scene
-            if (!SceneManager.GetSceneByName(OverworldName).Equals(SceneManager.GetActiveScene()))
-            {
-                loadOperation = SceneManager.LoadSceneAsync(OverworldName, LoadSceneMode.Single);
-                loadOperation.allowSceneActivation = false;
-            }
-
             // Ensure time is not stopped
             Time.timeScale = 1;
 
@@ -49,7 +44,7 @@ public class RunAbility : Ability
             }
 
             // Go through the player party and save all hp values
-            Player_Battle_Actor[] actors = Object.FindObjectsByType<Player_Battle_Actor>(FindObjectsSortMode.None);
+            Player_Battle_Actor[] actors = GameObject.FindObjectsByType<Player_Battle_Actor>(FindObjectsSortMode.None);
             foreach (Player_Battle_Actor actor in actors)
             {
                 if (si != null)
@@ -88,41 +83,17 @@ public class RunAbility : Ability
 
             }
             
-
             yield return new WaitForSeconds(1);
-
-            // Activate screen transition, if available
-            if (st == null)
-                st = Object.FindAnyObjectByType<ScreenTransition>();
-
-            if (st != null)
-            {
-                st.StartTransition();
-
-                // wait for screen transition
-                yield return new WaitUntil(() => st.IsOpaque == true);
-
-                // Wait for scene to load, if it is loading
-                if (loadOperation != null) yield return WaitToLoad(loadOperation);
-            }
 
             // Unfreeze all overworld party members
             yield return UnfreezeOverworldPartyMembers();
 
-            // Allow next scene to fully load, if it is loaded
-            if (loadOperation != null) loadOperation.allowSceneActivation = true;
+            // Fade to black and load the overworld
+            EndBattle?.Invoke(OverworldName);
         }
 
         yield return null;
         isPlayingAnimation = false;
-    }
-
-    IEnumerator WaitToLoad(AsyncOperation loadOperation)
-    {
-        do
-        {
-            yield return new WaitForFixedUpdate();
-        } while (loadOperation.progress < 0.9f);
     }
     
     IEnumerator UnfreezeOverworldPartyMembers()

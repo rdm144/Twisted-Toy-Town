@@ -25,14 +25,17 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Ensure current position is within a valid grid coordinate
         if(transform.position.x % gridCellSize != 0 || transform.position.y % gridCellSize != 0)
         {
             transform.position = new Vector3(RoundToNearest(transform.position.x, gridCellSize), RoundToNearest(transform.position.y, gridCellSize), 0);
         }
+
         LeftKey = KeyCode.A; // Hard-coded keybinds. Remove later.
         RightKey = KeyCode.D;
         UpKey = KeyCode.W;
         DownKey = KeyCode.S;
+
         canRun = canRotate = true;
         myActor = GetComponent<Actor>();
         myActor.isMoving = false;
@@ -47,6 +50,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (canInput)
             GetInput();
+
+        if(myActor.isMoving == false)
+            targetDestination = Vector3Int.RoundToInt(transform.position);
 
         if (canRun && myActor.canOperate)
         {

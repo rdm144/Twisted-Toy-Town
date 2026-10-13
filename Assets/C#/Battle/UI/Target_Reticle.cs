@@ -12,13 +12,14 @@ public class Target_Reticle : MonoBehaviour
     public bool isSingleTarget;
     bool changeToNewTarget;
     const float Offset = 2;
-    static Transform Cam;
     public Transform child;
     public string targetTag; // Used to speed up mouse-over only. Do not use for ANYTHING else!
     private List<GameObject> extraReticles; // holds extra reticles for multi-target abilities
 
     public static event Action<Battle_Actor> SetSingleTarget;
     public static event Action<List<Battle_Actor>> SetMultiTarget;
+
+    // Although storing the camera as a variable would speed up reticle positioning, the actual main camera may change on scene loading or cinematics.
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,6 @@ public class Target_Reticle : MonoBehaviour
         extraReticles = new List<GameObject>();
         if(child == null)
             child = transform.GetChild(0);
-        Cam = Camera.main.transform;
         index = 0;
         isSingleTarget = true;
         changeToNewTarget = false;
@@ -40,13 +40,13 @@ public class Target_Reticle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (On == true)
+        if (On == true && Time.timeScale > 0)
         {
             // Update reticle placement if used for a single target
             if(changeToNewTarget && isSingleTarget)
             {
                 PlaceReticle();
-                transform.LookAt(Cam);
+                transform.LookAt(Camera.main.transform);
             }
          
             if(IsMouseOverTarget() == true && GetTargetFromMouse().gameObject.tag == targetTag)
@@ -162,7 +162,7 @@ public class Target_Reticle : MonoBehaviour
         }
 
         // Place object 1 unit in front of the target, relative to the camera
-        Vector3 CamLoc = Cam.position;
+        Vector3 CamLoc = Camera.main.transform.position;
         Vector3 direction = (CamLoc - targetLoc).normalized;
         //Debug.DrawLine(CamLoc, enemyLoc);
         transform.position = targetLoc + direction * Offset;
@@ -188,7 +188,7 @@ public class Target_Reticle : MonoBehaviour
             Debug.LogError("The current list does not contain an element at " + listIndex);
 
         // Place object 1 unit in front of the target, relative to the camera
-        Vector3 CamLoc = Cam.position;
+        Vector3 CamLoc = Camera.main.transform.position;
         Vector3 direction = (CamLoc - targetLoc).normalized;
         //Debug.DrawLine(CamLoc, enemyLoc);
         objectTransform.position = targetLoc + direction * Offset;
@@ -216,7 +216,7 @@ public class Target_Reticle : MonoBehaviour
 
         // place this reticle on index 0
         PlaceReticle(transform, 0);
-        transform.LookAt(Cam);
+        transform.LookAt(Camera.main.transform);
         
         // place subsequent reticles on index 1 through targetlist.count-1
         for (int i = 1; i < currentList.Count; i++) 
@@ -231,7 +231,7 @@ public class Target_Reticle : MonoBehaviour
             PlaceReticle(extraReticle, i);
 
             // set the reticle to look at the camera
-            extraReticle.LookAt(Cam);
+            extraReticle.LookAt(Camera.main.transform);
         }
 
         DescriptionBox.displayDescription?.Invoke("Entire Party");

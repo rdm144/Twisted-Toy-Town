@@ -11,6 +11,7 @@ public class PartyFollow : MonoBehaviour
     public Quaternion nextRotation;
     public float speed = 7;
     Actor targetActor;
+    int frameCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,7 @@ public class PartyFollow : MonoBehaviour
             PlayerMovement.moveToNextPosition += StartMoving;
             ResetPositionToPartyLeader();
         }
-
+        frameCounter = 0;
         Rotate();
     }
 
@@ -37,12 +38,12 @@ public class PartyFollow : MonoBehaviour
     {
         if (myActor.canOperate == true)
         {
-            if((transform.position - nextPosition).sqrMagnitude > 0.0001f || targetActor.isMoving)
+            if ((transform.position - nextPosition).sqrMagnitude > 0.0001f || targetActor.isMoving)
                 myActor.isMoving = true;
-            else 
+            else
                 myActor.isMoving = false;
         }
-        else 
+        else
         {
             myActor.isMoving = false;
         }
@@ -50,7 +51,15 @@ public class PartyFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(myActor.canOperate == true && (transform.position - nextPosition).sqrMagnitude > 0.0001f)
+        if (frameCounter == 0)
+            frameCounter++;
+        else if (frameCounter == 1)
+        {
+            frameCounter++;
+            ResetPositionToPartyLeader();
+        }
+
+        if (myActor.canOperate == true && (transform.position - nextPosition).sqrMagnitude > 0.0001f)
         {
             MoveToDestination(nextPosition);
         }

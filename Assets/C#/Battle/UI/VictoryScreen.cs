@@ -9,7 +9,7 @@ public class VictoryScreen : MonoBehaviour
     public bool HasClickedContinue;
     public GameObject content;
     public string OverworldName;
-    ScreenTransition st;
+    public ScreenTransition st;
     Vector3 victoryCamPos = new Vector3(-1.82f, 101.87f, 2.14f);
     Vector3 victoryCamRot = new Vector3(7.35f, -113.47f, 0);
 
@@ -18,7 +18,6 @@ public class VictoryScreen : MonoBehaviour
         HasClickedContinue = false;
         content.SetActive(false);
         Turn_Manager.PlayerVictoryEvent += VictoryAnimWait;
-        st = FindAnyObjectByType<ScreenTransition>();
     }
 
     // Called by this screen's continue button
@@ -42,78 +41,50 @@ public class VictoryScreen : MonoBehaviour
     // Async load the overworld for smoother transition
     IEnumerator LoadOverworld(string sceneName)
     {
-        AsyncOperation loadOperation = null;
-        if (SceneManager.GetSceneByName(sceneName) != null)
+        // Ensure time is not stopped
+        Time.timeScale = 1;
+
+        // Inform the enemy manager of a victory, if applicable
+        GameObject stageInfoGameObject = GameObject.FindGameObjectWithTag("Stage Info");
+
+        if (stageInfoGameObject != null)
         {
-            // Only load the next scene if it is not the same as the current scene
-            if (!SceneManager.GetSceneByName(sceneName).Equals(SceneManager.GetActiveScene()))
+            stageInfoGameObject.TryGetComponent(out StageInfo si);
+            if (si != null)
             {
-                loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
-                loadOperation.allowSceneActivation = false;
-            }
-
-            // Ensure time is not stopped
-            Time.timeScale = 1;
-
-            // Inform the enemy manager of a victory, if applicable
-            GameObject stageInfoGameObject = GameObject.FindGameObjectWithTag("Stage Info");
-
-            if (stageInfoGameObject != null)
-            {
-                stageInfoGameObject.TryGetComponent(out StageInfo si);
-                if (si != null)
+                if (si.battleIndex != -1)
                 {
-                    if (si.battleIndex != -1)
-                    {
-                        si.graveyard.Add(si.battleIndex);
-                    }
-                    else
-                        Debug.LogWarning("No instance id to send to the dead actor list!");
+                    si.graveyard.Add(si.battleIndex);
+                }
+                else
+                    Debug.LogWarning("No instance id to send to the dead actor list!");
 
-                    // Go through the player party and save all hp values
-                    Player_Battle_Actor[] actors = FindObjectsByType<Player_Battle_Actor>(FindObjectsSortMode.None);
-                    foreach(Player_Battle_Actor actor in actors)
+                // Go through the player party and save all hp values
+                Player_Battle_Actor[] actors = FindObjectsByType<Player_Battle_Actor>(FindObjectsSortMode.None);
+                foreach (Player_Battle_Actor actor in actors)
+                {
+                    foreach (PartyMember stageInfoPartyMember in si.partyMembers)
                     {
-                        foreach(PartyMember stageInfoPartyMember in si.partyMembers)
+                        if (actor.partyIndex == stageInfoPartyMember.partyIndex)
                         {
-                            if(actor.partyIndex == stageInfoPartyMember.partyIndex)
-                            {
-                                stageInfoPartyMember.health = actor.health;
-                                yield return new WaitForEndOfFrame();
-                                continue;
-                            }
+                            stageInfoPartyMember.health = actor.health;
+                            yield return new WaitForEndOfFrame();
+                            continue;
                         }
                     }
                 }
             }
-                
-            // Wait for player to press the continue button
-            yield return new WaitUntil(() => HasClickedContinue == true);
-
-            if (st != null)
-            {
-                st.StartTransition();
-
-                // wait for screen transition
-                yield return new WaitUntil(() => st.IsOpaque == true);
-
-                // Wait for scene to load, if it is loading
-                if (loadOperation != null) yield return WaitToLoad(loadOperation);
-            }
-
-            // Allow next scene to fully load, if it is loaded
-            if (loadOperation != null) loadOperation.allowSceneActivation = true;
         }
-        else
-            Debug.LogError("The value within VictoryScreen.OverworldName does not exist in the scene list! Did you forget to set the value?");
-    }
 
-    IEnumerator WaitToLoad(AsyncOperation loadOperation)
-    {
-        do
+        // Wait for player to press the continue button
+        yield return new WaitUntil(() => HasClickedContinue == true);
+
+        if (st != null)
         {
-            yield return new WaitForFixedUpdate();
-        } while (loadOperation.progress < 0.9f);
+            st.ToOpaque();
+            yield return UnfreezeOverworldPartyMembers();
+            yield return st.SceneLoadingOperation(sceneName, false, true);
+        }
     }
 
     public void VictoryAnimWait()
@@ -162,8 +133,10 @@ public class VictoryScreen : MonoBehaviour
         // Wait
         yield return new WaitForSeconds(2);
 
+
         // fade out
-        st.StartTransition();
+        if (st != null)
+            st.ToOpaque();
 
         // wait for screen transition
         yield return new WaitUntil(() => st.IsOpaque == true);
@@ -172,8 +145,24 @@ public class VictoryScreen : MonoBehaviour
         MakeVisible();
 
         // fade in
-        st.EndTransition();
+        if (st != null)
+            st.ToTransparent();
         
+    }
+
+    IEnumerator UnfreezeOverworldPartyMembers()
+    {
+        // Find all objects with the "Player" tag
+        GameObject[] playerObjects = GameObject.FindGameObjectsWithTag("Player");
+
+        // Of these tagged objects, if it has an actor component, set it as actionable
+        foreach (GameObject playerObject in playerObjects)
+        {
+            playerObject.TryGetComponent(out Actor playerOverworldActor);
+            if (playerOverworldActor != null)
+                playerOverworldActor.canOperate = true;
+            yield return null;
+        }
     }
 
     private void OnDestroy()

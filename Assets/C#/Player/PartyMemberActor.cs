@@ -5,19 +5,33 @@ using UnityEngine;
 
 public class PartyMemberActor : Actor
 {
-    public static GameObject partyMember1;
+    public static List<PartyMemberActor> partyMembers;
+    public int partyMemberNumber;
 
     private void Awake()
     {
-        if (partyMember1 == null)
+        // Crate a list of followers, if none exists, and add this object to it
+       if (partyMembers == null)
         {
-            partyMember1 = gameObject;
-            DontDestroyOnLoad(gameObject);
+            partyMembers = new List<PartyMemberActor>
+            {
+                gameObject.GetComponent<PartyMemberActor>()
+            };
         }
-        else
+        else // If this object's party member number already exists in the list, destroy this object
         {
-            Destroy(gameObject);
+            foreach (PartyMemberActor actor in partyMembers)
+            {
+                if(actor.partyMemberNumber == partyMemberNumber)
+                    Destroy(gameObject);
+            }
+
+            // If no duplicates are found, add this object to the list
+            partyMembers.Add(GetComponent<PartyMemberActor>());
         }
+
+        // Keep this object persistant across different scenes
+        DontDestroyOnLoad(gameObject);
     }
 
     // Start is called before the first frame update

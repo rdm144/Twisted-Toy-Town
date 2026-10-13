@@ -19,7 +19,7 @@ public class SceneLoadButton : MonoBehaviour
     IEnumerator SwitchToOverworld(string sceneName)
     {
         ScreenTransition st = GameObject.FindAnyObjectByType<ScreenTransition>();
-        if (st != null) st.StartTransition();
+        if (st != null) st.ToOpaque();
 
         AsyncOperation loadOperation = null;
 
@@ -53,7 +53,7 @@ public class SceneLoadButton : MonoBehaviour
             yield return UnfreezePartyMembers(partyMembers);
 
             // Start screen transition
-            if (st != null) st.EndTransition();
+            if (st != null) st.ToTransparent();
 
             // Allow next scene to fully load, if it is loaded
             if (loadOperation != null) loadOperation.allowSceneActivation = true;

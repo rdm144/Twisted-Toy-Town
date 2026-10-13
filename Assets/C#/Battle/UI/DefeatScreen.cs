@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DefeatScreen : MonoBehaviour
 {
-    ScreenTransition st;
+    public ScreenTransition st;
     public GameObject content;
     //public string TitleScreenName;
     public Camera defeatScreenPrefabCamera;
@@ -17,7 +17,6 @@ public class DefeatScreen : MonoBehaviour
     {
         content.SetActive(false);
         Turn_Manager.PlayerDefeatEvent += DefeatAnimWait;
-        st = FindAnyObjectByType<ScreenTransition>();
     }
 
     public void DefeatAnimWait()
@@ -33,7 +32,7 @@ public class DefeatScreen : MonoBehaviour
         // Fade out
         if (st != null)
         {
-            st.StartTransition();
+            st.ToOpaque();
 
             // wait for screen transition
             yield return new WaitUntil(() => st.IsOpaque == true);
@@ -52,7 +51,7 @@ public class DefeatScreen : MonoBehaviour
         // Fade in
         if (st != null)
         {
-            st.EndTransition();
+            st.ToTransparent();
 
             // wait for screen transition
             yield return new WaitUntil(() => st.IsOpaque == false);
@@ -124,7 +123,7 @@ public class DefeatScreen : MonoBehaviour
 
         if (st != null)
         {
-            st.StartTransition();
+            st.ToOpaque();
 
             // wait for screen transition
             yield return new WaitUntil(() => st.IsOpaque == true);

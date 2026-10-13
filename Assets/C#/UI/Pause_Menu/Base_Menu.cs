@@ -12,6 +12,7 @@ public class Base_Menu : MonoBehaviour
     public Transform buttons;
     [SerializeField] List<GameObject> buttonList;
     public int cursorIndex;
+    public ScreenTransition transition;
 
     private void Start()
     {
@@ -207,7 +208,8 @@ public class Base_Menu : MonoBehaviour
 
     public void ReturnToTitle()
     {
-        SceneManager.LoadScene(0);
+        transition.ToOpaque();
+        StartCoroutine(transition.SceneLoadingOperation(0, true));
     }
 
     public void QuitGame()

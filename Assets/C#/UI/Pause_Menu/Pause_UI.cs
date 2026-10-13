@@ -5,19 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Pause_UI : MonoBehaviour
 {
-    private enum MenuType { Base, Dev, Option, Controls, Audio}
+    protected enum MenuType { Base, Dev, Option, Controls, Audio}
 
-    MenuType currentMenu;
-    KeyCode PauseKey;
+    protected MenuType currentMenu;
+    protected KeyCode PauseKey;
     public bool isPaused;
 
     public GameObject BaseMenu;
-    Dialog_UI dui;
-    List<Actor> actorsToBeUnpaused;
+    protected Dialog_UI dui;
+    protected List<Actor> actorsToBeUnpaused;
     public StageInfo stageInfo;
-
-    public int moveHorizontal { get; private set; }
-    public int moveVertical { get; private set; }
+    public Camera myCam;
+    public int moveHorizontal { get; protected set; }
+    public int moveVertical { get; protected set; }
     public KeyCode LeftKey, RightKey, UpKey, DownKey;
 
     // Start is called before the first frame update
@@ -43,13 +43,13 @@ public class Pause_UI : MonoBehaviour
     {
         GetDirectionalInput();
 
-        if(GetPauseInput() == true)
+        if(GetPauseInput() == true && Camera.main == myCam)
         {
             ToggleMenus();
         }
     }
 
-    void GetDirectionalInput()
+    protected virtual void GetDirectionalInput()
     {
         // Left or Right input
         if (Input.GetKeyDown(LeftKey) && !Input.GetKeyDown(RightKey))
@@ -72,12 +72,12 @@ public class Pause_UI : MonoBehaviour
             moveVertical = 0;
     }
 
-    bool GetPauseInput()
+    protected virtual bool GetPauseInput()
     {
         return Input.GetKeyDown(PauseKey);
     }
 
-    void PauseGame()
+    protected virtual void PauseGame()
     {
         if(BaseMenu != null)
             BaseMenu.SetActive(true);
@@ -97,7 +97,7 @@ public class Pause_UI : MonoBehaviour
         
     }
 
-    public void UnpauseGame()
+    public virtual void UnpauseGame()
     {
         if (BaseMenu != null)
             BaseMenu.SetActive(false);
@@ -129,7 +129,7 @@ public class Pause_UI : MonoBehaviour
         actorsToBeUnpaused.Clear();
     }
 
-    void ToggleMenus()
+    protected virtual void ToggleMenus()
     {
         if (isPaused == false)
         {
